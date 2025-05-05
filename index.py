@@ -1,10 +1,4 @@
-from flask import Flask, request, jsonify, render_template, redirect,url_for, session
+#app = Flask(__name__)
+#app.config['SECRET_KEY'] = 'TESTING_DO_NOT_USE_IN_PROD'
 
-from flask_sqlalchemy import SQLAlchemy
-from flask_bootstrap import Bootstrap
-
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-	return render_template('index.html')
+from app import app

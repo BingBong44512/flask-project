@@ -1,3 +1,6 @@
 flask
 flask-bootstrap
-flask_sqlalchemy
+flask-sqlalchemy
+flask-moment
+flask-wtf
+python-dotenv
