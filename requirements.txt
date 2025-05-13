@@ -4,4 +4,5 @@ flask-sqlalchemy
 flask-moment
 flask-wtf
 flask-login
+wtforms
 python-dotenv
