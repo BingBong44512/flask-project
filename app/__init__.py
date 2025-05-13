@@ -1,9 +1,9 @@
-from flask import Flask, request, jsonify, render_template, redirect,url_for, session
-from flask_sqlalchemy import SQLAlchemy
-from flask_wtf import Form
-from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired
+from flask import Flask
+from config import Config
+from flask_login import LoginManager
 
 app = Flask(__name__)
+app.config.from_object(Config)
+login_manager = LoginManager()
 
 from app import routes
