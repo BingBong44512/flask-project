@@ -2,10 +2,10 @@ from flask import Flask, request, jsonify, render_template, redirect,url_for, se
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import Form
 from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired
+from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
 from app import app, login_manager, db
-from .forms import LoginForm
+from .forms import LoginForm, RegisterForm
 from .models import User
 
 login_manager.init_app(app)
@@ -29,18 +29,46 @@ def login():
 		remember = form.remember_me.data
 
 		user = User.query.filter_by(username=username).first()
-		if username == User.username and User.check_password(password):
-			login_user(temp_user, remember=remember)
+		if username == user.username and user.check_password(password):
+			login_user(user, remember=remember)
 			flash('Logged in successfully.')
 			next = request.args.get('next')
 		else:
 			flash('Invalid username or password (temporary)')
 			return render_template('login.html', form=form)
 			
-		if not url_has_allowed_host_and_scheme(next, request.host):
-			return flask.abort(400)
+		#if not url_has_allowed_host_and_scheme(next, request.host):
+		#	return flask.abort(400)
 		return redirect(next or url_for('user', username=username))
 	return render_template('login.html', form=form)
+
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+	if current_user.is_authenticated:
+		return redirect(url_for('index'))
+
+	form = RegisterForm()
+	if form.validate_on_submit():
+		username = form.username.data.strip()
+		email = form.email.data.strip().lower()
+		password = form.password.data
+
+		existing_user = User.query.filter(
+			(User.username == username)).first()
+
+		if existing_user:
+			flash("Username or email already registered.")
+			return render_template('register.html', form=form)
+
+		new_user = User(username=username, email=email, password=password)
+		db.session.add(new_user)
+		db.session.commit()
+
+		login_user(new_user)
+		flash('Registration successful!')
+		return redirect(url_for('user', username=username))
+
+	return render_template('register.html', form=form)
 
 @app.route('/logout')
 @login_required
