@@ -5,6 +5,7 @@ Login to PLACEHOLDER
 {% endblock %}
 
 {% block content %}
+<div class="signin">
 	<h1>Sign In</h1>
 		<form method="POST">
 			{{ form.hidden_tag() }}
@@ -25,4 +26,5 @@ Login to PLACEHOLDER
 			<p>{{ form.remember_me() }} {{ form.remember_me.label }}</p>
 			<p>{{ form.submit() }}</p>
 		</form>
+</div>
 {% endblock %}

@@ -5,7 +5,8 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
 from app import app, login_manager, db
-from app.forms import LoginForm
+from .forms import LoginForm
+from .models import User
 
 login_manager.init_app(app)
 login_manager.login_view = 'login'
@@ -28,7 +29,7 @@ def login():
 		remember = form.remember_me.data
 
 		user = User.query.filter_by(username=username).first()
-		if username == temp_user.username and temp_user.check_password(password):
+		if username == User.username and User.check_password(password):
 			login_user(temp_user, remember=remember)
 			flash('Logged in successfully.')
 			next = request.args.get('next')
