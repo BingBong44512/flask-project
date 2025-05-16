@@ -84,3 +84,7 @@ def user(username):
 		flash('User not found')
 		return redirect(url_for('index'))
 	return render_template('user.html', username=username)
+
+@app.route('/text')
+def text():
+	return render_template('texty.html')
