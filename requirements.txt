@@ -8,5 +8,4 @@ wtforms
 python-dotenv
 email-validator
 beautiful soup
-requests
 selenium
