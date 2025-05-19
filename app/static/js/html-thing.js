@@ -7,8 +7,9 @@
 
 		function parseTextWithDropdowns(text) {
 			let dropdownIndex = 0;
-			return text.replace(/\{(.*?)\}/g, (match, contents) => {
-				const options = contents.split(',').map(opt => opt.trim());
+			
+			return text.replace(/\{[A-z-, ]+\}/g, (match) => {
+				const options = match.replace(/\{|\}/g,"").split(',').map((opt) => opt.trim());
 				const selectId = `dropdown-${dropdownIndex++}`;
 				let selectHTML = `<select id="${selectId}">`;
 				for (let option of options) {
