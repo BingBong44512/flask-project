@@ -28,7 +28,7 @@ def glossary(url):
 
 def main():
 	diction = (glossary("https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/zz%3A_Back_Matter/20%3A_Glossary"))
-	with open("dict.json", "w") as saving:
+	with open("chemdict.json", "w") as saving:
 		json.dump(diction, saving, indent = 4)
 	return 0
 
