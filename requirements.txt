@@ -7,5 +7,5 @@ flask-login
 wtforms
 python-dotenv
 email-validator
-beautiful soup
+beautifulsoup4
 selenium
