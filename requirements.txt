@@ -4,6 +4,8 @@ flask-sqlalchemy
 flask-moment
 flask-wtf
 flask-login
+flask-security
+flask-admin
 wtforms
 python-dotenv
 email-validator
