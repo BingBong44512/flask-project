@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block scripts %}
+<script src="{{url_for('static',filename='js/html-thing.js')}}">
+	
+</script>
+{% endblock %}
+
+{% block content %}
+	<div id="output"></div>
+	<button onclick="checkAnswers()">Check Answers</button>
+{% endblock %}
