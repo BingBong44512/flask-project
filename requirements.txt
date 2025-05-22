@@ -5,7 +5,9 @@ flask-moment
 flask-wtf
 flask-login
 flask-security
-flask-admin
+flask-admin[sqlalchemy,images]
+flask-principal
+flask-mailman
 wtforms
 python-dotenv
 email-validator

@@ -4,7 +4,7 @@ from flask_wtf import Form
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
-from app import app, login_manager, db
+from app import app, login_manager, db, admin
 from .forms import LoginForm, RegisterForm
 from .models import User
 
