@@ -31,19 +31,11 @@ def getLinks(url):
 			links.append(link)
 	return links
 	
-	#open link
-	# get all textboxes
-	# get title + Link
-	# get Text
-	#  f name {text, link}
-	
 def getInfo(url):
 	links = getLinks(url)
 	data = {}
 	for link in links:
 		soup = getHTML(link)
-		titleHTML = []
-		contentHTML =[]
 		
 		title = soup.find("h1",{"id":"title"}).text.replace("\n","").strip()
 		data[title] = {}
