@@ -1,11 +1,13 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import json
+import time
 
 wd = webdriver.Firefox()
 
 def getHTML(url):
 	wd.get(url)
+	time.sleep(3)
 	html = wd.page_source
 	soup = BeautifulSoup(html, "html.parser")
 	return soup
@@ -27,7 +29,7 @@ def getLinks(url):
 	glossaryLink = ""
 	for link in raw:
 		link = link["href"]
-		if  ("Front_Matter" not in link) and  ("Back_Matter" not in link) and  ("Appendices" not in link):
+		if  ("Front_Matter" not in link) and  ("Back_Matter" not in link) and  ("Appendices" not in link) and ("Appendix" not in link):
 			links.append(link)
 	return links
 	
@@ -43,14 +45,16 @@ def getInfo(url):
 		allInfo = soup.find_all("a", {"class":"internal"})
 		for info in allInfo:
 			if "Key Terms" not in info.text and "Key Equations" not in info.text and "Summary" not in info.text and "Exercises" not in info.text and "mt-self-link" not in info["class"]:
-				data[title][info.text] ={"link":info["href"],"content":info.parent.parent.find_all("dd")[0].text}
+				content = info.parent.parent.find_all("dd")[0].text
+				if content != "":
+					data[title][info.text] ={"link":info["href"],"content":content}
 
 	return data
 
 
 
 def getData(url, subject):
-	diction = glossary(url+"/zz%3A_Back_Matter/20%3A_Glossary",subject)
+	diction = glossary(url+"/zz%3A_Back_Matter/20%3A_Glossary")
 	with open((subject+"dict.json"), "w") as saving:
 		json.dump(diction, saving, indent = 4)
 
