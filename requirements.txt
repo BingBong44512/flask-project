@@ -9,3 +9,5 @@ flask-admin
 wtforms
 python-dotenv
 email-validator
+beautifulsoup4
+selenium
