@@ -18,7 +18,10 @@ def load_user(user_id):
 
 @app.route('/')
 def index():
-	return render_template('index.html')
+	username = ""
+	if current_user.is_authenticated:
+		username = current_user.username
+	return render_template('index.html', username = username)
 
 @app.route('/login', methods=["POST","GET"])
 def login():
