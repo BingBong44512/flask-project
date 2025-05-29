@@ -1,0 +1,682 @@
+{
+    "1: Science and the Universe - A Brief Tour": {
+        "1.1: The Nature of Astronomy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/01%3A_Science_and_the_Universe_-_A_Brief_Tour/1.01%3A_The_Nature_of_Astronomy",
+            "content": "In considering the history of the universe, we will see again and again that the cosmos evolves; it changes in profound ways over long periods of time. For example, the universe made the carbon, the calcium, and the oxygen necessary to construct something as interesting and complicated as you. Today, many billions of years later, the universe has evolved into a more hospitable place for life."
+        },
+        "1.2: The Nature of Science": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/01%3A_Science_and_the_Universe_-_A_Brief_Tour/1.02%3A_The_Nature_of_Science",
+            "content": "The ultimate judge in science is always what nature itself reveals based on observations, experiments, models, and testing. Science is not merely a body of knowledge, but a method by which we attempt to understand nature and how it behaves. This method begins with many observations over a period of time. From the trends found through observations, scientists can modelthe particular phenomena we want to understand. Such models are always approximations of nature, subject to further testing."
+        },
+        "1.3: The Laws of Nature": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/01%3A_Science_and_the_Universe_-_A_Brief_Tour/1.03%3A_The_Laws_of_Nature",
+            "content": "Over centuries scientists have extracted various scientific laws from countless observations, hypotheses, and experiments. These scientific laws are, in a sense, the \u201crules\u201d of the game that nature plays. One remarkable discovery about nature\u2014one that underlies everything you will read about in this text\u2014is that the same laws apply everywhere in the universe."
+        },
+        "1.4: Numbers in Astronomy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/01%3A_Science_and_the_Universe_-_A_Brief_Tour/1.04%3A_Numbers_in_Astronomy",
+            "content": "In astronomy we deal with distances on a scale you may never have thought about before, with numbers larger than any you may have encountered. We adopt two approaches that make dealing with astronomical numbers a little bit easier. First, we use a system for writing large and small numbers called scientific notation (or sometimes powers-of-ten notation). This system is very appealing because it eliminates the many zeros that can seem overwhelming to the reader."
+        },
+        "1.5: Consequences of Light Travel Time": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/01%3A_Science_and_the_Universe_-_A_Brief_Tour/1.05%3A_Consequences_of_Light_Travel_Time",
+            "content": "This sets a limit on how quickly we can learn about events in the universe. If a star is 100 light-years away, the light we see from it tonight left that star 100 years ago and is just now arriving in our neighborhood. The soonest we can learn about any changes in that star is 100 years after the fact. For a star 500 light-years away, the light we detect tonight left 500 years ago and is carrying 500-year-old news."
+        },
+        "1.6: A Tour of the Universe": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/01%3A_Science_and_the_Universe_-_A_Brief_Tour/1.06%3A_A_Tour_of_the_Universe",
+            "content": "We can now take a brief introductory tour of the universe as astronomers understand it today to get acquainted with the types of objects and distances you will encounter throughout the text."
+        },
+        "1.7: The Universe on the Large Scale": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/01%3A_Science_and_the_Universe_-_A_Brief_Tour/1.07%3A_The_Universe_on_the_Large_Scale",
+            "content": "In a very rough sense, you could think of the solar system as your house or apartment and the Galaxy as your town, made up of many houses and buildings. In the twentieth century, astronomers were able to show that, just as our world is made up of many, many towns, so the universe is made up of enormous numbers of galaxies. Galaxies stretch as far into space as our telescopes can see, many billions of them within the reach of modern instruments."
+        },
+        "1.8: The Universe of the Very Small": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/01%3A_Science_and_the_Universe_-_A_Brief_Tour/1.08%3A_The_Universe_of_the_Very_Small",
+            "content": "The foregoing discussion has likely impressed on you that the universe is extraordinarily large and extraordinarily empty. On average, it is 10,000 times more empty than our Galaxy. Yet, as we have seen, even the Galaxy is mostly empty space. Intergalactic space is filled so sparsely that to find one atom, on average, we must search through a cubic meter of space. Most of the universe is fantastically empty; places that are dense, such as the human body, are tremendously rare."
+        },
+        "1.9: A Conclusion and a Beginning": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/01%3A_Science_and_the_Universe_-_A_Brief_Tour/1.09%3A_A_Conclusion_and_a_Beginning",
+            "content": "Learning astronomy is a little like learning a new language: at first it seems there are so many new expressions that you\u2019ll never master them all, but with practice, you soon develop facility with them.  At this point you may also feel a bit small and insignificant, dwarfed by the cosmic scales of distance and time. But, there is another way to look at what you have learned from our first glimpses of the cosmos."
+        }
+    },
+    "2: Observing the Sky - The Birth of Astronomy": {
+        "2.1: The Sky Above": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/02%3A_Observing_the_Sky_-_The_Birth_of_Astronomy/2.01%3A_The_Sky_Above",
+            "content": "The direct evidence of our senses supports a geocentric perspective, with the celestial sphere pivoting on the celestial poles and rotating about a stationary Earth. We see only half of this sphere at one time, limited by the horizon; the point directly overhead is our zenith. The Sun\u2019s annual path on the celestial sphere is the ecliptic\u2014a line that runs through the center of the zodiac, which is the 18-degree-wide strip of the sky within which we always find the Moon and planets."
+        },
+        "2.2: Ancient Astronomy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/02%3A_Observing_the_Sky_-_The_Birth_of_Astronomy/2.02%3A_Ancient_Astronomy",
+            "content": "Ancient Greeks such as Aristotle recognized that Earth and the Moon are spheres, and understood the phases of the Moon, but because of their inability to detect stellar parallax, they rejected the idea that Earth moves. Eratosthenes measured the size of Earth with surprising precision. Hipparchus carried out many astronomical observations, making a star catalog, defining the system of stellar magnitudes, and discovering precession from the shift in the position of the north celestial pole"
+        },
+        "2.3: Astrology vs. Astronomy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/02%3A_Observing_the_Sky_-_The_Birth_of_Astronomy/2.03%3A_Astrology_vs._Astronomy",
+            "content": "The ancient religion of astrology, with its main contribution to civilization a heightened interest in the heavens, began in Babylonia. It reached its peak in the Greco-Roman world, especially as recorded in the Tetrabiblos of Ptolemy. Natal astrology is based on the assumption that the positions of the planets at the time of our birth, as described by a horoscope, determine our future. However, modern tests clearly show that there is no evidence for this, even in a broad statistical sense."
+        },
+        "2.4: The Birth of Modern Astronomy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/02%3A_Observing_the_Sky_-_The_Birth_of_Astronomy/2.04%3A_The_Birth_of_Modern_Astronomy",
+            "content": "Nicolaus Copernicus introduced the heliocentric cosmology to Renaissance Europe in his book De Revolutionibus. Although he retained the Aristotelian idea of uniform circular motion, Copernicus suggested that Earth is a planet and that the planets all circle about the Sun, dethroning Earth from its position at the center of the universe. Galileo was the father of both modern experimental physics and telescopic astronomy."
+        }
+    },
+    "3: Orbits and Gravity": {
+        "3.1: The Laws of Planetary Motion": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/03%3A_Orbits_and_Gravity/3.01%3A_The_Laws_of_Planetary_Motion",
+            "content": "Tycho Brahe\u2019s accurate observations of planetary positions provided the data used by Johannes Kepler to derive his three fundamental laws of planetary motion. Kepler\u2019s laws describe the behavior of planets in their orbits as follows: (1) planetary orbits are ellipses with the Sun at one focus; (2) in equal intervals, a planet\u2019s orbit sweeps out equal areas; and (3) the relationship between the orbital period (P) and the semimajor axis (a) of an orbit is given by P2=a3P2=a3 (when a is in units"
+        },
+        "3.2: Newton\u2019s Great Synthesis": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/03%3A_Orbits_and_Gravity/3.02%3A_Newtons_Great_Synthesis",
+            "content": "In his Principia, Isaac Newton established the three laws that govern the motion of objects: (1) objects continue to be at rest or move with a constant velocity unless acted upon by an outside force; (2) an outside force causes an acceleration (and changes the momentum) for an object; and (3) for every action there is an equal and opposite reaction. Momentum is a measure of the motion of an object and depends on both its mass and its velocity."
+        },
+        "3.3: Newton\u2019s Universal Law of Gravitation": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/03%3A_Orbits_and_Gravity/3.03%3A_Newtons_Universal_Law_of_Gravitation",
+            "content": "Gravity, the attractive force between all masses, is what keeps the planets in orbit. Newton\u2019s universal law of gravitation relates the gravitational force to mass and distance. The force of gravity is what gives us our sense of weight. Unlike mass, which is constant, weight can vary depending on the force of gravity (or acceleration) you feel. When Kepler\u2019s laws are reexamined in the light of Newton\u2019s gravitational law, it becomes clear that the masses of both objects are important for the thir"
+        },
+        "3.4: Orbits in the Solar System": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/03%3A_Orbits_and_Gravity/3.04%3A_Orbits_in_the_Solar_System",
+            "content": "The closest point in a satellite orbit around Earth is its perigee, and the farthest point is its apogee (corresponding to perihelion and aphelion for an orbit around the Sun). The planets follow orbits around the Sun that are nearly circular and in the same plane. Most asteroids are found between Mars and Jupiter in the asteroid belt, whereas comets generally follow orbits of high eccentricity."
+        },
+        "3.5: Motions of Satellites and Spacecraft": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/03%3A_Orbits_and_Gravity/3.05%3A_Motions_of_Satellites_and_Spacecraft",
+            "content": "The orbit of an artificial satellite depends on the circumstances of its launch. The circular satellite velocity needed to orbit Earth\u2019s surface is 8 kilometers per second, and the escape speed from our planet is 11 kilometers per second. There are many possible interplanetary trajectories, including those that use gravity-assisted flybys of one object to redirect the spacecraft toward its next target."
+        },
+        "3.6: Gravity with More Than Two Bodies": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/03%3A_Orbits_and_Gravity/3.06%3A_Gravity_with_More_Than_Two_Bodies",
+            "content": "Calculating the gravitational interaction of more than two objects is complicated and requires large computers. If one object (like the Sun in our solar system) dominates gravitationally, it is possible to calculate the effects of a second object in terms of small perturbations. This approach was used by John Couch Adams and Urbain Le Verrier to predict the position of Neptune from its perturbations of the orbit of Uranus and thus discover a new planet mathematically."
+        }
+    },
+    "4: Earth, Moon, and Sky": {
+        "4.1: Earth and Sky": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/04%3A_Earth_Moon_and_Sky/4.01%3A_Earth_and_Sky",
+            "content": "The terrestrial system of latitude and longitude makes use of the great circles called meridians. Longitude is arbitrarily set to 0\u00b0 at the Royal Observatory at Greenwich, England. An analogous celestial coordinate system is called right ascension (RA) and declination, with 0\u00b0 of declination starting at the vernal equinox. These coordinate systems help us locate any object on the celestial sphere. The Foucault pendulum is a way to demonstrate that Earth is turning."
+        },
+        "4.2: The Seasons": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/04%3A_Earth_Moon_and_Sky/4.02%3A_The_Seasons",
+            "content": "The familiar cycle of the seasons results from the 23.5\u00b0 tilt of Earth\u2019s axis of rotation. At the summer solstice, the Sun is higher in the sky and its rays strike Earth more directly. The Sun is in the sky for more than half of the day and can heat Earth longer. At the winter solstice, the Sun is low in the sky and its rays come in at more of an angle; in addition, it is up for fewer than 12 hours, so those rays have less time to heat."
+        },
+        "4.3: Keeping Time": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/04%3A_Earth_Moon_and_Sky/4.03%3A_Keeping_Time",
+            "content": "The basic unit of astronomical time is the day\u2014either the solar day (reckoned by the Sun) or the sidereal day (reckoned by the stars). Apparent solar time is based on the position of the Sun in the sky, and mean solar time is based on the average value of a solar day during the year. By international agreement, we define 24 time zones around the world, each with its own standard time. The convention of the International Date Line is necessary to reconcile times on different parts of Earth."
+        },
+        "4.4: The Calendar": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/04%3A_Earth_Moon_and_Sky/4.04%3A_The_Calendar",
+            "content": "The fundamental problem of the calendar is to reconcile the incommensurable lengths of the day, month, and year. Most modern calendars, beginning with the Roman (Julian) calendar of the first century BCE, neglect the problem of the month and concentrate on achieving the correct number of days in a year by using such conventions as the leap year. Today, most of the world has adopted the Gregorian calendar established in 1582 while finding ways to coexist with lunar calendars\u2019 system of months."
+        },
+        "4.5: Phases and Motions of the Moon": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/04%3A_Earth_Moon_and_Sky/4.05%3A_Phases_and_Motions_of_the_Moon",
+            "content": "The Moon\u2019s monthly cycle of phases results from the changing angle of its illumination by the Sun. The full moon is visible in the sky only during the night; other phases are visible during the day as well. Because its period of revolution is the same as its period of rotation, the Moon always keeps the same face toward Earth."
+        },
+        "4.6: Ocean Tides and the Moon": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/04%3A_Earth_Moon_and_Sky/4.06%3A_Ocean_Tides_and_the_Moon",
+            "content": "The twice-daily ocean tides are primarily the result of the Moon\u2019s differential force on the material of Earth\u2019s crust and ocean. These tidal forces cause ocean water to flow into two tidal bulges on opposite sides of Earth; each day, Earth rotates through these bulges. Actual ocean tides are complicated by the additional effects of the Sun and by the shape of the coasts and ocean basins."
+        },
+        "4.7: Eclipses of the Sun and Moon": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/04%3A_Earth_Moon_and_Sky/4.07%3A_Eclipses_of_the_Sun_and_Moon",
+            "content": "The Sun and Moon have nearly the same angular size (about 1/2\u00b0). A solar eclipse occurs when the Moon moves between the Sun and Earth, casting its shadow on a part of Earth\u2019s surface. If the eclipse is total, the light from the bright disk of the Sun is completely blocked, and the solar atmosphere (the corona) comes into view. Solar eclipses take place rarely in any one location, but they are among the most spectacular sights in nature. A lunar eclipse takes place when the Moon moves into Earth\u2019"
+        }
+    },
+    "5: Radiation and Spectra": {
+        "5.1: The Behavior of Light": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/05%3A_Radiation_and_Spectra/5.01%3A_The_Behavior_of_Light",
+            "content": "James Clerk Maxwell showed that whenever charged particles change their motion, as they do in every atom and molecule, they give off waves of energy. Light is one form of this electromagnetic radiation. The wavelength of light determines the color of visible radiation. Wavelength (\u03bb) is related to frequency (f) and the speed of light (c) by the equation c = \u03bbf. Electromagnetic radiation sometimes behaves like waves, but at other times, it behaves as if it were a particle- called a photon."
+        },
+        "5.2: The Electromagnetic Spectrum": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/05%3A_Radiation_and_Spectra/5.02%3A_The_Electromagnetic_Spectrum",
+            "content": "The electromagnetic spectrum consists of gamma rays, X-rays, ultraviolet radiation, visible light, infrared, and radio radiation. Many of these wavelengths cannot penetrate the layers of Earth\u2019s atmosphere and must be observed from space, whereas others\u2014such as visible light, FM radio and TV\u2014can penetrate to Earth\u2019s surface. The emission of electromagnetic radiation is intimately connected to the temperature of the source."
+        },
+        "5.3: Spectroscopy in Astronomy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/05%3A_Radiation_and_Spectra/5.03%3A_Spectroscopy_in_Astronomy",
+            "content": "A spectrometer is a device that forms a spectrum, often utilizing the phenomenon of dispersion. The light from an astronomical source can consist of a continuous spectrum, an emission (bright line) spectrum, or an absorption (dark line) spectrum. Because each element leaves its spectral signature in the pattern of lines we observe, spectral analyses reveal the composition of the Sun and stars."
+        },
+        "5.4: The Structure of the Atom": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/05%3A_Radiation_and_Spectra/5.04%3A_The_Structure_of_the_Atom",
+            "content": "Atoms consist of a nucleus containing one or more positively charged protons. All atoms except hydrogen can also contain one or more neutrons in the nucleus. Negatively charged electrons orbit the nucleus. The number of protons defines an element (hydrogen has one proton, helium has two, and so on) of the atom. Nuclei with the same number of protons but different numbers of neutrons are different isotopes of the same element."
+        },
+        "5.5: Formation of Spectral Lines": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/05%3A_Radiation_and_Spectra/5.05%3A_Formation_of_Spectral_Lines",
+            "content": "When electrons move from a higher energy level to a lower one, photons are emitted, and an emission line can be seen in the spectrum. Absorption lines are seen when electrons absorb photons and move to higher energy levels. Since each atom has its own characteristic set of energy levels, each is associated with a unique pattern of spectral lines. This allows astronomers to determine what elements are present in the stars and in the clouds of gas and dust among the stars."
+        },
+        "5.6: The Doppler Effect": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/05%3A_Radiation_and_Spectra/5.06%3A_The_Doppler_Effect",
+            "content": "If an atom is moving toward us when an electron changes orbits and produces a spectral line, we see that line shifted slightly toward the blue of its normal wavelength in a spectrum. If the atom is moving away, we see the line shifted toward the red. This shift is known as the Doppler effect and can be used to measure the radial velocities of distant objects."
+        }
+    },
+    "6: Astronomical Instruments": {
+        "6.1: Telescopes": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/06%3A_Astronomical_Instruments/6.01%3A_Telescopes",
+            "content": "A telescope collects the faint light from astronomical sources and brings it to a focus. Light is then directed to a detector, where a permanent record is made. The light-gathering power of a telescope is determined by the diameter of its aperture, or opening\u2014that is, by the area of its largest or primary lens or mirror. The primary optical element in a telescope is either a convex lens (in a refracting telescope) or a concave mirror (in a reflector) that brings the light to a focus."
+        },
+        "6.2: Telescopes Today": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/06%3A_Astronomical_Instruments/6.02%3A_Telescopes_Today",
+            "content": "New technologies for creating and supporting lightweight mirrors have led to the construction of a number of large telescopes since 1990. The site for an astronomical observatory must be carefully chosen for clear weather, dark skies, low water vapor, and excellent atmospheric seeing (low atmospheric turbulence). The resolution of a visible-light or infrared telescope is degraded by turbulence in Earth\u2019s atmosphere. The technique of adaptive optics can make corrections for this turbulence."
+        },
+        "6.3: Visible-Light Detectors and Instruments": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/06%3A_Astronomical_Instruments/6.03%3A_Visible-Light_Detectors_and_Instruments",
+            "content": "Visible-light detectors include the human eye, photographic film, and charge-coupled devices (CCDs). Detectors that are sensitive to infrared radiation must be cooled to very low temperatures since everything in and near the telescope gives off infrared waves. A spectrometer disperses the light into a spectrum to be recorded for detailed analysis."
+        },
+        "6.4: Radio Telescopes": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/06%3A_Astronomical_Instruments/6.04%3A_Radio_Telescopes",
+            "content": "A radio telescope is basically a radio antenna connected to a receiver. Significantly enhanced resolution can be obtained with interferometers, including interferometer arrays like the 27-element VLA and the 66-element ALMA. Expanding to very long baseline interferometers, radio astronomers can achieve resolutions as precise as 0.0001 arcsecond. Radar astronomy involves transmitting as well as receiving. The largest radar telescope currently in operation is a 305-meter bowl at Arecibo."
+        },
+        "6.5: Observations outside Earth's Atmosphere": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/06%3A_Astronomical_Instruments/6.05%3A_Observations_outside_Earth's_Atmosphere",
+            "content": "Infrared observations are made with telescopes aboard aircraft and in space and from ground-based facilities on dry mountain peaks. Ultraviolet, X-ray, and gamma-ray observations must be made from above the atmosphere. Orbiting observatories have been flown to observe in these bands of the spectrum. The largest-aperture telescope in space is the Hubble Space telescope, the most significant infrared telescope is Spitzer."
+        },
+        "6.6: The Future of Large Telescopes": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/06%3A_Astronomical_Instruments/6.06%3A_The_Future_of_Large_Telescopes",
+            "content": "New and even larger telescopes are on the drawing boards. The James Webb Space Telescope, a 6-meter successor to Hubble, is currently scheduled for launch in 2018. Gamma-ray astronomers are planning to build the CTA to measure very energetic gamma rays. Astronomers are building the LSST to observe with an unprecedented field of view and a new generation of visible-light/infrared telescopes with apertures of 24.5 to 39 meters in diameter."
+        }
+    },
+    "7: Other Worlds - An Introduction to the Solar System": {
+        "7.1: Overview of Our Planetary System": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/07%3A_Other_Worlds_-_An_Introduction_to_the_Solar_System/7.01%3A_Overview_of_Our_Planetary_System",
+            "content": "Our solar system currently consists of the Sun, eight planets, five dwarf planets, nearly 200 known moons, and a host of smaller objects. The planets can be divided into two groups: the inner terrestrial planets and the outer giant planets. Pluto, Eris, Haumea, and Makemake do not fit into either category; as icy dwarf planets, they exist in an ice realm on the fringes of the main planetary system. The giant planets are composed mostly of liquids and gases."
+        },
+        "7.2: Compostion and Structure of Planets": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/07%3A_Other_Worlds_-_An_Introduction_to_the_Solar_System/7.02%3A_Compostion_and_Structure_of_Planets",
+            "content": "The giant planets have dense cores roughly 10 times the mass of Earth, surrounded by layers of hydrogen and helium. The terrestrial planets consist mostly of rocks and metals. They were once molten, which allowed their structures to differentiate (that is, their denser materials sank to the center). The Moon resembles the terrestrial planets in composition, but most of the other moons\u2014which orbit the giant planets\u2014have larger quantities of frozen ice within them."
+        },
+        "7.3: Dating Planetary Surfaces": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/07%3A_Other_Worlds_-_An_Introduction_to_the_Solar_System/7.03%3A_Dating_Planetary_Surfaces",
+            "content": "The ages of the surfaces of objects in the solar system can be estimated by counting craters: on a given world, a more heavily cratered region will generally be older than one that is less cratered. We can also use samples of rocks with radioactive elements in them to obtain the time since the layer in which the rock formed last solidified. The half-life of a radioactive element is the time it takes for half the sample to decay."
+        },
+        "7.4: Origin of the Solar System": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/07%3A_Other_Worlds_-_An_Introduction_to_the_Solar_System/7.04%3A_Origin_of_the_Solar_System",
+            "content": "Regularities among the planets have led astronomers to hypothesize that the Sun and the planets formed together in a giant, spinning cloud of gas and dust called the solar nebula. Astronomical observations show tantalizingly similar circumstellar disks around other stars. Within the solar nebula, material first coalesced into planetesimals; many of these gathered together to make the planets and moons. The remainder can still be seen as comets and asteroids."
+        }
+    },
+    "8: Earth as a Planet": {
+        "8.1: The Global Perspective": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/08%3A_Earth_as_a_Planet/8.01%3A_The_Global_Perspective",
+            "content": "Earth is the prototype terrestrial planet. Its interior composition and structure are probed using seismic waves. Such studies reveal that Earth has a metal core and a silicate mantle. The outer layer, or crust, consists primarily of oceanic basalt and continental granite. A global magnetic field, generated in the core, produces Earth\u2019s magnetosphere, which can trap charged atomic particles."
+        },
+        "8.2: Earth's Crust": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/08%3A_Earth_as_a_Planet/8.02%3A_Earth's_Crust",
+            "content": "Terrestrial rocks can be classified as igneous, sedimentary, or metamorphic. A fourth type, primitive rock, is not found on Earth. Our planet\u2019s geology is dominated by plate tectonics, in which crustal plates move slowly in response to mantle convection. The surface expression of plate tectonics includes continental drift, recycling of the ocean floor, mountain building, rift zones, subduction zones, faults, earthquakes, and volcanic eruptions of lava from the interior."
+        },
+        "8.3: Earth's Atmosphere": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/08%3A_Earth_as_a_Planet/8.03%3A_Earth's_Atmosphere",
+            "content": "The atmosphere has a surface pressure of 1 bar and is composed primarily of N2N2 and O2O2, plus such important trace gases as H2OH2O, CO2CO2, and O3O3. Its structure consists of the troposphere, stratosphere, mesosphere, and ionosphere. Changing the composition of the atmosphere also influences the temperature. Atmospheric circulation (weather) is driven by seasonally changing deposition of sunlight. Many longer term climate variations, such as the ice ages, are related to changes i"
+        },
+        "8.4: Life, Chemical Evolution, and Climate Change": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/08%3A_Earth_as_a_Planet/8.04%3A_Life_Chemical_Evolution_and_Climate_Change",
+            "content": "Life originated on Earth at a time when the atmosphere lacked O2O2 and consisted mostly of CO2CO2. Later, photosynthesis gave rise to free oxygen and ozone. Modern genomic analysis lets us see how the wide diversity of species on the planet are related to each other. CO2CO2 and methane in the atmosphere heat the surface through the greenhouse effect; today, increasing amounts of atmospheric CO2CO2 are leading to the global warming of our planet."
+        },
+        "8.5: Cosmic Influences on the Evolution of Earth": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/08%3A_Earth_as_a_Planet/8.05%3A_Cosmic_Influences_on_the_Evolution_of_Earth",
+            "content": "Earth, like the Moon and other planets, has been influenced by the impacts of cosmic debris, including such recent examples as Meteor Crater and the Tunguska explosion. Larger past impacts are implicated in some mass extinctions, including the large impact 65 million years ago at the end of the Cretaceous period that wiped out the dinosaurs and many other species. Today, astronomers are working to predict the next impact in advance, while other scientists are coming to grips with the effect of i"
+        }
+    },
+    "9: Cratered Worlds": {
+        "9.1: General Properties of the Moon": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/09%3A_Cratered_Worlds/9.01%3A_General_Properties_of_the_Moon",
+            "content": "Most of what we know about the Moon derives from the Apollo program, including 400 kilograms of lunar samples still being intensively studied. The Moon has one-eightieth the mass of Earth and is severely depleted in both metals and volatile materials. It is made almost entirely of silicates like those in Earth\u2019s mantle and crust. However, more recent spacecraft have found evidence of a small amount of water near the lunar poles, most likely deposited by comet and asteroid impacts."
+        },
+        "9.2: The Lunar Surface": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/09%3A_Cratered_Worlds/9.02%3A_The_Lunar_Surface",
+            "content": "The Moon, like Earth, was formed about 4.5 billion year ago. The Moon\u2019s heavily cratered highlands are made of rocks more than 4 billion years old. The darker volcanic plains of the maria were erupted primarily between 3.3 and 3.8 billion years ago. Generally, the surface is dominated by impacts, including continuing small impacts that produce its fine-grained soil."
+        },
+        "9.3: Impact Craters": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/09%3A_Cratered_Worlds/9.03%3A_Impact_Craters",
+            "content": "A century ago, Grove Gilbert suggested that the lunar craters were caused by impacts, but the cratering process was not well understood until more recently. High-speed impacts produce explosions and excavate craters 10 to 15 times the size of the impactor with raised rims, ejecta blankets, and often central peaks. Cratering rates have been roughly constant for the past 3 billion years but earlier were much greater. Crater counts can be used to derive approximate ages for geological features."
+        },
+        "9.4: The Origin of the Moon": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/09%3A_Cratered_Worlds/9.04%3A_The_Origin_of_the_Moon",
+            "content": "The three standard hypotheses for the origin of the Moon were the fission hypothesis, the sister hypothesis, and the capture hypothesis. All have problems, and they have been supplanted by the giant impact hypothesis, which ascribes the origin of the Moon to the impact of a Mars-sized projectile with Earth 4.5 billion years ago. The debris from the impact made a ring around Earth which condensed and formed the Moon."
+        },
+        "9.5: Mercury": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/09%3A_Cratered_Worlds/9.05%3A_Mercury",
+            "content": "Mercury is the nearest planet to the Sun and the fastest moving. Mercury is similar to the Moon in having a heavily cratered surface and no atmosphere, but it differs in having a very large metal core. Early in its evolution, it apparently lost part of its silicate mantle, probably due to one or more giant impacts. Long scarps on its surface testify to a global compression of Mercury\u2019s crust during the past 4 billion years."
+        }
+    },
+    "10: Earthlike Planets - Venus and Mars": {
+        "10.1: The Nearest Planets - An Overview": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/10%3A_Earthlike_Planets_-_Venus_and_Mars/10.01%3A_The_Nearest_Planets_-_An_Overview",
+            "content": "Venus, the nearest planet, is a great disappointment through the telescope because of its impenetrable cloud cover. Mars is more tantalizing, with dark markings and polar caps. Early in the twentieth century, it was widely believed that the \u201ccanals\u201d of Mars indicated intelligent life there. Mars has only 11% the mass of Earth, but Venus is nearly our twin in size and mass. Mars rotates in 24 hours and has seasons like Earth; Venus has a retrograde rotation period of 243 days."
+        },
+        "10.2: The Geology of Venus": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/10%3A_Earthlike_Planets_-_Venus_and_Mars/10.02%3A_The_Geology_of_Venus",
+            "content": "Venus has been mapped by radar, especially with the Magellan spacecraft. Its crust consists of 75% lowland lava plains, numerous volcanic features, and many large coronae, which are the expression of subsurface volcanism. The planet has been modified by widespread tectonics driven by mantle convection, forming complex patterns of ridges and cracks and building high continental regions such as Ishtar. The surface is extraordinarily inhospitable, with pressure of 90 bars and temperature of 730 K."
+        },
+        "10.3: The Massive Atmosphere of Venus": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/10%3A_Earthlike_Planets_-_Venus_and_Mars/10.03%3A_The_Massive_Atmosphere_of_Venus",
+            "content": "The atmosphere of Venus is 96% CO2. Thick clouds at altitudes of 30 to 60 kilometers are made of sulfuric acid, and a CO2greenhouse effect maintains the high surface temperature. Venus presumably reached its current state from more earthlike initial conditions as a result of a runaway greenhouse effect, which included the loss of large quantities of water."
+        },
+        "10.4: The Geology of Mars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/10%3A_Earthlike_Planets_-_Venus_and_Mars/10.04%3A_The_Geology_of_Mars",
+            "content": "Most of what we know about Mars is derived from spacecraft: highly successful orbiters, landers, and rovers. We have also been able to study a few martian rocks that reached Earth as meteorites. Mars has heavily cratered highlands in its southern hemisphere, but younger, lower volcanic plains over much of its northern half. The Tharsis bulge, as big as North America, includes several huge volcanoes; Olympus Mons is more than 20 kilometers high and 500 kilometers in diameter."
+        },
+        "10.5: Water and Life on Mars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/10%3A_Earthlike_Planets_-_Venus_and_Mars/10.05%3A_Water_and_Life_on_Mars",
+            "content": "The martian atmosphere has a surface pressure of less than 0.01 bar and is 95% CO2. It has dust clouds, water clouds, and carbon dioxide (dry ice) clouds. Liquid water on the surface is not possible today, but there is subsurface permafrost at high latitudes. Seasonal polar caps are made of dry ice; the northern residual cap is water ice, whereas the southern permanent ice cap is made predominantly of water ice with a covering of carbon dioxide ice."
+        },
+        "10.6: Divergent Planetary Evolution": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/10%3A_Earthlike_Planets_-_Venus_and_Mars/10.06%3A_Divergent_Planetary_Evolution",
+            "content": "Earth, Venus, and Mars have diverged in their evolution from what may have been similar beginnings. We need to understand why if we are to protect the environment of Earth."
+        }
+    },
+    "11: The Giant Planets": {
+        "11.1: Exploring the Outer Planets": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/11%3A_The_Giant_Planets/11.01%3A_Exploring_the_Outer_Planets",
+            "content": "The outer solar system contains the four giant planets: Jupiter, Saturn, Uranus, and Neptune. The gas giants Jupiter and Saturn have overall compositions similar to that of the Sun and have been explored by the Pioneer, Voyager, Galileo, and Cassini spacecraft. Voyager 2 explored Jupiter (1979), Saturn (1981), Uranus (1986), and Neptune (1989)\u2014a grand tour of the giant planets\u2014and these flybys have been the only explorations to date of the ice giants Uranus and Neptune."
+        },
+        "11.2: The Giant Planets": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/11%3A_The_Giant_Planets/11.02%3A_The_Giant_Planets",
+            "content": "Jupiter is 318 times more massive than Earth. Saturn is about 25% as massive as Jupiter, and Uranus and Neptune are only 5% as massive. All four have deep atmospheres and opaque clouds, and all rotate quickly with periods from 10 to 17 hours. Jupiter and Saturn have extensive mantles of liquid hydrogen. Uranus and Neptune are depleted in hydrogen and helium relative to Jupiter and Saturn (and the Sun). Each giant planet has a core of \u201cice\u201d and \u201crock\u201d of about 10 Earth masses."
+        },
+        "11.3: Atmosphere of the Giant Planets": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/11%3A_The_Giant_Planets/11.03%3A_Atmosphere_of_the_Giant_Planets",
+            "content": "The four giant planets have generally similar atmospheres, composed mostly of hydrogen and helium. Their atmospheres contain small quantities of methane and ammonia gas, both of which also condense to form clouds. Deeper (invisible) cloud layers consist of water and possibly ammonium hydrosulfide (Jupiter and Saturn) and hydrogen sulfide (Neptune). In the upper atmospheres, hydrocarbons and other trace compounds are produced by photochemistry. We do not know the origin of Jupiter's cloud colors."
+        }
+    },
+    "12: Rings, Moons, and Pluto": {
+        "12.1: Ring and Moon Systems Introduced": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/12%3A_Rings_Moons_and_Pluto/12.01%3A_Ring_and_Moon_Systems_Introduced",
+            "content": "The four jovian planets are accompanied by impressive systems of moons and rings. Nearly 200 moons have been discovered in the outer solar system. Of the four ring systems, Saturn\u2019s is the largest and is composed primarily of water ice; in contrast, Uranus and Neptune have narrow rings of dark material, and Jupiter has a tenuous ring of dust."
+        },
+        "12.2: The Gailean Moons of Jupiter": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/12%3A_Rings_Moons_and_Pluto/12.02%3A_The_Gailean_Moons_of_Jupiter",
+            "content": "Jupiter\u2019s largest moons are Ganymede and Callisto, both low-density objects that are composed of more than half water ice. Callisto has an ancient cratered surface, while Ganymede shows evidence of extensive tectonic and volcanic activity, persisting until perhaps a billion years ago. Io and Europa are denser and smaller, each about the size of our Moon. Io is the most volcanically active object in the solar system."
+        },
+        "12.3: Titan and Triton": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/12%3A_Rings_Moons_and_Pluto/12.03%3A_Titan_and_Triton",
+            "content": "Saturn\u2019s moon Titan has an atmosphere that is thicker than that of Earth. There are lakes and rivers of liquid hydrocarbons, and evidence of a cycle of evaporation, condensation, and return to the surface that is similar to the water cycle on Earth (but with liquid methane and ethane). The Cassini-Huygens lander set down on Titan and showed a scene with boulders, made of water ice, frozen harder than rock. Neptune\u2019s cold moon Triton has a very thin atmosphere and nitrogen gas geysers."
+        },
+        "12.4: Pluto and Charon": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/12%3A_Rings_Moons_and_Pluto/12.04%3A_Pluto_and_Charon",
+            "content": "Pluto and Charon have been revealed by the New Horizons spacecraft to be two of the most fascinating objects in the outer solar system. Pluto is small (a dwarf planet) but also surprisingly active, with contrasting areas of dark cratered terrain, light-colored basins of nitrogen ice, and mountains of frozen water that may be floating in the nitrogen ice. Even Pluto\u2019s largest moon Charon shows evidence of geological activity. Both Pluto and Charon turn out to be far more dynamic."
+        },
+        "12.5: Planetary Rings": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/12%3A_Rings_Moons_and_Pluto/12.05%3A_Planetary_Rings",
+            "content": "Rings are composed of vast numbers of individual particles orbiting so close to a planet that its gravitational forces could have broken larger pieces apart or kept small pieces from gathering together. Saturn\u2019s rings are broad, flat, and nearly continuous, except for a handful of gaps. The particles are mostly water ice, with typical dimensions of a few centimeters. Enceladus is today erupting geysers of water to maintain the tenuous E Ring, which is composed of very small ice crystals."
+        }
+    },
+    "13: Comets and Asteroids - Debris of the Solar System": {
+        "13.1: Asteroids": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/13%3A_Comets_and_Asteroids_-_Debris_of_the_Solar_System/13.01%3A_Asteroids",
+            "content": "The solar system includes many objects that are much smaller than the planets and their larger moons. The rocky ones are generally called asteroids. Ceres is the largest asteroid; about 15 are larger than 250 kilometers and about 100,000 are larger than 1 kilometer. Most are in the asteroid belt between Mars and Jupiter. The presence of asteroid families in the belt indicates that many asteroids are the remnants of ancient collisions and fragmentation."
+        },
+        "13.2: Asteroids and Planetary Defense": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/13%3A_Comets_and_Asteroids_-_Debris_of_the_Solar_System/13.02%3A_Asteroids_and_Planetary_Defense",
+            "content": "Near-Earth asteroids (NEAs), and near-Earth objects (NEOs) in general, are of interest in part because of their potential to hit Earth. They are on unstable orbits, and on timescales of 100 million years, they will either impact one of the terrestrial planets or the Sun, or be ejected. Most of them probably come from the asteroid belt, but some may be dead comets. NASA\u2019s Spaceguard Survey has found 90% of the NEAs larger than 1 kilometer, with none on a collision course with Earth."
+        },
+        "13.3: The \"Long-Haired\" Comets": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/13%3A_Comets_and_Asteroids_-_Debris_of_the_Solar_System/13.03%3A_The_Long-Haired_Comets",
+            "content": "Halley first showed that some comets are on closed orbits and return periodically to swing around the Sun. The heart of a comet is its nucleus, a few kilometers in diameter and composed of volatiles and solids. Whipple first suggested this \u201cdirty snowball\u201d model in 1950; it has been confirmed by spacecraft studies of several comets. As the nucleus approaches the Sun, its volatiles evaporate (perhaps in localized jets or explosions) to form the comet\u2019s head or atmosphere."
+        },
+        "13.4: The Origin and Fate of Comets and Related Objects": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/13%3A_Comets_and_Asteroids_-_Debris_of_the_Solar_System/13.04%3A_The_Origin_and_Fate_of_Comets_and_Related_Objects",
+            "content": "Oort proposed in 1950 that long-period comets are derived from what we now call the Oort cloud, which surrounds the Sun out to about 50,000 AU (near the limit of the Sun\u2019s gravitational sphere of influence) and contains between 10121012 and 10131013 comets. Comets also come from the Kuiper belt, a disk-shaped region beyond the orbit of Neptune, extending to 50 AU from the Sun. Comets are primitive bodies left over from the formation of the outer solar system."
+        }
+    },
+    "14: Cosmic Samples and the Origin of the Solar System": {
+        "14.1: Meteors": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/14%3A_Cosmic_Samples_and_the_Origin_of_the_Solar_System/14.01%3A_Meteors",
+            "content": "When a fragment of interplanetary dust strikes Earth\u2019s atmosphere, it burns up to create a meteor. Streams of dust particles traveling through space together produce meteor showers, in which we see meteors diverging from a spot in the sky called the radiant of the shower. Many meteor showers recur each year and are associated with particular comets that have left dust behind as they come close to the Sun and their ices evaporate (or have broken up into smaller pieces)."
+        },
+        "14.2: Meteorites - Stones from Heaven": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/14%3A_Cosmic_Samples_and_the_Origin_of_the_Solar_System/14.02%3A_Meteorites_-_Stones_from_Heaven",
+            "content": "Meteorites are the debris from space that survive to reach the surface of Earth. Meteorites are called finds or falls according to how they are discovered; the most productive source today is the Antarctic ice cap. Meteorites are classified as irons, stony-irons, or stones accordingly to their composition. Most stones are primitive objects, dated to the origin of the solar system. The most primitive are the carbonaceous meteorites that can contain a number of organic (carbon-rich) molecules."
+        },
+        "14.3: Formation of the Solar System": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/14%3A_Cosmic_Samples_and_the_Origin_of_the_Solar_System/14.03%3A_Formation_of_the_Solar_System",
+            "content": "Meteorites, comets, and asteroids are survivors of the solar nebula out of which the solar system formed. This nebula was the result of the collapse of an interstellar cloud of gas and dust, which contracted (conserving its angular momentum) to form our star, the Sun, surrounded by a thin, spinning disk of dust and vapor. Condensation in the disk led to the formation of planetesimals, which became the building blocks of the planets."
+        },
+        "14.4: Comparison with Other Planetary Systems": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/14%3A_Cosmic_Samples_and_the_Origin_of_the_Solar_System/14.04%3A_Comparison_with_Other_Planetary_Systems",
+            "content": "The first planet circling a distant solar-type star was announced in 1995. Twenty years later, thousands of exoplanets have been identified, including planets with sizes and masses between Earth\u2019s and Neptune\u2019s, which we don\u2019t have in our own solar system. A few percent of exoplanet systems have \u201chot Jupiters,\u201d massive planets that orbit close to their stars, and many exoplanets are also in eccentric orbits."
+        },
+        "14.5: Planetary Evolution": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/14%3A_Cosmic_Samples_and_the_Origin_of_the_Solar_System/14.05%3A_Planetary_Evolution",
+            "content": "fter their common beginning, each of the planets evolved on its own path. Different possible outcomes are illustrated by comparison of the terrestrial planets (Earth, Venus, Mars, Mercury, and the Moon). All are rocky, differentiated objects. The level of geological activity is proportional to mass: greatest for Earth and Venus, less for Mars, and absent for the Moon and Mercury. However, tides from another nearby world can also generate heat to drive geological activity."
+        }
+    },
+    "15: The Sun- A Garden-Variety Star": {
+        "15.1: The Structure and Composition of the Sun": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/15%3A_The_Sun-_A_Garden-Variety_Star/15.01%3A_The_Structure_and_Composition_of_the_Sun",
+            "content": "The Sun, our star, has several layers beneath the visible surface: the core, radiative zone, and convective zone. These, in turn, are surrounded by a number of layers that make up the solar atmosphere. In order of increasing distance from the center of the Sun, they are the photosphere, with a temperature that ranges from 4500 K to about 6800 K; the chromosphere, with a typical temperature of 104 K; the transition region, a zone that may be only a few kilometers thick."
+        },
+        "15.2: The Solar Cycle": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/15%3A_The_Sun-_A_Garden-Variety_Star/15.02%3A_The_Solar_Cycle",
+            "content": "Sunspots are dark regions where the temperature is up to 2000 K cooler than the surrounding photosphere. Their motion across the Sun\u2019s disk allows us to calculate how fast the Sun turns on its axis. The Sun rotates more rapidly at its equator, where the rotation period is about 25 days, than near the poles, where the period is slightly longer than 36 days. The number of visible sunspots varies according to a sunspot cycle that averages 11 years in length. Spots frequently occur in pairs."
+        },
+        "15.3: Solar Activity above the Photosphere": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/15%3A_The_Sun-_A_Garden-Variety_Star/15.03%3A_Solar_Activity_above_the_Photosphere",
+            "content": "Signs of more intense solar activity, an increase in the number of sunspots, as well as prominences, plages, solar flares, and coronal mass ejections, all tend to occur in active regions\u2014that is, in places on the Sun with the same latitude and longitude but at different heights in the atmosphere. Active regions vary with the solar cycle, just like sunspots do."
+        },
+        "15.4: Space Weather": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/15%3A_The_Sun-_A_Garden-Variety_Star/15.04%3A_Space_Weather",
+            "content": "Space weather is the effect of solar activity on our own planet, both in our magnetosphere and on Earth\u2019s surface. Coronal holes allow more of the Sun\u2019s material to flow out into space. Solar flares and coronal mass ejections can cause auroras, disrupt communications, damage satellites, and cause power outages on Earth."
+        }
+    },
+    "16: The Sun- A Nuclear Powerhouse": {
+        "16.1: Sources of Sunshine- Thermal and Gravitational Energy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/16%3A_The_Sun-_A_Nuclear_Powerhouse/16.01%3A_Sources_of_Sunshine-_Thermal_and_Gravitational_Energy",
+            "content": "The Sun produces an enormous amount of energy every second. Since Earth and the solar system are roughly 4.5 billion years old, this means that the Sun has been producing vast amounts for energy for a very, very long time. Neither chemical burning nor gravitational contraction can account for the total amount of energy radiated by the Sun during all this time."
+        },
+        "16.2: Mass, Energy, and the Theory of Relativity": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/16%3A_The_Sun-_A_Nuclear_Powerhouse/16.02%3A_Mass_Energy_and_the_Theory_of_Relativity",
+            "content": "Solar energy is produced by interactions of particles\u2014that is, protons, neutrons, electrons, positrons, and neutrinos. Specifically, the source of the Sun\u2019s energy is the fusion of hydrogen to form helium. The series of reactions required to convert hydrogen to helium is called the proton-proton chain. A helium atom is about 0.71% less massive than the four hydrogen atoms that combine to form it, and that lost mass is converted to energy (with the amount of energy given by the formula E = mc2)."
+        },
+        "16.3: The Solar Interior - Theory": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/16%3A_The_Sun-_A_Nuclear_Powerhouse/16.03%3A_The_Solar_Interior_-_Theory",
+            "content": "Even though we cannot see inside the Sun, it is possible to calculate what its interior must be like. As input for these calculations, we use what we know about the Sun. It is made entirely of hot gas. Apart from some very tiny changes, the Sun is neither expanding nor contracting (it is in hydrostatic equilibrium) and puts out energy at a constant rate. Fusion of hydrogen occurs in the center of the Sun, and the energy generated is carried to the surface by radiation and then convection."
+        },
+        "16.4: The Solar Interior - Observations": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/16%3A_The_Sun-_A_Nuclear_Powerhouse/16.04%3A_The_Solar_Interior_-_Observations",
+            "content": "Studies of solar oscillations (helioseismology) and neutrinos can provide observational data about the Sun\u2019s interior. The technique of helioseismology has so far shown that the composition of the interior is much like that of the surface (except in the core, where some of the original hydrogen has been converted into helium), and that the convection zone extends about 30% of the way from the Sun\u2019s surface to its center."
+        }
+    },
+    "17: Analyzing Starlight": {
+        "17.1: The Brightness of Stars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/17%3A_Analyzing_Starlight/17.01%3A_The_Brightness_of_Stars",
+            "content": "The total energy emitted per second by a star is called its luminosity. How bright a star looks from the perspective of Earth is its apparent brightness. The apparent brightness of a star depends on both its luminosity and its distance from Earth. Thus, the determination of apparent brightness and measurement of the distance to a star provide enough information to calculate its luminosity."
+        },
+        "17.2: Colors of Stars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/17%3A_Analyzing_Starlight/17.02%3A_Colors_of_Stars",
+            "content": "Stars have different colors, which are indicators of temperature. The hottest stars tend to appear blue or blue-white, whereas the coolest stars are red. A color index of a star is the difference in the magnitudes measured at any two wavelengths and is one way that astronomers measure and express the temperature of stars."
+        },
+        "17.3: The Spectra of Stars (and Brown Dwarfs)": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/17%3A_Analyzing_Starlight/17.03%3A_The_Spectra_of_Stars_(and_Brown_Dwarfs)",
+            "content": "The differences in the spectra of stars are principally due to differences in temperature, not composition. The spectra of stars are described in terms of spectral classes. In order of decreasing temperature, these spectral classes are O, B, A, F, G, K, M, L, T, and Y. These are further divided into subclasses numbered from 0 to 9. The classes L, T, and Y have been added recently to describe newly discovered star-like objects\u2014mainly brown dwarfs\u2014that are cooler than M9. Our Sun has is a G2 type."
+        },
+        "17.4: Using Spectra to Measure Stellar Radius, Composition, and Motion": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/17%3A_Analyzing_Starlight/17.04%3A_Using_Spectra_to_Measure_Stellar_Radius_Composition_and_Motion",
+            "content": "Analyzing the spectrum of a star can teach us all kinds of things in addition to its temperature. We can measure its detailed chemical composition as well as the pressure in its atmosphere. From the pressure, we get clues about its size. We can also measure its motion toward or away from us and estimate its rotation."
+        }
+    },
+    "18: The Stars - A Celestial Census": {
+        "18.1: Measuring Stellar Masses": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/18%3A_The_Stars_-_A_Celestial_Census/18.01%3A_Measuring_Stellar_Masses",
+            "content": "To understand the properties of stars, we must make wide-ranging surveys. We find the stars that appear brightest to our eyes are bright primarily because they are intrinsically very luminous, not because they are the closest to us. Most of the nearest stars are intrinsically so faint that they can be seen only with the aid of a telescope. Stars with low mass and low luminosity are much more common than stars with high mass and high luminosity."
+        },
+        "18.2: Measuring Stellar Masses": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/18%3A_The_Stars_-_A_Celestial_Census/18.02%3A_Measuring_Stellar_Masses",
+            "content": "The masses of stars can be determined by analysis of the orbit of binary stars\u2014two stars that orbit a common center of mass. In visual binaries, the two stars can be seen separately in a telescope, whereas in a spectroscopic binary, only the spectrum reveals the presence of two stars. Stellar masses range from about 1/12 to more than 100 times the mass of the Sun (in rare cases, going to 250 times the Sun\u2019s mass). Objects with masses between 1/12 and 1/100 that of the Sun are called brown dwarfs"
+        },
+        "18.3: Diameters of Stars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/18%3A_The_Stars_-_A_Celestial_Census/18.03%3A_Diameters_of_Stars",
+            "content": "The diameters of stars can be determined by measuring the time it takes an object (the Moon, a planet, or a companion star) to pass in front of it and block its light. Diameters of members of eclipsing binary systems (where the stars pass in front of each other) can be determined through analysis of their orbital motions."
+        },
+        "18.4: The H-R Diagram": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/18%3A_The_Stars_-_A_Celestial_Census/18.04%3A_The_H-R_Diagram",
+            "content": "The Hertzsprung\u2013Russell diagram, or H\u2013R diagram, is a plot of stellar luminosity against surface temperature. Most stars lie on the main sequence, which extends diagonally across the H\u2013R diagram from high temperature and high luminosity to low temperature and low luminosity. The position of a star along the main sequence is determined by its mass. High-mass stars emit more energy and are hotter than low-mass stars on the main sequence."
+        }
+    },
+    "19: Celestial Distances": {
+        "19.1: Fundamental Units of Distance": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/19%3A_Celestial_Distances/19.01%3A_Fundamental_Units_of_Distance",
+            "content": "Early measurements of length were based on human dimensions, but today, we use worldwide standards that specify lengths in units such as the meter. Distances within the solar system are now determined by timing how long it takes radar signals to travel from Earth to the surface of a planet or other body and then return."
+        },
+        "19.2: Surveying the Stars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/19%3A_Celestial_Distances/19.02%3A_Surveying_the_Stars",
+            "content": "For stars that are relatively nearby, we can \u201ctriangulate\u201d the distances from a baseline created by Earth\u2019s annual motion around the Sun. Half the shift in a nearby star\u2019s position relative to very distant background stars, as viewed from opposite sides of Earth\u2019s orbit, is called the parallax of that star and is a measure of its distance. Parallax measurements are a fundamental link in the chain of cosmic distances."
+        },
+        "19.3: Variable Stars- One Key to Cosmic Distances": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/19%3A_Celestial_Distances/19.03%3A_Variable_Stars-_One_Key_to_Cosmic_Distances",
+            "content": "Cepheids and RR Lyrae stars are two types of pulsating variable stars. Light curves of these stars show that their luminosities vary with a regularly repeating period. RR Lyrae stars can be used as standard bulbs, and cepheid variables obey a period-luminosity relation, so measuring their periods can tell us their luminosities. Then, we can calculate their distances by comparing their luminosities with their apparent brightnesses, and this can allow us to measure distances to these stars out to "
+        },
+        "19.4: The H-R and Cosmic Distances": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/19%3A_Celestial_Distances/19.04%3A_The_H-R_and_Cosmic_Distances",
+            "content": "Stars with identical temperatures but different pressures (and diameters) have somewhat different spectra. Spectral classification can therefore be used to estimate the luminosity class of a star as well as its temperature. As a result, a spectrum can allow us to pinpoint where the star is located on an H\u2013R diagram and establish its luminosity. This, with the star\u2019s apparent brightness, again yields its distance. The various distance methods can be used to check one against another."
+        }
+    },
+    "20: Between the Stars - Gas and Dust in Space": {
+        "20.1: The Interstellar Medium": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/20%3A_Between_the_Stars_-_Gas_and_Dust_in_Space/20.01%3A_The_Interstellar_Medium",
+            "content": "About 15% of the visible matter in the Galaxy is in the form of gas and dust, serving as the raw material for new stars. About 99% of this interstellar matter is in the form of gas\u2014individual atoms or molecules. The most abundant elements in the interstellar gas are hydrogen and helium. About 1% of the interstellar matter is in the form of solid interstellar dust grains."
+        },
+        "20.2: Interstellar Gas": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/20%3A_Between_the_Stars_-_Gas_and_Dust_in_Space/20.02%3A_Interstellar_Gas",
+            "content": "Interstellar gas may be hot or cold. Gas found near hot stars emits light by fluorescence, that is, light is emitted when an electron is captured by an ion and cascades down to lower-energy levels. Most hydrogen in interstellar space is not ionized and can best be studied by radio measurements of the 21-centimeter line. Some of the gas in interstellar space is at a temperature of a million degrees, even though it is far away in hot stars."
+        },
+        "20.3: Cosmic Dust": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/20%3A_Between_the_Stars_-_Gas_and_Dust_in_Space/20.03%3A_Cosmic_Dust",
+            "content": "Interstellar dust can be detected: (1) when it blocks the light of stars behind it, (2) when it scatters the light from nearby stars, and (3) because it makes distant stars look both redder and fainter. These effects are called reddening and interstellar extinction, respectively. Dust can also be detected in the infrared because it emits heat radiation. Dust is found throughout the plane of the Milky Way."
+        },
+        "20.4: Cosmic Rays": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/20%3A_Between_the_Stars_-_Gas_and_Dust_in_Space/20.04%3A_Cosmic_Rays",
+            "content": "Cosmic rays are particles that travel through interstellar space at a typical speed of 90% of the speed of light. The most abundant elements in cosmic rays are the nuclei of hydrogen and helium, but electrons and positrons are also found. It is likely that many cosmic rays are produced in supernova shocks."
+        },
+        "20.5: The Life Cycle of Cosmic Material": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/20%3A_Between_the_Stars_-_Gas_and_Dust_in_Space/20.05%3A_The_Life_Cycle_of_Cosmic_Material",
+            "content": "Interstellar matter is constantly flowing through the Galaxy and changing from one phase to another. At the same time, gas is constantly being added to the Galaxy by accretion from extragalactic space, while mass is removed from the interstellar medium by being locked in stars. Some of the mass in stars is, in turn, returned to the interstellar medium when those stars evolve and die."
+        },
+        "20.6: Interstellar Matter around the Sun": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/20%3A_Between_the_Stars_-_Gas_and_Dust_in_Space/20.06%3A_Interstellar_Matter_around_the_Sun",
+            "content": "The Sun is located at the edge of a low-density cloud called the Local Fluff. The Sun and this cloud are located within the Local Bubble, a region extending to at least 300 light-years from the Sun, within which the density of interstellar material is extremely low. Astronomers think this bubble was blown by some nearby stars that experienced a strong wind and some supernova explosions."
+        }
+    },
+    "21: The Birth of Stars and the Discovery of Planets outside the Solar System": {
+        "21.1: Star Formation": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/21%3A_The_Birth_of_Stars_and_the_Discovery_of_Planets_outside_the_Solar_System/21.01%3A_Star_Formation",
+            "content": "Most stars form in giant molecular clouds with masses as large as 3\u00d71063\u00d7106 solar masses. The most well-studied molecular cloud is Orion, where star formation is currently taking place. Molecular clouds typically contain regions of higher density called clumps, which in turn contain several even-denser cores of gas and dust, each of which may become a star. A star can form inside a core if its density is high enough that gravity can overwhelm the internal pressure and cause the gas and dust t"
+        },
+        "21.2: The H-R and the Study of Stellar Evolution": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/21%3A_The_Birth_of_Stars_and_the_Discovery_of_Planets_outside_the_Solar_System/21.02%3A_The_H-R_and_the_Study_of_Stellar_Evolution",
+            "content": "The evolution of a star can be described in terms of changes in its temperature and luminosity, which can best be followed by plotting them on an H\u2013R diagram. Protostars generate energy (and internal heat) through gravitational contraction that typically continues for millions of years, until the star reaches the main sequence."
+        },
+        "21.3: Evidence That Planets Form around Other Stars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/21%3A_The_Birth_of_Stars_and_the_Discovery_of_Planets_outside_the_Solar_System/21.03%3A_Evidence_That_Planets_Form_around_Other_Stars",
+            "content": "Observational evidence shows that most protostars are surrounded by disks with large-enough diameters and enough mass (as much as 10% that of the Sun) to form planets. After a few million years, the inner part of the disk is cleared of dust, and the disk is then shaped like a donut with the protostar centered in the hole\u2014something that can be explained by the formation of planets in that inner zone."
+        },
+        "21.4: Planets beyond the Solar System- Search and Discovery": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/21%3A_The_Birth_of_Stars_and_the_Discovery_of_Planets_outside_the_Solar_System/21.04%3A_Planets_beyond_the_Solar_System-_Search_and_Discovery",
+            "content": "Several observational techniques have successfully detected planets orbiting other stars. These techniques fall into two general categories\u2014direct and indirect detection. The Doppler and transit techniques are our most powerful indirect tools for finding exoplanets. Some planets are also being found by direct imaging."
+        },
+        "21.5: Exoplanets Everywhere - What we are Learning": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/21%3A_The_Birth_of_Stars_and_the_Discovery_of_Planets_outside_the_Solar_System/21.05%3A_Exoplanets_Everywhere_-_What_we_are_Learning",
+            "content": "Although the Kepler mission is finding thousands of new exoplanets, these are limited to orbital periods of less than 400 days and sizes larger than Mars. Still, we can use the Kepler discoveries to extrapolate the distribution of planets in our Galaxy. The data so far imply that planets like Earth are the most common type of planet, and that there may be 100 billion Earth-size planets around Sun-like stars in the Galaxy. About 2600 planetary systems have been discovered around other stars."
+        },
+        "21.6: New Perspectives on Planet Formation": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/21%3A_The_Birth_of_Stars_and_the_Discovery_of_Planets_outside_the_Solar_System/21.06%3A_New_Perspectives_on_Planet_Formation",
+            "content": "The ensemble of exoplanets is incredibly diverse and has led to a revision in our understanding of planet formation that includes the possibility of vigorous, chaotic interactions, with planet migration and scattering. It is possible that the solar system is unusual (and not representative) in how its planets are arranged. Many systems seem to have rocky planets farther inward than we do, for example, and some even have \u201chot Jupiters\u201d very close to their star."
+        }
+    },
+    "22: Stars from Adolescence to Old Age": {
+        "22.1: Evolution from the Main Sequence to Red Giants": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/22%3A_Stars_from_Adolescence_to_Old_Age/22.01%3A_Evolution_from_the_Main_Sequence_to_Red_Giants",
+            "content": "When stars first begin to fuse hydrogen to helium, they lie on the zero-age main sequence. The amount of time a star spends in the main-sequence stage depends on its mass. More massive stars complete each stage of evolution more quickly than lower-mass stars. The fusion of hydrogen to form helium changes the interior composition of a star, which in turn results in changes in its temperature, luminosity, and radius."
+        },
+        "22.2: Star Clusters": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/22%3A_Stars_from_Adolescence_to_Old_Age/22.02%3A_Star_Clusters",
+            "content": "Star clusters provide one of the best tests of our calculations of what happens as stars age. The stars in a given cluster were formed at about the same time and have the same composition, so they differ mainly in mass, and thus, in their life stage. There are three types of star clusters: globular, open, and associations. Globular clusters have diameters of 50\u2013450 light-years, contain hundreds of thousands of stars, and are distributed in a halo around the Galaxy."
+        },
+        "22.3: Checking Out the Theory": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/22%3A_Stars_from_Adolescence_to_Old_Age/22.03%3A_Checking_Out_the_Theory",
+            "content": "The H\u2013R diagram of stars in a cluster changes systematically as the cluster grows older. The most massive stars evolve most rapidly. In the youngest clusters and associations, highly luminous blue stars are on the main sequence; the stars with the lowest masses lie to the right of the main sequence and are still contracting toward it. With passing time, stars of progressively lower masses evolve away from (or turn off) the main sequence."
+        },
+        "22.4: Further Evolution of Stars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/22%3A_Stars_from_Adolescence_to_Old_Age/22.04%3A_Further_Evolution_of_Stars",
+            "content": "After stars become red giants, their cores eventually become hot enough to produce energy by fusing helium to form carbon (and sometimes a bit of oxygen.) The fusion of three helium nuclei produces carbon through the triple-alpha process. The rapid onset of helium fusion in the core of a low-mass star is called the helium flash. After this, the star becomes stable and reduces its luminosity and size briefly."
+        },
+        "22.5: The Evolution of More Massive Stars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/22%3A_Stars_from_Adolescence_to_Old_Age/22.05%3A_The_Evolution_of_More_Massive_Stars",
+            "content": "In stars with masses that are >8 solar masses, nuclear reactions involving carbon, oxygen, and still heavier elements can build up nuclei as heavy as iron. The creation of new chemical elements is called nucleosynthesis. The late stages of evolution occur very quickly. Ultimately, all stars must use up all of their available energy supplies. In the process of dying, most stars eject some matter, enriched in heavy elements, into interstellar space where it can be used to form new stars."
+        }
+    },
+    "23: The Death of Stars": {
+        "23.1: The Death of Low-Mass Stars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/23%3A_The_Death_of_Stars/23.01%3A_The_Death_of_Low-Mass_Stars",
+            "content": "During the course of their evolution, stars shed their outer layers and lose a significant fraction of their initial mass. Stars with masses of 8 MSun or less can lose enough mass to become white dwarfs, which have masses less than the Chandrasekhar limit (about 1.4 MSun). The pressure exerted by degenerate electrons keeps white dwarfs from contracting to still-smaller diameters. Eventually, white dwarfs cool off to become black dwarfs, stellar remnants made mainly of carbon, oxygen, and neon."
+        },
+        "23.2: Evolution of Massive Stars- An Explosive Finish": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/23%3A_The_Death_of_Stars/23.02%3A_Evolution_of_Massive_Stars-_An_Explosive_Finish",
+            "content": "In a massive star, hydrogen fusion in the core is followed by several other fusion reactions involving heavier elements. Just before it exhausts all sources of energy, a massive star has an iron core surrounded by shells of silicon, sulfur, oxygen, neon, carbon, helium, and hydrogen. The fusion of iron requires energy (rather than releasing it). If the mass of a star\u2019s iron core exceeds the Chandrasekhar limit (but is less than 3 MSun), the core collapses until its density exceeds that of an ato"
+        },
+        "23.3: Supernova Observations": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/23%3A_The_Death_of_Stars/23.03%3A_Supernova_Observations",
+            "content": "A supernova occurs on average once every 25 to 100 years in the Milky Way Galaxy. Despite the odds, no supernova in our Galaxy has been observed from Earth since the invention of the telescope. However, one nearby supernova (SN 1987A) has been observed in a neighboring galaxy, the Large Magellanic Cloud. The star that evolved to become SN 1987A began its life as a blue supergiant, evolved to become a red supergiant, and returned to being a blue supergiant at the time it exploded. Studies of SN 1"
+        },
+        "23.4: Pulsars and the Discovery of Neutron Stars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/23%3A_The_Death_of_Stars/23.04%3A_Pulsars_and_the_Discovery_of_Neutron_Stars",
+            "content": "At least some supernovae leave behind a highly magnetic, rapidly rotating neutron star, which can be observed as a pulsar if its beam of escaping particles and focused radiation is pointing toward us. Pulsars emit rapid pulses of radiation at regular intervals; their periods are in the range of 0.001 to 10 seconds. The rotating neutron star acts like a lighthouse, sweeping its beam in a circle and giving us a pulse of radiation when the beam sweeps over Earth. As pulsars age, they lose energy, t"
+        },
+        "23.5: The Evolution of Binary Star Systems": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/23%3A_The_Death_of_Stars/23.05%3A_The_Evolution_of_Binary_Star_Systems",
+            "content": "When a white dwarf or neutron star is a member of a close binary star system, its companion star can transfer mass to it. Material falling gradually onto a white dwarf can explode in a sudden burst of fusion and make a nova. If material falls rapidly onto a white dwarf, it can push it over the Chandrasekhar limit and cause it to explode completely as a type Ia supernova. Another possible mechanism for a type Ia supernova is the merger of two white dwarfs. Material falling onto a neutron star can"
+        },
+        "23.6: The Mystery of the Gamma-Ray Bursts": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/23%3A_The_Death_of_Stars/23.06%3A_The_Mystery_of_the_Gamma-Ray_Bursts",
+            "content": "Gamma-ray bursts last from a fraction of a second to a few minutes. They come from all directions and are now known to be associated with very distant objects. The energy is most likely beamed, and, for the ones we can detect, Earth lies in the direction of the beam. Long-duration bursts (lasting more than a few seconds) come from massive stars with their outer hydrogen layers missing that explode as supernovae. Short-duration bursts are believed to be mergers of stellar corpses (neutron stars o"
+        }
+    },
+    "24: Black Holes and Curved Spacetime": {
+        "24.1: Introducing General Relativity": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/24%3A_Black_Holes_and_Curved_Spacetime/24.01%3A_Introducing_General_Relativity",
+            "content": "Einstein proposed the equivalence principle as the foundation of the theory of general relativity. According to this principle, there is no way that anyone or any experiment in a sealed environment can distinguish between free fall and the absence of gravity."
+        },
+        "24.2: Spacetime and Gravity": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/24%3A_Black_Holes_and_Curved_Spacetime/24.02%3A_Spacetime_and_Gravity",
+            "content": "By considering the consequences of the equivalence principle, Einstein concluded that we live in a curved spacetime. The distribution of matter determines the curvature of spacetime; other objects (and even light) entering a region of spacetime must follow its curvature. Light must change its path near a massive object not because light is bent by gravity, but because spacetime is."
+        },
+        "24.3: Tests of General Relativity": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/24%3A_Black_Holes_and_Curved_Spacetime/24.03%3A_Tests_of_General_Relativity",
+            "content": "In weak gravitational fields, the predictions of general relativity agree with the predictions of Newton\u2019s law of gravity. However, in the stronger gravity of the Sun, general relativity makes predictions that differ from Newtonian physics and can be tested. For example, general relativity predicts that light or radio waves will be deflected when they pass near the Sun, and that the position where Mercury is at perihelion would change by 43 arcsec per century even if there were no other planets "
+        },
+        "24.4: Time in General Relativity": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/24%3A_Black_Holes_and_Curved_Spacetime/24.04%3A_Time_in_General_Relativity",
+            "content": "General relativity predicts that the stronger the gravity, the more slowly time must run. Experiments on Earth and with spacecraft have confirmed this prediction with remarkable accuracy. When light or other radiation emerges from a compact smaller remnant, such as a white dwarf or neutron star, it shows a gravitational redshift due to the slowing of time."
+        },
+        "24.5: Black Holes": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/24%3A_Black_Holes_and_Curved_Spacetime/24.05%3A_Black_Holes",
+            "content": "Theory suggests that stars with stellar cores more massive than three times the mass of the Sun at the time they exhaust their nuclear fuel will collapse to become black holes. The surface surrounding a black hole, where the escape velocity equals the speed of light, is called the event horizon, and the radius of the surface is called the Schwarzschild radius. Nothing, not even light, can escape through the event horizon from the black hole. At its center, each black hole is thought to have a si"
+        },
+        "24.6: Evidence for Black Holes": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/24%3A_Black_Holes_and_Curved_Spacetime/24.06%3A_Evidence_for_Black_Holes",
+            "content": "The best evidence of stellar-mass black holes comes from binary star systems in which (1) one star of the pair is not visible, (2) the flickering X-ray emission is characteristic of an accretion disk around a compact object, and (3) the orbit and characteristics of the visible star indicate that the mass of its invisible companion is greater than 3 MSun. A number of systems with these characteristics have been found. Black holes with masses of millions to billions of solar masses are found in th"
+        },
+        "24.7: Gravitational Wave Astronomy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/24%3A_Black_Holes_and_Curved_Spacetime/24.07%3A_Gravitational_Wave_Astronomy",
+            "content": "Another part of Einstein\u2019s ideas about gravity can be tested as a way of checking the theory that underlies black holes. According to general relativity, the geometry of spacetime depends on where matter is located. Any rearrangement of matter\u2014say, from a sphere to a sausage shape\u2014creates a disturbance in spacetime. This disturbance is called a gravitational wave, and relativity predicts that it should spread outward at the speed of light."
+        }
+    },
+    "25: The Milky Way Galaxy": {
+        "25.1: The Architecture of the Galaxy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/25%3A_The_Milky_Way_Galaxy/25.01%3A_The_Architecture_of_the_Galaxy",
+            "content": "The Milky Way Galaxy consists of a thin disk containing dust, gas, and young and old stars; a spherical halo containing populations of very old stars, and globular star clusters; a thick, more diffuse disk with stars that have properties intermediate between those in the thin disk and the halo; a peanut-shaped nuclear bulge of mostly old stars around the center; and a supermassive black hole at the very center. The Sun is located roughly halfway out of the Milky Way."
+        },
+        "25.2: Spiral Structure": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/25%3A_The_Milky_Way_Galaxy/25.02%3A_Spiral_Structure",
+            "content": "The gaseous distribution in the Galaxy\u2019s disk has two main spiral arms that emerge from the ends of the central bar, along with several fainter arms and short spurs; the Sun is located in one of those spurs. Measurements show that the Galaxy does not rotate as a solid body, but instead its stars and gas follow differential rotation, such that the material closer to the galactic center completes its orbit more quickly."
+        },
+        "25.3: The Mass of the Galaxy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/25%3A_The_Milky_Way_Galaxy/25.03%3A_The_Mass_of_the_Galaxy",
+            "content": "The Sun revolves completely around the galactic center in about 225 million years (a galactic year). The mass of the Galaxy can be determined by measuring the orbital velocities of stars and interstellar matter. The total mass of the Galaxy is about 2 \u00d7 1012 MSun.As much as 95% of this mass consists of dark matter that emits no electromagnetic radiation and can be detected only because of the gravitational force it exerts on visible stars and interstellar matter."
+        },
+        "25.4: The Center of the Galaxy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/25%3A_The_Milky_Way_Galaxy/25.04%3A_The_Center_of_the_Galaxy",
+            "content": "A supermassive black hole is located at the center of the Galaxy. Measurements of the velocities of stars located within a few light-days of the center show that the mass inside their orbits around the center is about 4.6 million MSun. Radio observations show that this mass is concentrated in a volume with a diameter similar to that of Mercury\u2019s orbit. The density of this matter concentration exceeds that of the densest known star clusters by a factor of nearly a million."
+        },
+        "25.5: Stellar Populations in the Galaxy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/25%3A_The_Milky_Way_Galaxy/25.05%3A_Stellar_Populations_in_the_Galaxy",
+            "content": "We can roughly divide the stars in the Galaxy into two categories. Old stars with few heavy elements are referred to as population II stars and are found in the halo and in globular clusters. Population I stars contain more heavy elements than globular cluster and halo stars, are typically younger and found in the disk, and are especially concentrated in the spiral arms. The Sun is a member of population I."
+        },
+        "25.6: The Formation of the Galaxy": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/25%3A_The_Milky_Way_Galaxy/25.06%3A_The_Formation_of_the_Galaxy",
+            "content": "The Galaxy began forming a little more than 13 billion years ago. Models suggest that the stars in the halo and globular clusters formed first, while the Galaxy was spherical. The gas, somewhat enriched in heavy elements by the first generation of stars, then collapsed from a spherical distribution to a rotating disk-shaped distribution. Stars are still forming today from the gas and dust that remain in the disk. Star formation occurs most rapidly in the spiral arms."
+        }
+    },
+    "26: Galaxies": {
+        "26.1: The Discovery of Galaxies": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/26%3A_Galaxies/26.01%3A_The_Discovery_of_Galaxies",
+            "content": "Faint star clusters, clouds of glowing gas, and galaxies all appeared as faint patches of light (or nebulae) in the telescopes available at the beginning of the twentieth century. It was only when Hubble measured the distance to the Andromeda galaxy using cepheid variables with the giant 2.5-meter reflector on Mount Wilson in 1924 that the existence of other galaxies similar to the Milky Way in size and content was established."
+        },
+        "26.2: Types of Galaxies": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/26%3A_Galaxies/26.02%3A_Types_of_Galaxies",
+            "content": "Most bright galaxies are either spirals or ellipticals. Spiral galaxies contain both old and young stars, as well as interstellar matter, and have typical masses in the range of 109 to 1012 MSun. Our own Galaxy is a large spiral. Ellipticals are spheroidal or slightly elongated systems that consist almost entirely of old stars, with very little interstellar matter. Elliptical galaxies range in size from giants, more massive than any spiral, down to dwarfs, with masses of only about 106 MSun."
+        },
+        "26.3: Properties of Galaxies": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/26%3A_Galaxies/26.03%3A_Properties_of_Galaxies",
+            "content": "The masses of spiral galaxies are determined from measurements of their rates of rotation. The masses of elliptical galaxies are estimated from analyses of the motions of the stars within them. Galaxies can be characterized by their mass-to-light ratios. The luminous parts of galaxies with active star formation typically have mass-to-light ratios in the range of 1 to 10; the luminous parts of elliptical galaxies typically have mass-to-light ratios of 10 to 20."
+        },
+        "26.4: The Extragalactic Distance Scale": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/26%3A_Galaxies/26.04%3A_The_Extragalactic_Distance_Scale",
+            "content": "Astronomers determine the distances to galaxies using a variety of methods, including the period-luminosity relationship for cepheid variables; objects such as type Ia supernovae, which appear to be standard bulbs; and the Tully-Fisher relation, which connects the line broadening of 21-cm radiation to the luminosity of spiral galaxies. Each method has limitations in terms of its precision, the kinds of galaxies with which it can be used, and the range of distances over which it can be applied."
+        },
+        "26.5: The Expanding Universe": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/26%3A_Galaxies/26.05%3A_The_Expanding_Universe",
+            "content": "The universe is expanding. Observations show that the spectral lines of distant galaxies are redshifted, and that their recession velocities are proportional to their distances from us, a relationship known as Hubble\u2019s law. The rate of recession, called the Hubble constant, is approximately 22 kilometers per second per million light-years. We are not at the center of this expansion: an observer in any other galaxy would see the same pattern of expansion that we do. The expansion described by Hub"
+        }
+    },
+    "27: Active Galaxies, Quasars, and Supermassive Black Holes": {
+        "27.1: Quasars": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/27%3A_Active_Galaxies_Quasars_and_Supermassive_Black_Holes/27.01%3A_Quasars",
+            "content": "The first quasars discovered looked like stars but had strong radio emission. Their visible-light spectra at first seemed confusing, but then astronomers realized that they had much larger redshifts than stars. The quasar spectra obtained so far show redshifts ranging from 15% to more than 96% the speed of light. Observations with the Hubble Space Telescope show that quasars lie at the centers of galaxies and that both spirals and ellipticals can harbor quasars."
+        },
+        "27.2: Supermassive Black Holes- What Quasars really are": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/27%3A_Active_Galaxies_Quasars_and_Supermassive_Black_Holes/27.02%3A_Supermassive_Black_Holes-_What_Quasars_really_are",
+            "content": "Both active galactic nuclei and quasars derive their energy from material falling toward, and forming a hot accretion disk around, a massive black hole. This model can account for the large amount of energy emitted and for the fact that the energy is produced in a relatively small volume of space. It can also explain why jets coming from these objects are seen in two directions: those directions are perpendicular to the accretion disk."
+        },
+        "27.3: Quasars as Probes of Evolution in the Universe": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/27%3A_Active_Galaxies_Quasars_and_Supermassive_Black_Holes/27.03%3A_Quasars_as_Probes_of_Evolution_in_the_Universe",
+            "content": "Quasars and galaxies affect each other: the galaxy supplies fuel to the black hole, and the quasar heats and disrupts the gas clouds in the galaxy. The balance between these two processes probably helps explain why the black hole seems always to be about 1/200 the mass of the spherical bulge of stars that surrounds the black hole.  Quasars were much more common billions of years ago than they are now, and astronomers speculate that they mark an early stage in the formation of galaxies."
+        }
+    },
+    "28: The Evolution and Distribution of Galaxies": {
+        "28.1: Observations of Distant Galaxies": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/28%3A_The_Evolution_and_Distribution_of_Galaxies/28.01%3A_Observations_of_Distant_Galaxies",
+            "content": "When we look at distant galaxies, we are looking back in time. We have now seen galaxies as they were when the universe was about 500 million years old\u2014only about five percent as old as it is now. The universe now is 13.8 billion years old. The color of a galaxy is an indicator of the age of the stars that populate it. Blue galaxies must contain a lot of hot, massive, young stars. Galaxies that contain only old stars tend to be yellowish red."
+        },
+        "28.2: Galaxy Mergers and Active Galactic Nuclei": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/28%3A_The_Evolution_and_Distribution_of_Galaxies/28.02%3A_Galaxy_Mergers_and_Active_Galactic_Nuclei",
+            "content": "When galaxies of comparable size collide and coalesce we call it a merger, but when a small galaxy is swallowed by a much larger one, we use the term galactic cannibalism. Collisions play an important role in the evolution of galaxies. If the collision involves at least one galaxy rich in interstellar matter, the resulting compression of the gas will result in a burst of star formation, leading to a starburst galaxy. Mergers were much more common when the universe was young."
+        },
+        "28.3: The Distribution of Galaxies in Space": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/28%3A_The_Evolution_and_Distribution_of_Galaxies/28.03%3A_The_Distribution_of_Galaxies_in_Space",
+            "content": "Counts of galaxies in various directions establish that the universe on the large scale is homogeneous and isotropic (the same everywhere and the same in all directions, apart from evolutionary changes with time). The sameness of the universe everywhere is referred to as the cosmological principle. Galaxies are grouped together in clusters. The Milky Way Galaxy is a member of the Local Group, which contains at least 54 member galaxies."
+        },
+        "28.4: The Challenge of Dark Matter": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/28%3A_The_Evolution_and_Distribution_of_Galaxies/28.04%3A_The_Challenge_of_Dark_Matter",
+            "content": "Stars move much faster in their orbits around the centers of galaxies, and galaxies around centers of galaxy clusters, than they should according to the gravity of all the luminous matter (stars, gas, and dust) astronomers can detect. This discrepancy implies that galaxies and galaxy clusters are dominated by dark matter rather than normal luminous matter. Gravitational lensing and X-ray radiation from massive galaxy clusters confirm the presence of dark matter."
+        },
+        "28.5: The Formation and Evolution of Galaxies and Structure in the Universe": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/28%3A_The_Evolution_and_Distribution_of_Galaxies/28.05%3A_The_Formation_and_Evolution_of_Galaxies_and_Structure_in_the_Universe",
+            "content": "Initially, luminous and dark matter in the universe was distributed almost\u2014but not quite\u2014uniformly. The challenge for galaxy formation theories is to show how this \u201cnot quite\u201d smooth distribution of matter developed the structures\u2014galaxies and galaxy clusters\u2014that we see today. It is likely that the filamentary distribution of galaxies and voids was built in near the beginning, before stars and galaxies began to form."
+        }
+    },
+    "29: The Big Bang": {
+        "29.1: The Age of the Universe": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/29%3A_The_Big_Bang/29.01%3A_The_Age_of_the_Universe",
+            "content": "Cosmology is the study of the organization and evolution of the universe. The universe is expanding, and this is one of the key observational starting points for modern cosmological theories. Modern observations show that the rate of expansion has not been constant throughout the life of the universe. Initially, when galaxies were close together, the effects of gravity were stronger than the effects of dark energy, and the expansion rate gradually slowed."
+        },
+        "29.2: A Model of the Universe": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/29%3A_The_Big_Bang/29.02%3A_A_Model_of_the_Universe",
+            "content": "A model that is isotropic and homogeneous (same everywhere) is a pretty good approximation of reality. The universe is expanding, which means that the universe undergoes a change in scale with time; space stretches and distances grow larger by the same factor everywhere at a given time. Observations show that the mass density of the universe is less than the critical density. In other words, there is not enough matter in the universe to stop the expansion."
+        },
+        "29.3: The Beginning of the Universe": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/29%3A_The_Big_Bang/29.03%3A_The_Beginning_of_the_Universe",
+            "content": "The universe cools as it expands. The energy of photons is determined by their temperature, and calculations show that in the hot, early universe, photons had so much energy that when they collided with one another, they could produce material particles. As the universe expanded and cooled, protons and neutrons formed first, then came electrons and positrons. Next, fusion reactions produced deuterium, helium, and lithium nuclei."
+        },
+        "29.4: The Cosmic Microwave Background": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/29%3A_The_Big_Bang/29.04%3A_The_Cosmic_Microwave_Background",
+            "content": "When the universe became cool enough to form neutral hydrogen atoms, the universe became transparent to radiation. Scientists have detected the cosmic microwave background (CMB) radiation from this time during the hot, early universe. Measurements with the COBE satellite show that the CMB acts like a blackbody with a temperature of 2.73 K. Tiny fluctuations in the CMB show us the seeds of large-scale structures in the universe."
+        },
+        "29.5: What Is the Universe Really Made Of?": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/29%3A_The_Big_Bang/29.05%3A_What_Is_the_Universe_Really_Made_Of",
+            "content": "Twenty-seven percent of the critical density of the universe is composed of dark matter. To explain so much dark matter, some physics theories predict that additional types of particles should exist. One type has been given the name of WIMPs (weakly interacting massive particles), and scientists are now conducting experiments to try to detect them in the laboratory. Dark matter plays an essential role in forming galaxies."
+        },
+        "29.6: The Inflationary Universe": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/29%3A_The_Big_Bang/29.06%3A_The_Inflationary_Universe",
+            "content": "The Big Bang model does not explain why the CMB has the same temperature in all directions. Neither does it explain why the density of the universe is so close to critical density. These observations can be explained if the universe experienced a period of rapid expansion, which scientists call inflation, about 10\u201335 second after the Big Bang. New grand unified theories (GUTs) are being developed to describe physical processes in the universe before and at the time that inflation occurred."
+        },
+        "29.7: The Anthropic Principle": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/29%3A_The_Big_Bang/29.07%3A_The_Anthropic_Principle",
+            "content": "Recently, many cosmologists have noted that the existence of humans depends on the fact that many properties of the universe\u2014the size of density fluctuations in the early universe, the strength of gravity, the structure of atoms\u2014were just right. The idea that physical laws must be the way they are because otherwise we could not be here to measure them is called the anthropic principle. Some scientists speculate that there may be a multiverse of universes, in which ours is just one."
+        }
+    },
+    "30: Life in the Universe": {
+        "30.1: The Cosmic Context for Life": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/30%3A_Life_in_the_Universe/30.01%3A_The_Cosmic_Context_for_Life",
+            "content": "Life on Earth is based on the presence of a key unit known as an organic molecule, a molecule that contains carbon, especially complex hydrocarbons. Our solar system formed about 5 billion years ago from a cloud of gas and dust enriched by several generations of heavier element production in stars. Life is made up of chemical combinations of these elements made by stars. The Copernican principle suggests that there is nothing special about our place in the universe."
+        },
+        "30.2: Astrobiology": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/30%3A_Life_in_the_Universe/30.02%3A_Astrobiology",
+            "content": "The study of life in the universe, including its origin, is called astrobiology. Life appears to have spread around our planet within 400 million years after the end of heavy bombardment, if not sooner. The actual origin of life\u2014the processes leading from chemistry to biology\u2014is not completely understood. Once life took hold, it evolved to use many energy sources, including first a range of different chemistries and later light, and diversified across a range of environmental conditions."
+        },
+        "30.3: Searching for Life beyond Earth": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/30%3A_Life_in_the_Universe/30.03%3A_Searching_for_Life_beyond_Earth",
+            "content": "The search for life beyond Earth offers several intriguing targets. Mars appears to have been more similar to Earth during its early history than it is now, with evidence for liquid water on its ancient surface and perhaps even now below ground. This offers the exciting potential to directly examine ancient and modern samples for evidence of life. Recent research on exoplanets leads us to believe that there may be billions of habitable planets in the Milky Way Galaxy."
+        },
+        "30.4: The Search for Extraterrestrial Intelligence": {
+            "link": "https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Astronomy_1e_(OpenStax)/30%3A_Life_in_the_Universe/30.04%3A_The_Search_for_Extraterrestrial_Intelligence",
+            "content": "Some astronomers are searching for extraterrestrial intelligent life (SETI). Because other planetary systems are so far away, traveling to the stars is either very slow or extremely expensive (in terms of energy required). Despite many UFO reports and tremendous media publicity, there is no evidence that any of these are related to extraterrestrial visits. If we do find a signal someday, deciding whether to answer and what to answer may be two of the greatest challenges humanity will face."
+        }
+    }
+}

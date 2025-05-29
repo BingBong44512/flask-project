@@ -1,0 +1,562 @@
+{
+    "1: An Invisible World": {
+        "1.1: What Our Ancestors Knew": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/01%3A_An_Invisible_World/1.01%3A_What_Our_Ancestors_Knew",
+            "content": "Microorganisms (or microbes) are living organisms that are generally too small to be seen without a microscope. Throughout history, humans have used microbes to make fermented foods such as beer, bread, cheese, and wine. Long before the invention of the microscope, some people theorized that infection and disease were spread by living things that were too small to be seen. They also correctly intuited certain principles regarding the spread of disease and immunity."
+        },
+        "1.2: A Systematic Approach": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/01%3A_An_Invisible_World/1.02%3A_A_Systematic_Approach",
+            "content": "Carolus Linnaeus developed a taxonomic system for categorizing organisms into related groups. Binomial nomenclature assigns organisms Latinized scientific names with a genus and species designation. A phylogenetic tree is a way of showing how different organisms are thought to be related to one another from an evolutionary standpoint. The first phylogenetic tree contained kingdoms for plants and animals; Ernst Haeckel proposed adding a kingdom for protists."
+        },
+        "1.3: Types of Microorganisms": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/01%3A_An_Invisible_World/1.03%3A_Types_of_Microorganisms",
+            "content": "Microorganisms are very diverse and are found in all three domains of life: Archaea, Bacteria, and Eukarya. Archaea and bacteria are classified as prokaryotes because they lack a cellular nucleus. Archaea differ from bacteria in evolutionary history, genetics, metabolic pathways, and cell wall and membrane composition. Archaea inhabit nearly every environment on earth, but no archaea have been identified as human pathogens."
+        }
+    },
+    "2: How We See the Invisible World": {
+        "2.1: The Properties of Light": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/02%3A_How_We_See_the_Invisible_World/2.01%3A_The_Properties_of_Light",
+            "content": "Visible light consists of electromagnetic waves that behave like other waves. Hence, many of the properties of light that are relevant to microscopy can be understood in terms of light\u2019s behavior as a wave. An important property of light waves is the wavelength, or the distance between one peak of a wave and the next peak. The height of each peak (or depth of each trough) is called the amplitude."
+        },
+        "2.2: Peering into the Invisible World": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/02%3A_How_We_See_the_Invisible_World/2.02%3A_Peering_into_the_Invisible_World",
+            "content": "Italian scholar Girolamo Fracastoro is regarded as the first person to formally postulate that disease was spread by tiny invisible seminaria. He proposed that these seeds could attach themselves to certain objects\u00a0 that supported their transfer from person to person. However, since the technology for seeing such tiny objects did not yet exist, the existence of the seminaria remained hypothetical for a little over a century\u2014an invisible world waiting to be revealed."
+        },
+        "2.3: Instruments of Microscopy": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/02%3A_How_We_See_the_Invisible_World/2.03%3A_Instruments_of_Microscopy",
+            "content": "The 20th century saw the development of microscopes that leveraged nonvisible light, such as fluorescence microscopy, which uses an ultraviolet light source, and electron microscopy, which uses short-wavelength electron beams. These advances led to major improvements in magnification, resolution, and contrast. In this section, we will survey the broad range of modern microscopic technology and common applications for each type of microscope."
+        },
+        "2.4: Staining Microscopic Specimens": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/02%3A_How_We_See_the_Invisible_World/2.04%3A_Staining_Microscopic_Specimens",
+            "content": "In their natural state, most of the cells and microorganisms that we observe under the microscope lack color and contrast. This makes it difficult, if not impossible, to detect important cellular structures and their distinguishing characteristics without artificially treating specimens. Here, we will focus on the most clinically relevant techniques developed to identify specific microbes, cellular structures, DNA sequences, or indicators of infection in tissue samples, under the microscope."
+        }
+    },
+    "3: The Cell": {
+        "3.1: Spontaneous Generation": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/03%3A_The_Cell/3.01%3A_Spontaneous_Generation",
+            "content": "The theory of spontaneous generation states that life arose from nonliving matter. It was a long-held belief dating back to Aristotle and the ancient Greeks.\u00a0 Experimentation by Francesco Redi in the 17th century presented the first significant evidence refuting spontaneous generation by showing that flies must have access to meat for maggots to develop on the meat. Louis Pasteur is credited with conclusively disproving the theory and proposed that \u201clife only comes from life.\u201d"
+        },
+        "3.2: Foundations of Modern Cell Theory": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/03%3A_The_Cell/3.02%3A_Foundations_of_Modern_Cell_Theory",
+            "content": "Although cells were first observed in the 1660s by Robert Hooke, cell theory was not well accepted for another 200 years. The work of scientists such as Schleiden, Schwann, Remak, and Virchow contributed to its acceptance. Endosymbiotic theory states that mitochondria and chloroplasts, organelles found in many types of organisms, have their origins in bacteria. Significant structural and genetic information support this theory. The miasma theory was widely accepted until the 19th century."
+        },
+        "3.3: Unique Characteristics of Prokaryotic Cells": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/03%3A_The_Cell/3.03%3A_Unique_Characteristics_of_Prokaryotic_Cells",
+            "content": "Prokaryotic cells differ from eukaryotic cells in that their genetic material is contained in a nucleoid rather than a membrane-bound nucleus. In addition, prokaryotic cells generally lack membrane-bound organelles. Prokaryotic cells of the same species typically share a similar cell morphology and cellular arrangement. Most prokaryotic cells have a cell wall that helps the organism maintain cellular morphology and protects it against changes in osmotic pressure."
+        },
+        "3.4: Unique Characteristics of Eukaryotic Cells": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/03%3A_The_Cell/3.04%3A_Unique_Characteristics_of_Eukaryotic_Cells",
+            "content": "Eukaryotic cells are defined by the presence of a nucleus containing the DNA genome and bound by a nuclear membrane (or nuclear envelope) composed of two lipid bilayers that regulate transport of materials into and out of the nucleus through nuclear pores. Eukaryotic cell morphologies vary greatly and may be maintained by various structures, including the cytoskeleton, the cell membrane, and/or the cell wall. The nucleolus in the nucleus of eukaryotic cells is the site of ribosomal synthesis."
+        }
+    },
+    "4: Prokaryotic Diversity": {
+        "4.1: Prokaryote Habitats, Relationships, and Microbiomes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/04%3A_Prokaryotic_Diversity/4.01%3A_Prokaryote_Habitats_Relationships_and_Microbiomes",
+            "content": "Prokaryotes are unicellular microorganisms whose cells have no nucleus. Prokaryotes can be found everywhere on our planet, even in the most extreme environments. Prokaryotes are very flexible metabolically, so they are able to adjust their feeding to the available natural resources. Prokaryotes live in communities that interact among themselves and with large organisms that they use as hosts (including humans)."
+        },
+        "4.2: Proteobacteria": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/04%3A_Prokaryotic_Diversity/4.02%3A_Proteobacteria",
+            "content": "Proteobacteria is a phylum of gram-negative bacteria and are classified into the classes alpha-, beta-, gamma-, delta- and epsilonproteobacteria, each class having separate orders, families, genera, and species. Alphaproteobacteria are oligotrophs. The taxa chlamydias and rickettsias are obligate intracellular pathogens, feeding on cells of host organisms; they are metabolically inactive outside of the host cell. Some Alphaproteobacteria can convert atmospheric nitrogen to nitrites."
+        },
+        "4.3: Nonproteobacteria Gram-negative Bacteria and Phototrophic Bacteria": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/04%3A_Prokaryotic_Diversity/4.03%3A_Nonproteobacteria_Gram-negative_Bacteria_and_Phototrophic_Bacteria",
+            "content": "Gram-negative nonproteobacteria include the taxa spirochetes; the Cytophaga, Fusobacterium, Bacteroides group; Planctomycetes; and many representatives of phototrophic bacteria. Spirochetes are motile, spiral bacteria with a long, narrow body; they are difficult or impossible to culture. Several genera of spirochetes contain human pathogens that cause such diseases as syphilis and Lyme disease. Cytophaga, Fusobacterium, and Bacteroides are classified together as a phylum called the CFB group."
+        },
+        "4.4: Gram-positive Bacteria": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/04%3A_Prokaryotic_Diversity/4.04%3A_Gram-positive_Bacteria",
+            "content": "Gram-positive bacteria are a very large and diverse group of microorganisms. Understanding their taxonomy and knowing their unique features is important for diagnostics and treatment of infectious diseases. Gram-positive bacteria are classified into high G+C gram-positive and low G+C gram-positive bacteria, based on the prevalence of guanine and cytosine nucleotides in their genome."
+        },
+        "4.5: Deeply Branching Bacteria": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/04%3A_Prokaryotic_Diversity/4.05%3A_Deeply_Branching_Bacteria",
+            "content": "Deeply branching bacteria are phylogenetically the most ancient forms of life, being the closest to the last universal common ancestor.\u00a0 Deeply branching bacteria include many species that thrive in extreme environments that are thought to resemble conditions on earth billions of years ago. Deeply branching bacteria are important for our understanding of evolution; some of them are used in industry"
+        },
+        "4.6: Archaea": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/04%3A_Prokaryotic_Diversity/4.06%3A_Archaea",
+            "content": "Archaea are unicellular, prokaryotic microorganisms that differ from bacteria in their genetics, biochemistry, and ecology. Some archaea are extremophiles, living in environments with extremely high or low temperatures, or extreme salinity. Only archaea are known to produce methane. Methane-producing archaea are called methanogens. Halophilic archaea prefer a concentration of salt close to saturation and perform photosynthesis using bacteriorhodopsin."
+        }
+    },
+    "5: The Eukaryotes of Microbiology": {
+        "5.1: Unicellular Eukaryotic Microorganisms": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/05%3A_The_Eukaryotes_of_Microbiology/5.01%3A_Unicellular_Eukaryotic_Microorganisms",
+            "content": "Protists are a diverse, polyphyletic group of eukaryotic organisms. Protists may be unicellular or multicellular. They vary in how they get their nutrition, morphology, method of locomotion, and mode of reproduction. Important structures of protists include contractile vacuoles, cilia, flagella, pellicles, and pseudopodia; some lack organelles such as mitochondria. Taxonomy of protists is changing rapidly as relationships are reassessed using newer techniques."
+        },
+        "5.2: Parasitic Helminths": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/05%3A_The_Eukaryotes_of_Microbiology/5.02%3A_Parasitic_Helminths",
+            "content": "Helminth parasites are included within the study of microbiology because they are often identified by looking for microscopic eggs and larvae. The two major groups of helminth parasites are the roundworms (Nematoda) and the flatworms (Platyhelminthes). Nematodes are common intestinal parasites often transmitted through undercooked foods, although they are also found in other environments. Platyhelminths include tapeworms and flukes, which are often transmitted through undercooked meat."
+        },
+        "5.3: Fungi": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/05%3A_The_Eukaryotes_of_Microbiology/5.03%3A_Fungi",
+            "content": "The fungi include diverse saprotrophic eukaryotic organisms with chitin cell walls. Fungi can be unicellular or multicellular; some (like yeast) and fungal spores are microscopic, whereas some are large and conspicuous. Reproductive types are important in distinguishing fungal groups. Medically important species exist in the four fungal groups Zygomycota, Ascomycota, Basidiomycota, and Microsporidia."
+        },
+        "5.4: Algae": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/05%3A_The_Eukaryotes_of_Microbiology/5.04%3A_Algae",
+            "content": "Algae are a diverse group of photosynthetic eukaryotic protists. Algae may be unicellular or multicellular. Large, multicellular algae are called seaweeds but are not plants and lack plant-like tissues and organs. Although algae have little pathogenicity, they may be associated with toxic algal blooms that can harm aquatic wildlife and contaminate seafood with toxins that cause paralysis."
+        },
+        "5.5: Lichens": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/05%3A_The_Eukaryotes_of_Microbiology/5.05%3A_Lichens",
+            "content": "Lichens are a symbiotic association between a fungus and an algae or a cyanobacterium. The symbiotic association found in lichens is currently considered to be a controlled parasitism, in which the fungus benefits and the algae or cyanobacterium is harmed. Lichens are slow growing and can live for centuries in a variety of habitats. Lichens are environmentally important, helping to create soil, providing food, and acting as indicators of air pollution."
+        }
+    },
+    "6: Acellular Pathogens": {
+        "6.1: Viruses": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/06%3A_Acellular_Pathogens/6.01%3A_Viruses",
+            "content": "Viruses are generally ultramicroscopic, typically from 20 nm to 900 nm in length. Some large viruses have been found. Virions are acellular and consist of a nucleic acid, DNA or RNA, but not both, surrounded by a protein capsid. There may also be a phospholipid membrane surrounding the capsid. Viruses are obligate intracellular parasites."
+        },
+        "6.2: The Viral Life Cycle": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/06%3A_Acellular_Pathogens/6.02%3A_The_Viral_Life_Cycle",
+            "content": "Many viruses target specific hosts or tissues. Some may have more than one host. Many viruses follow several stages to infect host cells. These stages include attachment, penetration, uncoating, biosynthesis, maturation, and release. Bacteriophages have a lytic or lysogenic cycle. The lytic cycle leads to the death of the host, whereas the lysogenic cycle leads to integration of phage into the host genome."
+        },
+        "6.3: Isolation, Culture, and Identification of Viruses": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/06%3A_Acellular_Pathogens/6.03%3A_Isolation_Culture_and_Identification_of_Viruses",
+            "content": "Viral cultivation requires the presence of some form of host cell (whole organism, embryo, or cell culture). Viruses can be isolated from samples by filtration. Viral filtrate is a rich source of released virions. Bacteriophages are detected by presence of clear plaques on bacterial lawn. Animal and plant viruses are detected by cytopathic effects, molecular techniques (PCR, RT-PCR), enzyme immunoassays, and serological assays (hemagglutination assay, hemagglutination inhibition assay)."
+        },
+        "6.4: Viroids, Virusoids, and Prions": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/06%3A_Acellular_Pathogens/6.04%3A_Viroids_Virusoids_and_Prions",
+            "content": "Other acellular agents such as viroids, virusoids, and prions also cause diseases. Viroids consist of small, naked ssRNAs that cause diseases in plants. Virusoids are ssRNAs that require other helper viruses to establish an infection. Prions are proteinaceous infectious particles that cause transmissible spongiform encephalopathies. Prions are extremely resistant to chemicals, heat, and radiation."
+        }
+    },
+    "7: Microbial Biochemistry": {
+        "7.1: Organic Molecules": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/07%3A_Microbial_Biochemistry/7.01%3A_Organic_Molecules",
+            "content": "Biochemistry is the discipline that studies the chemistry of life, and its objective is to explain form and function based on chemical principles. Organic chemistry is the discipline devoted to the study of carbon-based chemistry, which is the foundation for the study of biomolecules and the discipline of\u00a0biochemistry. Both biochemistry and\u00a0organic chemistry are based on the concepts of general chemistry."
+        },
+        "7.2: Carbohydrates": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/07%3A_Microbial_Biochemistry/7.02%3A_Carbohydrates",
+            "content": "The most abundant biomolecules on earth are carbohydrates. From a chemical viewpoint, carbohydrates are primarily a combination of carbon and water, and many of them have the empirical formula (CH\u2082O)\u2099, where n is the number of repeated units. This view represents these molecules simply as \u201chydrated\u201d carbon atom chains in which water molecules attach to each carbon atom, leading to the term \u201ccarbohydrates.\u201d"
+        },
+        "7.3: Lipids": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/07%3A_Microbial_Biochemistry/7.03%3A_Lipids",
+            "content": "Although they are composed primarily of carbon and hydrogen,\u00a0lipid\u00a0molecules may also contain oxygen, nitrogen, sulfur, and phosphorous. Lipids serve numerous and diverse purposes in the structure and functions of organisms. They can be a source of nutrients, a storage form for carbon, energy-storage molecules, or structural components of membranes and hormones. Lipids comprise a broad class of many chemically distinct compounds, the most common of which are discussed in this section."
+        },
+        "7.4: Proteins": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/07%3A_Microbial_Biochemistry/7.04%3A_Proteins",
+            "content": "Amino acids are capable of bonding together in essentially any number, yielding molecules of essentially any size that possess a wide array of physical and chemical properties and perform numerous functions vital to all organisms. The molecules derived from amino acids can function as structural components of cells and subcellular entities, as sources of nutrients, as atom- and energy-storage reservoirs, and as functional species such as hormones, enzymes, receptors, and transport molecules."
+        },
+        "7.5: Using Biochemistry to Identify Microorganisms": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/07%3A_Microbial_Biochemistry/7.05%3A_Using_Biochemistry_to_Identify_Microorganisms",
+            "content": "Accurate identification of bacteria is essential in a clinical laboratory for diagnostic and management of epidemics, pandemics, and food poisoning caused by bacterial outbreaks. In this section, we will discuss a few methods that use biochemical characteristics to identify microorganisms."
+        }
+    },
+    "8: Microbial Metabolism": {
+        "8.1: Energy, Matter, and Enzymes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/08%3A_Microbial_Metabolism/8.01%3A_Energy_Matter_and_Enzymes",
+            "content": "Cellular processes such as the building or breaking down of complex molecules occur through series of stepwise, interconnected chemical reactions called metabolic pathways. The term anabolism refers to those endergonic metabolic pathways involved in biosynthesis, converting simple molecular building blocks into more complex molecules, and fueled by the use of cellular energy."
+        },
+        "8.2: Catabolism of Carbohydrates": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/08%3A_Microbial_Metabolism/8.02%3A_Catabolism_of_Carbohydrates",
+            "content": "Glycolysis is the first step in the breakdown of glucose, resulting in the formation of ATP, which is produced by substrate-level phosphorylation; NADH; and two pyruvate molecules. Glycolysis does not use oxygen and is not oxygen dependent. After glycolysis, a three-carbon pyruvate is decarboxylated to form a two-carbon acetyl group, coupled with the formation of NADH. The acetyl group is attached to a large carrier compound called coenzyme A."
+        },
+        "8.3: Cellular Respiration": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/08%3A_Microbial_Metabolism/8.03%3A_Cellular_Respiration",
+            "content": "Cellular respiration begins when electrons are transferred from NADH and FADH\u2082\u2014through a series of chemical reactions to a final inorganic electron acceptor (either oxygen in aerobic respiration or non-oxygen inorganic molecules in anaerobic respiration). These electron transfers take place on the inner part of the cell membrane of prokaryotic cells or in specialized protein complexes in the inner membrane of the mitochondria of eukaryotic cells."
+        },
+        "8.4: Fermentation": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/08%3A_Microbial_Metabolism/8.04%3A_Fermentation",
+            "content": "Fermentation uses an organic molecule as a final electron acceptor to regenerate NAD\u207a from NADH so that glycolysis can continue. Fermentation does not involve an electron transport system, and no ATP is made by the fermentation process directly. Fermenters make very little ATP\u2014only two ATP molecules per glucose molecule during glycolysis. Microbial fermentation processes have been used for the production of foods and pharmaceuticals, and for the identification of microbes."
+        },
+        "8.5: Catabolism of Lipids and Proteins": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/08%3A_Microbial_Metabolism/8.05%3A_Catabolism_of_Lipids_and_Proteins",
+            "content": "Collectively, microbes have the ability to degrade a wide variety of carbon sources besides carbohydrates, including lipids and proteins. The catabolic pathways for all of these molecules eventually connect into glycolysis and the Krebs cycle. Several types of lipids can be microbially degraded. Triglycerides are degraded by extracellular lipases, releasing fatty acids from the glycerol backbone. Phospholipids are degraded by phospholipases, releasing fatty acids and phosphorylated head groups."
+        },
+        "8.6: Photosynthesis and the Importance of Light": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/08%3A_Microbial_Metabolism/8.06%3A_Photosynthesis_and_the_Importance_of_Light",
+            "content": "Heterotrophic organisms ranging from E. coli to humans rely on the chemical energy found mainly in carbohydrate molecules. Many of these carbohydrates are produced by photosynthesis, the biochemical process by which phototrophic organisms convert solar energy (sunlight) into chemical energy. Although photosynthesis is most commonly associated with plants, microbial photosynthesis is also a significant supplier of chemical energy, fueling many diverse ecosystems."
+        },
+        "8.7: Biogeochemical Cycles": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/08%3A_Microbial_Metabolism/8.07%3A_Biogeochemical_Cycles",
+            "content": "Energy flows directionally through ecosystems, entering as sunlight for phototrophs or as inorganic molecules for chemoautotrophs. The six most common elements associated with organic molecules\u2014carbon, hydrogen, nitrogen, oxygen, phosphorus, and sulfur\u2014take a variety of chemical forms and may exist for long periods in the atmosphere, on land, in water, or beneath earth\u2019s surface."
+        }
+    },
+    "9: Microbial Growth": {
+        "9.1: How Microbes Grow": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/09%3A_Microbial_Growth/9.01%3A_How_Microbes_Grow",
+            "content": "The bacterial cell cycle involves the formation of new cells through the replication of DNA and partitioning of cellular components into two daughter cells. In prokaryotes, reproduction is always asexual, although extensive genetic recombination in the form of horizontal gene transfer takes place, as will be explored in a different chapter. Most bacteria have a single circular chromosome; however, some exceptions exist."
+        },
+        "9.2: Oxygen Requirements for Microbial Growth": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/09%3A_Microbial_Growth/9.02%3A_Oxygen_Requirements_for_Microbial_Growth",
+            "content": "Ask most people \u201cWhat are the major requirements for life?\u201d and the answers are likely to include water and oxygen. Few would argue about the need for water, but what about oxygen? Can there be life without oxygen?  The answer is that molecular oxygen is not always needed. The earliest signs of life are dated to a period when conditions on earth were highly reducing and free oxygen gas was essentially nonexistent."
+        },
+        "9.3: The Effects of pH on Microbial Growth": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/09%3A_Microbial_Growth/9.03%3A_The_Effects_of_pH_on_Microbial_Growth",
+            "content": "Bacteria are generally neutrophiles. They grow best at neutral pH close to 7.0. Acidophiles grow optimally at a pH near 3.0. Alkaliphiles are organisms that grow optimally between a pH of 8 and 10.5. Extreme acidophiles and alkaliphiles grow slowly or not at all near neutral pH. Microorganisms grow best at their optimum growth pH. Growth occurs slowly or not at all below the minimum growth pH and above the maximum growth pH."
+        },
+        "9.4: Temperature and Microbial Growth": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/09%3A_Microbial_Growth/9.04%3A_Temperature_and_Microbial_Growth",
+            "content": "Microorganisms thrive at a wide range of temperatures; they have colonized different natural environments and have adapted to extreme temperatures. Both extreme cold and hot temperatures require evolutionary adjustments to macromolecules and biological processes. Psychrophiles grow best in the temperature range of 0\u201315 \u00b0C whereas psychrotrophs thrive between 4 \u00b0C and 25 \u00b0C. Mesophiles grow best at moderate temperatures in the range of 20 \u00b0C to about 45 \u00b0C. Pathogens are usually mesophiles."
+        },
+        "9.5: Other Environmental Conditions that Affect Growth": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/09%3A_Microbial_Growth/9.05%3A_Other_Environmental_Conditions_that_Affect_Growth",
+            "content": "Microorganisms interact with their environment along more dimensions than pH, temperature, and free oxygen levels, although these factors require significant adaptations. We also find microorganisms adapted to varying levels of salinity, barometric pressure, humidity, and light."
+        },
+        "9.6: Media Used for Bacterial Growth": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/09%3A_Microbial_Growth/9.06%3A_Media_Used_for_Bacterial_Growth",
+            "content": "The study of microorganisms is greatly facilitated if we are able to culture them, that is, to keep reproducing populations alive under laboratory conditions. Culturing many microorganisms is challenging because of highly specific nutritional and environmental requirements and the diversity of these requirements among different species."
+        }
+    },
+    "10: Biochemistry of the Genome": {
+        "10.1: Using Microbiology to Discover the Secrets of Life": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/10%3A_Biochemistry_of_the_Genome/10.01%3A_Using_Microbiology_to_Discover_the_Secrets_of_Life",
+            "content": "DNA was discovered and characterized long before its role in heredity was understood. Microbiologists played significant roles in demonstrating that DNA is the hereditary information found within cells. In the 1850s and 1860s, Gregor Mendel experimented with true-breeding garden peas to demonstrate the heritability of specific observable traits. In 1869, Friedrich Miescher isolated and purified a compound rich in phosphorus from the nuclei of white blood cells; he named the compound nuclein."
+        },
+        "10.2: Structure and Function of DNA": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/10%3A_Biochemistry_of_the_Genome/10.02%3A_Structure_and_Function_of_DNA",
+            "content": "Nucleic acids are composed of nucleotides, each of which contains a pentose sugar, a phosphate group, and a nitrogenous base. Deoxyribonucleotides within DNA contain deoxyribose as the pentose sugar. DNA contains the pyrimidines cytosine and thymine, and the purines adenine and guanine. Nucleotides are linked together by phosphodiester bonds between the 5\u02b9 phosphate group of one nucleotide and the 3\u02b9 hydroxyl group of another."
+        },
+        "10.3: Structure and Function of RNA": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/10%3A_Biochemistry_of_the_Genome/10.03%3A_Structure_and_Function_of_RNA",
+            "content": "Ribonucleic acid (RNA) is typically single stranded and contains ribose as its pentose sugar and the pyrimidine uracil instead of thymine. An RNA strand can undergo significant intramolecular base pairing to take on a three-dimensional structure. There are three main types of RNA, all involved in protein synthesis. Messenger RNA (mRNA) serves as the intermediary between DNA and the synthesis of protein products during translation."
+        },
+        "10.4: The Structure and Function of Cellular Genomes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/10%3A_Biochemistry_of_the_Genome/10.04%3A_The_Structure_and_Function_of_Cellular_Genomes",
+            "content": "The entire genetic content of a cell is its genome. Genes code for proteins, or stable RNA molecules, each of which carries out a specific function in the cell. Although the genotype that a cell possesses remains constant, expression of genes is dependent on environmental conditions. A phenotype is the observable characteristics of a cell (or organism) at a given point in time and results from the complement of genes currently being used."
+        }
+    },
+    "11: Mechanisms of Microbial Genetics": {
+        "11.1: What Are Genes?": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/11%3A_Mechanisms_of_Microbial_Genetics/11.01%3A_What_Are_Genes",
+            "content": "A gene is composed of DNA that is \u201cread\u201d or transcribed to produce an RNA molecule during the process of\u00a0transcription. One major type of RNA molecule, called\u00a0messenger RNA\u00a0(mRNA), provides the information for the\u00a0ribosome\u00a0to catalyze\u00a0protein synthesis\u00a0in a process called\u00a0translation. The processes of transcription and translation are collectively referred to as\u00a0gene expression."
+        },
+        "11.2: DNA Replication": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/11%3A_Mechanisms_of_Microbial_Genetics/11.02%3A_DNA_Replication",
+            "content": "The DNA replication process is semiconservative, which results in two DNA molecules, each having one parental strand of DNA and one newly synthesized strand. In bacteria, the initiation of replication occurs at the origin of replication, where supercoiled DNA is unwound by DNA gyrase, made single-stranded by helicase, and bound by single-stranded binding protein to maintain its single-stranded state."
+        },
+        "11.3: RNA Transcription": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/11%3A_Mechanisms_of_Microbial_Genetics/11.03%3A_RNA_Transcription",
+            "content": "During the process of transcription, the information encoded within the DNA sequence of one or more genes is transcribed into a strand of RNA, also called an RNA transcript. The resulting single-stranded RNA molecule, composed of ribonucleotides containing the bases adenine, cytosine, guanine, and uracil, acts as a mobile molecular copy of the original DNA sequence. Transcription in prokaryotes and in eukaryotes requires the DNA double helix to partially unwind in the region of RNA synthesis."
+        },
+        "11.4: Protein Synthesis (Translation)": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/11%3A_Mechanisms_of_Microbial_Genetics/11.04%3A_Protein_Synthesis_(Translation)",
+            "content": "The synthesis of proteins consumes more of a cell\u2019s energy than any other metabolic process. In turn, proteins account for more mass than any other macromolecule of living organisms. They perform virtually every function of a cell, serving as both functional (e.g., enzymes) and structural elements. The process of translation, or protein synthesis, the second part of gene expression, involves the decoding by a ribosome of an mRNA message into a polypeptide product."
+        },
+        "11.5: Mutations": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/11%3A_Mechanisms_of_Microbial_Genetics/11.05%3A_Mutations",
+            "content": "A mutation is a heritable change in the DNA sequence of an organism. The resulting organism, called a mutant, may have a recognizable change in phenotype compared to the wild type, which is the phenotype most commonly observed in nature. A change in the DNA sequence is conferred to mRNA through transcription, and may lead to an altered amino acid sequence in a protein on translation."
+        },
+        "11.6: How Asexual Prokaryotes Achieve Genetic Diversity": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/11%3A_Mechanisms_of_Microbial_Genetics/11.06%3A_How_Asexual_Prokaryotes_Achieve_Genetic_Diversity",
+            "content": "How do organisms whose dominant reproductive mode is asexual create genetic diversity? In prokaryotes, horizontal gene transfer (HGT), the introduction of genetic material from one organism to another organism within the same generation, is an important way to introduce genetic diversity. HGT allows even distantly related species to share genes, influencing their phenotypes."
+        },
+        "11.7: Gene Regulation - Operon Theory": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/11%3A_Mechanisms_of_Microbial_Genetics/11.07%3A_Gene_Regulation_-_Operon_Theory",
+            "content": "Genomic DNA contains both structural genes, which encode products that serve as cellular structures or enzymes, and regulatory genes, which encode products that regulate gene expression. The expression of a gene is a highly regulated process. Whereas regulating gene expression in multicellular organisms allows for cellular differentiation, in single-celled organisms like prokaryotes, it ensures that a cell\u2019s resources are not wasted making proteins that the cell does not need at that time."
+        }
+    },
+    "12: Modern Applications of Microbial Genetics": {
+        "12.1: Microbes and the Tools of Genetic Engineering": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/12%3A_Modern_Applications_of_Microbial_Genetics/12.01%3A_Microbes_and_the_Tools_of_Genetic_Engineering",
+            "content": "The science of using living systems to benefit humankind is called biotechnology. Technically speaking, the domestication of plants and animals through farming and breeding practices is a type of biotechnology. However, in a contemporary sense, we associate biotechnology with the direct alteration of an organism\u2019s genetics to achieve desirable traits through the process of genetic engineering."
+        },
+        "12.2: Visualizing and Characterizing DNA": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/12%3A_Modern_Applications_of_Microbial_Genetics/12.02%3A_Visualizing_and_Characterizing_DNA",
+            "content": "Finding a gene of interest within a sample requires the use of a single-stranded\u00a0DNA probe\u00a0labeled with a molecular beacon (typically radioactivity or fluorescence) that can hybridize with a complementary single-stranded nucleic acid in the sample. Agarose gel electrophoresis\u00a0allows for the separation of DNA molecules based on size. Restriction fragment length polymorphism\u00a0(RFLP)\u00a0analysis allows for the visualization by agarose gel electrophoresis of distinct variants of a DNA sequence."
+        },
+        "12.3: Whole Genome Methods and Industrial Applications": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/12%3A_Modern_Applications_of_Microbial_Genetics/12.03%3A_Whole_Genome_Methods_and_Industrial_Applications",
+            "content": "Advances in molecular biology have led to the creation of entirely new fields of science. Among these are fields that study aspects of whole genomes, collectively referred to as whole-genome methods. In this section, we\u2019ll provide a brief overview of the whole-genome fields of genomics, transcriptomics, and proteomics."
+        },
+        "12.4: Genetic Engineering - Risks, Benefits, and Perceptions": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/12%3A_Modern_Applications_of_Microbial_Genetics/12.04%3A_Genetic_Engineering_-_Risks_Benefits_and_Perceptions",
+            "content": "Many types of genetic engineering have yielded clear benefits with few apparent risks. However, many emerging applications of genetic engineering are much more controversial, often because their potential benefits are pitted against significant risks, real or perceived. This is certainly the case for gene therapy, a clinical application of genetic engineering that may one day provide a cure for many diseases but is still largely an experimental approach to treatment."
+        }
+    },
+    "13: Control of Microbial Growth": {
+        "13.1: Controlling Microbial Growth": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/13%3A_Control_of_Microbial_Growth/13.01%3A_Controlling_Microbial_Growth",
+            "content": "Inanimate items, such as doorknobs, toys, or towels, which may harbor microbes and aid in disease transmission, are called fomites. Two factors heavily influence the level of cleanliness required for a particular fomite and, hence, the protocol chosen to achieve this level. The first factor is the application for which the item will be used and the second factor is the level of resistance to antimicrobial treatment by potential pathogens."
+        },
+        "13.2: Using Physical Methods to Control Microorganisms": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/13%3A_Control_of_Microbial_Growth/13.02%3A_Using_Physical_Methods_to_Control_Microorganisms",
+            "content": "For thousands of years, humans have used various physical methods of microbial control for\u00a0food preservation. Common control methods include the application of high temperatures, radiation, filtration, and desiccation (drying), among others. Many of these methods nonspecifically kill cells by disrupting membranes, changing membrane permeability, or damaging proteins and nucleic acids by denaturation, degradation, or chemical modification."
+        },
+        "13.3: Using Chemicals to Control Microorganisms": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/13%3A_Control_of_Microbial_Growth/13.03%3A_Using_Chemicals_to_Control_Microorganisms",
+            "content": "In addition to physical methods of microbial control, chemicals are also used to control microbial growth. A wide variety of chemicals can be used as disinfectants or antiseptics. This section describes the variety of chemicals used as disinfectants and antiseptics, including their mechanisms of action and common uses."
+        },
+        "13.4: Testing the Effectiveness of Antiseptics and Disinfectants": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/13%3A_Control_of_Microbial_Growth/13.04%3A_Testing_the_Effectiveness_of_Antiseptics_and_Disinfectants",
+            "content": "Several environmental conditions influence the potency of an antimicrobial agent and its effectiveness. For example, length of exposure is particularly important, with longer exposure increasing efficacy. Similarly, the concentration of the chemical agent is also important, with higher concentrations being more effective than lower ones. Temperature, pH, and other factors can also affect the potency of a disinfecting agent."
+        }
+    },
+    "14: Antimicrobial Drugs": {
+        "14.1: Discovering Antimicrobial Drugs": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/14%3A_Antimicrobial_Drugs/14.01%3A_Discovering_Antimicrobial_Drugs",
+            "content": "Antimicrobial drugs produced by purposeful fermentation and/or contained in plants have been used as traditional medicines in many cultures for millennia. The purposeful and systematic search for a chemical \u201cmagic bullet\u201d that specifically target infectious microbes was initiated by Paul Ehrlich in the early 20th century. The discovery of the natural antibiotic, penicillin, by Alexander Fleming in 1928 started the modern age of antimicrobial discovery and research."
+        },
+        "14.2: Antibacterial Drugs": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/14%3A_Antimicrobial_Drugs/14.02%3A_Antibacterial_Drugs",
+            "content": "Antimicrobial drugs can be\u00a0bacteriostatic\u00a0or\u00a0bactericidal, and these characteristics are important considerations when selecting the most appropriate drug. The use of\u00a0narrow-spectrum\u00a0antimicrobial drugs is preferred in many cases to avoid\u00a0superinfection\u00a0and the development of antimicrobial resistance. Broad-spectrum\u00a0antimicrobial use is warranted for serious systemic infections when there is no time to determine the causative agent or when narrow-spectrum antimicrobials fail."
+        },
+        "14.3: Drugs Targeting Other Microorganisms": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/14%3A_Antimicrobial_Drugs/14.03%3A_Drugs_Targeting_Other_Microorganisms",
+            "content": "Antibacterial compounds exhibit\u00a0selective toxicity, largely due to differences between prokaryotic and eukaryotic cell structure. Cell wall synthesis inhibitors, including the\u00a0\u03b2-lactams, the\u00a0glycopeptides, and\u00a0bacitracin, interfere with peptidoglycan synthesis, making bacterial cells more prone to osmotic lysis. There are a variety of broad-spectrum, bacterial protein synthesis inhibitors that selectively target the prokaryotic 70S ribosome, including those that bind to the 30S and 50S subunits."
+        },
+        "14.4: Clinical Considerations": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/14%3A_Antimicrobial_Drugs/14.04%3A_Clinical_Considerations",
+            "content": "Because fungi, protozoans, and helminths are eukaryotic organisms like human cells, it is more challenging to develop antimicrobial drugs that specifically target them. Similarly, it is hard to target viruses because human viruses replicate inside of human cells."
+        },
+        "14.5: Testing the Effectiveness of Antimicrobials": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/14%3A_Antimicrobial_Drugs/14.05%3A_Testing_the_Effectiveness_of_Antimicrobials",
+            "content": "Antimicrobial resistance\u00a0is on the rise and is the result of selection of drug-resistant strains in clinical environments, the overuse and misuse of antibacterials, the use of subtherapeutic doses of antibacterial drugs, and poor patient compliance with antibacterial drug therapies. Drug resistance genes are often carried on plasmids or in transposons that can undergo vertical transfer easily and between microbes through horizontal gene transfer."
+        },
+        "14.6: The Emergence of Drug Resistance": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/14%3A_Antimicrobial_Drugs/14.06%3A_The_Emergence_of_Drug_Resistance",
+            "content": "The Kirby-Bauer disk diffusion test helps determine the susceptibility of a microorganism to various antimicrobial drugs. However, the zones of inhibition measured must be correlated to known standards to determine susceptibility and resistance, and do not provide information on bactericidal versus bacteriostatic activity, or allow for direct comparison of drug potencies. Antibiograms are useful for monitoring local trends in antimicrobial resistance/susceptibility."
+        },
+        "14.7: Current Strategies for Antimicrobial Discovery": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/14%3A_Antimicrobial_Drugs/14.07%3A_Current_Strategies_for_Antimicrobial_Discovery",
+            "content": "With the continued evolution and spread of antimicrobial resistance, and now the identification of pan-resistant bacterial pathogens, the search for new antimicrobials is essential for preventing the postantibiotic era."
+        }
+    },
+    "15: Microbial Mechanisms of Pathogenicity": {
+        "15.1: Characteristics of Infectious Diseases": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/15%3A_Microbial_Mechanisms_of_Pathogenicity/15.01%3A_Characteristics_of_Infectious_Diseases",
+            "content": "In an infection, a microorganism enters a host and begins to multiply. Some infections cause disease, which is any deviation from the normal function or structure of the host. Signs of a disease are objective and are measured. Symptoms of a disease are subjective and are reported by the patient. Diseases can either be noninfectious (due to genetics and environment) or infectious (due to pathogens)."
+        },
+        "15.2: How Pathogens Cause Disease": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/15%3A_Microbial_Mechanisms_of_Pathogenicity/15.02%3A_How_Pathogens_Cause_Disease",
+            "content": "Koch\u2019s postulates are used to determine whether a particular microorganism is a pathogen. Molecular Koch\u2019s postulates are used to determine what genes contribute to a pathogen\u2019s ability to cause disease. Virulence, the degree to which a pathogen can cause disease, can be quantified by calculating either the ID50 or LD50 of a pathogen on a given population. Primary pathogens are capable of causing pathological changes associated with disease in a healthy individual."
+        },
+        "15.3: Virulence Factors": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/15%3A_Microbial_Mechanisms_of_Pathogenicity/15.03%3A_Virulence_Factors",
+            "content": "Virulence factors contribute to a pathogen\u2019s ability to cause disease. Exoenzymes and toxins allow pathogens to invade host tissue and cause tissue damage. Exoenzymes are classified according to the macromolecule they target and exotoxins are classified based on their mechanism of action. Bacterial toxins include endotoxin and exotoxins. Endotoxin is the lipid A component of the LPS of the gram-negative cell envelope. Exotoxins are proteins secreted mainly by gram-positive bacteria."
+        },
+        "15.4: Aseptic Techniques": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/15%3A_Microbial_Mechanisms_of_Pathogenicity/15.04%3A_Aseptic_Techniques",
+            "content": "Fungal and parasitic pathogens use pathogenic mechanisms and virulence factors that are similar to those of bacterial pathogens. Fungi initiate infections through the interaction of adhesins with receptors on host cells. Some fungi produce toxins and exoenzymes involved in disease production and capsules that provide protection of phagocytosis. Protozoa adhere to target cells through complex mechanisms and can cause cellular damage through release of cytopathic substances."
+        }
+    },
+    "16: Disease and Epidemiology": {
+        "16.1: The Language of Epidemiologists": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/16%3A_Disease_and_Epidemiology/16.01%3A_The_Language_of_Epidemiologists",
+            "content": "The field of\u00a0epidemiology\u00a0concerns the geographical distribution and timing of infectious disease occurrences and how they are transmitted and maintained in nature, with the goal of recognizing and controlling outbreaks. The science of epidemiology includes\u00a0etiology\u00a0(the study of the causes of disease) and investigation of disease transmission (mechanisms by which a disease is spread)."
+        },
+        "16.2: Tracking Infectious Diseases": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/16%3A_Disease_and_Epidemiology/16.02%3A_Tracking_Infectious_Diseases",
+            "content": "Some important researchers, such as Florence Nightingale, subscribed to the miasma hypothesis. The transition to acceptance of the germ theory during the 19th century provided a solid mechanistic grounding to the study of disease patterns. The studies of 19th century physicians and researchers such as John Snow, Florence Nightingale, Ignaz Semmelweis, Joseph Lister, Robert Koch, Louis Pasteur, and others sowed the seeds of modern epidemiology."
+        },
+        "16.3: How Diseases Spread": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/16%3A_Disease_and_Epidemiology/16.03%3A_How_Diseases_Spread",
+            "content": "Pathogens often have elaborate adaptations to exploit host biology, behavior, and ecology to live in and move between hosts. Hosts have evolved defenses against pathogens, but because their rates of evolution are typically slower than their pathogens (because their generation times are longer), hosts are usually at an evolutionary disadvantage. This section will explore where pathogens survive\u2014both inside and outside hosts\u2014and some of the many ways they move from one host to another."
+        },
+        "16.4: Global Public Health": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/16%3A_Disease_and_Epidemiology/16.04%3A_Global_Public_Health",
+            "content": "A large number of international programs and agencies are involved in efforts to promote global public health. Among their goals are developing infrastructure in health care, public sanitation, and public health capacity; monitoring infectious disease occurrences around the world; coordinating communications between national public health agencies in various countries; and coordinating international responses to major health crises."
+        }
+    },
+    "17: Innate Nonspecific Host Defenses": {
+        "17.1: Physical Defenses": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/17%3A_Innate_Nonspecific_Host_Defenses/17.01%3A_Physical_Defenses",
+            "content": "Nonspecific innate immunity provides a first line of defense against infection by nonspecifically blocking entry of microbes and targeting them for destruction or removal from the body. The physical defenses of innate immunity include physical barriers, mechanical actions that remove microbes and debris, and the microbiome, which competes with and inhibits the growth of pathogens. The skin, mucous membranes, and endothelia throughout the body serve as physical barriers."
+        },
+        "17.2: Chemical Defenses": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/17%3A_Innate_Nonspecific_Host_Defenses/17.02%3A_Chemical_Defenses",
+            "content": "Numerous chemical mediators produced endogenously and exogenously exhibit nonspecific antimicrobial functions. Many chemical mediators are found in body fluids such as sebum, saliva, mucus, gastric and intestinal fluids, urine, tears, cerumen, and vaginal secretions. Antimicrobial peptides (AMPs) found on the skin and in other areas of the body are largely produced in response to the presence of pathogens. These include dermcidin, cathelicidin, defensins, histatins, and bacteriocins."
+        },
+        "17.3: Cellular Defenses": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/17%3A_Innate_Nonspecific_Host_Defenses/17.03%3A_Cellular_Defenses",
+            "content": "The formed elements of the blood include red blood cells (erythrocytes), white blood cells (leukocytes), and platelets (thrombocytes). Of these, leukocytes are primarily involved in the immune response. All formed elements originate in the bone marrow as stem cells (HSCs) that differentiate through hematopoiesis. Granulocytes are leukocytes characterized by a lobed nucleus and granules in the cytoplasm. These include neutrophils (PMNs), eosinophils, and basophils."
+        },
+        "17.4: Pathogen Recognition and Phagocytosis": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/17%3A_Innate_Nonspecific_Host_Defenses/17.04%3A_Pathogen_Recognition_and_Phagocytosis",
+            "content": "Phagocytes are cells that recognize pathogens and destroy them through phagocytosis. Recognition often takes place by the use of phagocyte receptors that bind molecules commonly found on pathogens, known as pathogen-associated molecular patterns (PAMPs). The receptors that bind PAMPs are called pattern recognition receptors, or PRRs. Toll-like receptors (TLRs) are one type of PRR found on phagocytes."
+        },
+        "17.5: Inflammation and Fever": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/17%3A_Innate_Nonspecific_Host_Defenses/17.05%3A_Inflammation_and_Fever",
+            "content": "Inflammation results from the collective response of chemical mediators and cellular defenses to an injury or infection. Acute inflammation is short lived and localized to the site of injury or infection. Chronic inflammation occurs when the inflammatory response is unsuccessful, and may result in the formation of granulomas (e.g., with tuberculosis) and scarring (e.g., with hepatitis C viral infections and liver cirrhosis)."
+        }
+    },
+    "18: Specific Adaptive Host Defenses": {
+        "18.1: Architecture of the Immune System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/18%3A_Specific_Adaptive_Host_Defenses/18.01%3A_Architecture_of_the_Immune_System",
+            "content": "Adaptive immunity is defined by two important characteristics: specificity and memory. Specificity refers to the adaptive immune system\u2019s ability to target specific pathogens, and memory refers to its ability to quickly respond to pathogens to which it has previously been exposed. For example, when an individual recovers from chickenpox, the body develops a memory of the infection that will specifically protect it from the causative agent if it is exposed to the virus again later."
+        },
+        "18.2: Antigens, Antigen Presenting Cells, and Major Histocompatibility Complexes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/18%3A_Specific_Adaptive_Host_Defenses/18.02%3A_Antigens_Antigen_Presenting_Cells_and_Major_Histocompatibility_Complexes",
+            "content": "Major histocompatibility complex (MHC) molecules are expressed on the surface of healthy cells, identifying them as normal and \u201cself\u201d to natural killer (NK) cells. MHC molecules also play an important role in the presentation of foreign antigens, which is a critical step in the activation of T cells and thus an important mechanism of the adaptive immune system."
+        },
+        "18.3: T Lymphocytes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/18%3A_Specific_Adaptive_Host_Defenses/18.03%3A_T_Lymphocytes",
+            "content": "The antibodies involved in humoral immunity often bind pathogens and toxins before they can attach to and invade host cells. Thus, humoral immunity is primarily concerned with fighting pathogens in extracellular spaces. However, pathogens that have already gained entry to host cells are largely protected from the humoral antibody-mediated defenses. Cellular immunity, on the other hand, targets and eliminates intracellular pathogens through the actions of T lymphocytes, or T cells."
+        },
+        "18.4: B Lymphocytes and Antibodies": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/18%3A_Specific_Adaptive_Host_Defenses/18.04%3A_B_Lymphocytes_and_Antibodies",
+            "content": "Humoral immunity refers to mechanisms of the adaptive immune defenses that are mediated by antibodies secreted by B lymphocytes, or B cells. This section will focus on B cells and discuss their production and maturation, receptors, and mechanisms of activation."
+        },
+        "18.5: Vaccines": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/18%3A_Specific_Adaptive_Host_Defenses/18.05%3A_Vaccines",
+            "content": "By artificially stimulating the adaptive immune defenses, a vaccine triggers memory cell production similar to that which would occur during a primary response. In so doing, the patient is able to mount a strong secondary response upon exposure to the pathogen\u2014but without having to first suffer through an initial infection. In this section, we will explore several different kinds of artificial immunity along with various types of vaccines and their mechanisms for inducing artificial immunity."
+        }
+    },
+    "19: Diseases of the Immune System": {
+        "19.1: Hypersensitivities": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/19%3A_Diseases_of_the_Immune_System/19.01%3A_Hypersensitivities",
+            "content": "An allergy is an adaptive immune response, sometimes life-threatening, to an allergen. Hypersensitivity reactions are classified by their immune mechanism."
+        },
+        "19.2: Autoimmune Disorders": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/19%3A_Diseases_of_the_Immune_System/19.02%3A_Autoimmune_Disorders",
+            "content": "Autoimmune diseases result from a breakdown in immunological tolerance. The actual induction event(s) for autoimmune states are largely unknown. Some autoimmune diseases attack specific organs, whereas others are more systemic. Organ-specific autoimmune diseases include celiac disease, Graves disease, Hashimoto thyroiditis, type I diabetes mellitus, and Addison disease."
+        },
+        "19.3: Organ Transplantation and Rejection": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/19%3A_Diseases_of_the_Immune_System/19.03%3A_Organ_Transplantation_and_Rejection",
+            "content": "Grafts and transplants can be classified as autografts, isografts, allografts, or xenografts based on the genetic differences between the donor\u2019s and recipient\u2019s tissues. Genetic differences, especially among the MHC (HLA) genes, will dictate the likelihood that rejection of the transplanted tissue will occur. Transplant recipients usually require immunosuppressive therapy to avoid rejection, even with good genetic matching."
+        },
+        "19.4: Immunodeficiency": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/19%3A_Diseases_of_the_Immune_System/19.04%3A_Immunodeficiency",
+            "content": "Primary immunodeficiencies are caused by genetic abnormalities; secondary immunodeficiencies are acquired through disease, diet, or environmental exposures. Primary immunodeficiencies may result from flaws in phagocyte killing of innate immunity, or impairment of T cells and B cells. Primary immunodeficiencies include chronic granulomatous disease, X-linked agammaglobulinemia, selective IgA deficiency, and severe combined immunodeficiency disease."
+        },
+        "19.5: Cancer Immunobiology and Immunotherapy": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/19%3A_Diseases_of_the_Immune_System/19.05%3A_Cancer_Immunobiology_and_Immunotherapy",
+            "content": "When control of the cell cycle is lost, the affected cells rapidly divide and often lose the ability to differentiate into the cell type appropriate for their location in the body. In addition, they lose\u00a0contact inhibition\u00a0and can start to grow on top of each other. This can result in formation of a\u00a0tumor. It is important to make a distinction here: The term \u201ccancer\u201d is used to describe the diseases resulting from loss of cell-cycle regulation and subsequent cell proliferation."
+        }
+    },
+    "20: Laboratory Analysis of the Immune Response": {
+        "20.1: Practical Applications of Monoclonal and Polyclonal Antibodies": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/20%3A_Laboratory_Analysis_of_the_Immune_Response/20.01%3A_Practical_Applications_of_Monoclonal_and_Polyclonal_Antibodies",
+            "content": "In addition to being crucial for our normal immune response, antibodies provide powerful tools for research and diagnostic purposes. The high specificity of antibodies makes them an excellent tool for detecting and quantifying a broad array of targets, from drugs to serum proteins to microorganisms. With in vitro assays, antibodies can be used to precipitate soluble antigens, agglutinate cells, and neutralize drugs, toxins, and viruses."
+        },
+        "20.2: Detecting Antigen-Antibody Complexes in vitro": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/20%3A_Laboratory_Analysis_of_the_Immune_Response/20.02%3A_Detecting_Antigen-Antibody_Complexes_in_vitro",
+            "content": "Laboratory tests to detect antibodies and antigens outside of the body (e.g., in a test tube) are called in vitro assays. When both antibodies and their corresponding antigens are present in a solution, we can often observe a precipitation reaction in which large complexes (lattices) form and settle out of solution. In the next several sections, we will discuss several common in vitro assays."
+        },
+        "20.3: Agglutination Assays": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/20%3A_Laboratory_Analysis_of_the_Immune_Response/20.03%3A_Agglutination_Assays",
+            "content": "In addition to causing precipitation of soluble molecules and flocculation of molecules in suspension, antibodies can also clump together cells or particles (e.g., antigen-coated latex beads) in a process called agglutination. Agglutination can be used as an indicator of the presence of antibodies against bacteria or red blood cells. Agglutination assays are usually quick and easy to perform on a glass slide or microtiter plate."
+        },
+        "20.4: Enzyme Immunoassays (EIA) and Enzyme-Linked Immunosorbent Assays (ELISA)": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/20%3A_Laboratory_Analysis_of_the_Immune_Response/20.04%3A_Enzyme_Immunoassays_(EIA)_and_Enzyme-Linked_Immunosorbent_Assays_(ELISA)",
+            "content": "Enzyme immunoassays (EIA) are used to visualize and quantify antigens. They use an antibody conjugated to an enzyme to bind the antigen, and the enzyme converts a substrate into an observable end product. The substrate may be either a chromogen or a fluorogen. Immunostaining is an EIA technique for visualizing cells in a tissue (immunohistochemistry) or examining intracellular structures (immunocytochemistry). Direct ELISA is used to quantify an antigen in solution."
+        },
+        "20.5: Fluorescent Auto-Antibody Techniques": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/20%3A_Laboratory_Analysis_of_the_Immune_Response/20.05%3A_Fluorescent_Auto-Antibody_Techniques",
+            "content": "Rapid visualization of bacteria from a clinical sample such as a throat swab or sputum can be achieved through fluorescent antibody (FA) techniques that attach a fluorescent marker (fluorogen) to the constant region of an antibody, resulting in a reporter molecule that is quick to use, easy to see or measure, and able to bind to target markers with high specificity. We can also label cells, allowing us to precisely quantify particular subsets of cells or even purify them for further research."
+        }
+    },
+    "21: Skin and Eye Infections": {
+        "21.1: Anatomy and Normal Microbiota of the Skin and Eyes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/21%3A_Skin_and_Eye_Infections/21.01%3A_Anatomy_and_Normal_Microbiota_of_the_Skin_and_Eyes",
+            "content": "Human skin consists of two main layers, the\u00a0epidermis\u00a0and\u00a0dermis, which are situated on top of the\u00a0hypodermis, a layer of connective tissue. The skin is an effective physical barrier against microbial invasion. The skin\u2019s relatively dry environment and normal microbiota discourage colonization by transient microbes. The skin\u2019s normal microbiota varies from one region of the body to another. The\u00a0conjunctiva\u00a0of the eye is a frequent site for microbial infection; deeper infections are less common."
+        },
+        "21.2: Bacterial Infections of the Skin and Eyes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/21%3A_Skin_and_Eye_Infections/21.02%3A_Bacterial_Infections_of_the_Skin_and_Eyes",
+            "content": "Staphylococcus and Streptococcus cause many different types of skin infections, many of which occur when bacteria breach the skin barrier through a cut or wound. S. aureus are frequently associated with purulent skin infections that manifest as folliculitis, furuncles, or carbuncles. S. aureus is also a leading cause of staphylococcal scalded skin syndrome (SSSS). S. aureus is generally drug resistant and current MRSA strains are resistant to a wide range of antibiotics."
+        },
+        "21.3: Viral Infections of the Skin and Eyes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/21%3A_Skin_and_Eye_Infections/21.03%3A_Viral_Infections_of_the_Skin_and_Eyes",
+            "content": "Papillomas (warts) are caused by human papillomaviruses. Herpes simplex virus (especially HSV-1) mainly causes oral herpes, but lesions can appear on other areas of the skin and mucous membranes. Roseola and fifth disease are common viral illnesses that cause skin rashes; roseola is caused by HHV-6 and HHV-7 while fifth disease is caused by parvovirus 19. Viral conjunctivitis is often caused by adenoviruses and may be associated with the common cold. Herpes keratitis is caused by herpesviruses."
+        },
+        "21.4: Mycoses of the Skin and Eyes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/21%3A_Skin_and_Eye_Infections/21.04%3A_Mycoses_of_the_Skin_and_Eyes",
+            "content": "Mycoses can be cutaneous, subcutaneous, or systemic. Common cutaneous mycoses include tineas caused by dermatophytes of the genera Trichophyton, Epidermophyton, and Microsporum. Tinea corporis is called ringworm. Tineas on other parts of the body have names associated with the affected body part. Aspergillosis is a fungal disease caused by molds of the genus Aspergillus. Primary cutaneous aspergillosis enters through a break in the skin, such as the site of an injury or a surgical wound."
+        },
+        "21.5: Protozoan and Helminthic Infections of the Eyes": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/21%3A_Skin_and_Eye_Infections/21.05%3A_Protozoan_and_Helminthic_Infections_of_the_Eyes",
+            "content": "The protozoan Acanthamoeba and the helminth Loa loa are two parasites that can breach the skin barrier, causing infections of the skin and eyes. Acanthamoeba keratitis is a parasitic infection of the eye that often results from improper disinfection of contact lenses or swimming while wearing contact lenses. Loiasis, or eye worm, is a disease endemic to Africa that is caused by parasitic worms that infect the subcutaneous tissue of the skin and eyes. It is transmitted by deerfly vectors."
+        }
+    },
+    "22: Respiratory System Infections": {
+        "22.1: Anatomy and Normal Microbiota of the Respiratory Tract": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/22%3A_Respiratory_System_Infections/22.01%3A_Anatomy_and_Normal_Microbiota_of_the_Respiratory_Tract",
+            "content": "The upper respiratory tract is colonized by an extensive and diverse normal microbiota, many of which are potential pathogens. Few microbial inhabitants have been found in the lower respiratory tract, and these may be transients. Members of the normal microbiota may cause opportunistic infections, using a variety of strategies to overcome the innate nonspecific defenses (including the mucociliary escalator) and adaptive specific defenses of the respiratory system."
+        },
+        "22.2: Bacterial Infections of the Respiratory Tract": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/22%3A_Respiratory_System_Infections/22.02%3A_Bacterial_Infections_of_the_Respiratory_Tract",
+            "content": "The respiratory tract can be infected by a variety of bacteria, both gram positive and gram negative. Although the diseases that they cause may range from mild to severe, in most cases, the microbes remain localized within the respiratory system. Fortunately, most of these infections also respond well to antibiotic therapy."
+        },
+        "22.3: Viral Infections of the Respiratory Tract": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/22%3A_Respiratory_System_Infections/22.03%3A_Viral_Infections_of_the_Respiratory_Tract",
+            "content": "Viruses cause respiratory tract infections more frequently than bacteria, and most viral infections lead to mild symptoms. The\u00a0common cold\u00a0can be caused by more than 200 viruses, typically rhinoviruses, coronaviruses, and adenoviruses, transmitted by direct contact, aerosols, or environmental surfaces. Due to its ability to rapidly mutate through\u00a0antigenic drift\u00a0and\u00a0antigenic shift,\u00a0influenza\u00a0remains an important threat to human health. Two new influenza vaccines are developed annually."
+        },
+        "22.4: Respiratory Mycoses": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/22%3A_Respiratory_System_Infections/22.04%3A_Respiratory_Mycoses",
+            "content": "Fungal pathogens are ubiquitous in the environment. Serological studies have demonstrated that most people have been exposed to fungal respiratory pathogens during their lives. Yet symptomatic infections by these microbes are rare in healthy individuals. This demonstrates the efficacy of the defenses of our respiratory system. In this section, we will examine some of the fungi that can cause respiratory infections."
+        }
+    },
+    "23: Urogenital System Infections": {
+        "23.1: Anatomy and Normal Microbiota of the Urogenital Tract": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/23%3A_Urogenital_System_Infections/23.01%3A_Anatomy_and_Normal_Microbiota_of_the_Urogenital_Tract",
+            "content": "The urinary system is responsible for filtering the blood, excreting wastes, and helping to regulate electrolyte and water balance. The urinary system includes the\u00a0kidneys, ureters,\u00a0urinary bladder, and\u00a0urethra; the bladder and urethra are the most common sites of infection. Common sites of infection in the male reproductive system include the urethra, as well as the testes,\u00a0prostate and\u00a0epididymis. The common sites of infection in females are the\u00a0vulva, vagina,\u00a0cervix,\u00a0and\u00a0fallopian tubes."
+        },
+        "23.2: Bacterial Infections of the Urinary System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/23%3A_Urogenital_System_Infections/23.02%3A_Bacterial_Infections_of_the_Urinary_System",
+            "content": "Urinary tract infections (UTIs) include infections of the urethra, bladder, and kidneys, and are common causes of urethritis, cystitis, pyelonephritis, and glomerulonephritis. Bacteria are the most common causes of UTIs, especially in the urethra and bladder. Bacterial cystitis is commonly caused by fecal bacteria such as E. coli. Pyelonephritis is a serious kidney infection that is often caused by bacteria that travel from infections elsewhere in the urinary tract."
+        },
+        "23.3: Bacterial Infections of the Reproductive System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/23%3A_Urogenital_System_Infections/23.03%3A_Bacterial_Infections_of_the_Reproductive_System",
+            "content": "In addition to infections of the urinary tract, bacteria commonly infect the reproductive tract. As with the urinary tract, parts of the reproductive system closest to the external environment are the most likely sites of infection. Often, the same microbes are capable of causing urinary tract and reproductive tract infections. Bacterial vaginosis, Chlamydia, Gonorrhea, and Chancroid are diseases caused by bacteria."
+        },
+        "23.4: Viral Infections of the Reproductive System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/23%3A_Urogenital_System_Infections/23.04%3A_Viral_Infections_of_the_Reproductive_System",
+            "content": "Genital herpes\u00a0is usually caused by\u00a0HSV-2\u00a0(although HSV-1 can also be responsible) and may cause the development of infectious, potentially recurrent vesicles. Neonatal herpes\u00a0can occur in babies born to infected mothers and can cause symptoms that range from relatively mild (more common) to severe. Human papillomaviruses\u00a0are the most common sexually transmitted viruses and include strains that cause\u00a0genital warts\u00a0as well as strains that cause\u00a0cervical cancer."
+        },
+        "23.5: Fungal Infections of the Reproductive System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/23%3A_Urogenital_System_Infections/23.05%3A_Fungal_Infections_of_the_Reproductive_System",
+            "content": "Candida spp. are typically present in the normal microbiota in the body, including the skin, respiratory tract, gastrointestinal tract, and female urogenital system. Disruptions in the normal vaginal microbiota can lead to an overgrowth of Candida, causing vaginal candidiasis. Vaginal candidiasis can be treated with topical or oral fungicides. Prevention is difficult."
+        },
+        "23.6: Protozoan Infections of the Reproductive System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/23%3A_Urogenital_System_Infections/23.06%3A_Protozoan_Infections_of_the_Reproductive_System",
+            "content": "Trichomoniasis is a common STI caused by Trichomonas vaginalis. T. vaginalis is common at low levels in the normal microbiota. Trichomoniasis is often asymptomatic. When symptoms develop, trichomoniasis causes urinary discomfort, irritation, itching, burning, discharge from the penis (in men), and vaginal discharge (in women). Trichomoniasis is treated with the antiflagellate drugs tinidazole and metronidazole."
+        }
+    },
+    "24: Digestive System Infections": {
+        "24.1: Anatomy and Normal Microbiota of the Digestive System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/24%3A_Digestive_System_Infections/24.01%3A_Anatomy_and_Normal_Microbiota_of_the_Digestive_System",
+            "content": "The human digestive system, or the gastrointestinal (GI) tract, begins with the mouth and ends with the anus. The parts of the mouth include the teeth, the gums, the tongue, the oral vestibule (the space between the gums, lips, and teeth), and the oral cavity proper (the space behind the teeth and gums). Other parts of the GI tract are the pharynx, esophagus, stomach, small intestine, large intestine, rectum, and anus."
+        },
+        "24.2: Microbial Diseases of the Mouth and Oral Cavity": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/24%3A_Digestive_System_Infections/24.02%3A_Microbial_Diseases_of_the_Mouth_and_Oral_Cavity",
+            "content": "Despite the presence of saliva and the mechanical forces of chewing and eating, some microbes thrive in the mouth. These microbes can cause damage to the teeth and can cause infections that have the potential to spread beyond the mouth and sometimes throughout the body."
+        },
+        "24.3: Bacterial Infections of the Gastrointestinal Tract": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/24%3A_Digestive_System_Infections/24.03%3A_Bacterial_Infections_of_the_Gastrointestinal_Tract",
+            "content": "Major causes of gastrointestinal illness include Salmonella spp., Staphylococcus spp., Helicobacter pylori, Clostridium perfringens, Clostridium difficile, Bacillus cereus, and Yersinia bacteria. C. difficile is an important cause of hospital acquired infection. Vibrio cholerae causes cholera, which can be a severe diarrheal illness. Different strains of E. coli, including ETEC, EPEC, EIEC, and EHEC, cause different illnesses with varying degrees of severity."
+        },
+        "24.4: Viral Infections of the Gastrointestinal Tract": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/24%3A_Digestive_System_Infections/24.04%3A_Viral_Infections_of_the_Gastrointestinal_Tract",
+            "content": "Common viral causes of gastroenteritis include rotaviruses, noroviruses, and astroviruses. Hepatitis may be caused by several unrelated viruses: hepatitis viruses A, B, C, D, and E. The hepatitis viruses differ in their modes of transmission, treatment, and potential for chronic infection."
+        },
+        "24.5: Protozoan Infections of the Gastrointestinal Tract": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/24%3A_Digestive_System_Infections/24.05%3A_Protozoan_Infections_of_the_Gastrointestinal_Tract",
+            "content": "Like other microbes, protozoa are abundant in natural microbiota but can also be associated with significant illness. Gastrointestinal diseases caused by protozoa are generally associated with exposure to contaminated food and water, meaning that those without access to good sanitation are at greatest risk. Even in developed countries, infections can occur and these microbes have sometimes caused significant outbreaks from contamination of public water supplies."
+        },
+        "24.6: Helminthic Infections of the Gastrointestinal Tract": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/24%3A_Digestive_System_Infections/24.06%3A_Helminthic_Infections_of_the_Gastrointestinal_Tract",
+            "content": "Helminths are widespread intestinal parasites. These parasites can be divided into three common groups: round-bodied worms also described as\u00a0nematodes, flat-bodied worms that are segmented (also described as\u00a0cestodes), and flat-bodied worms that are non-segmented (also described as\u00a0trematodes). The nematodes include\u00a0roundworms,\u00a0pinworms,\u00a0hookworms, and\u00a0whipworms. Many of these parasites are so well adapted to the human host that there is little obvious disease."
+        }
+    },
+    "25: Circulatory and Lymphatic System Infections": {
+        "25.1: Anatomy of the Circulatory and Lymphatic Systems": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/25%3A_Circulatory_and_Lymphatic_System_Infections/25.01%3A_Anatomy_of_the_Circulatory_and_Lymphatic_Systems",
+            "content": "The circulatory and lymphatic systems are networks of vessels and a pump that transport blood and lymph, respectively, throughout the body. When these systems are infected with a microorganism, the network of vessels can facilitate the rapid dissemination of the microorganism to other regions of the body, sometimes with serious results. In this section, we examine some of the key anatomical features of the circulatory and lymphatic systems, as well as general signs and symptoms of infection."
+        },
+        "25.2: Bacterial Infections of the Circulatory and Lymphatic Systems": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/25%3A_Circulatory_and_Lymphatic_System_Infections/25.02%3A_Bacterial_Infections_of_the_Circulatory_and_Lymphatic_Systems",
+            "content": "Bacterial infections of the circulatory system are almost universally serious. Left untreated, most have high mortality rates. Bacterial pathogens usually require a breach in the immune defenses to colonize the circulatory system. Most often, this involves a wound or the bite of an arthropod vector, but it can also occur in hospital settings and result in nosocomial infections."
+        },
+        "25.3: Viral Infections of the Circulatory and Lymphatic Systems": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/25%3A_Circulatory_and_Lymphatic_System_Infections/25.03%3A_Viral_Infections_of_the_Circulatory_and_Lymphatic_Systems",
+            "content": "Viral pathogens of the circulatory system vary tremendously both in their virulence and distribution worldwide. Some of these pathogens are practically global in their distribution. Fortunately, the most ubiquitous viruses tend to produce the mildest forms of disease. In the majority of cases, those infected remain asymptomatic. On the other hand, other viruses are associated with life-threatening diseases that have impacted human history."
+        },
+        "25.4: Parasitic Infections of the Circulatory and Lymphatic Systems": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/25%3A_Circulatory_and_Lymphatic_System_Infections/25.04%3A_Parasitic_Infections_of_the_Circulatory_and_Lymphatic_Systems",
+            "content": "Some protozoa and parasitic flukes are also capable of causing infections of the human circulatory system. Although these infections are rare in the US, they continue to cause widespread suffering in the developing world today. Malaria, toxoplasmosis, babesiosis, Chagas disease, leishmaniasis, and schistosomiasis are discussed in this section."
+        }
+    },
+    "26: Nervous System Infections": {
+        "26.1: Anatomy of the Nervous System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/26%3A_Nervous_System_Infections/26.01%3A_Anatomy_of_the_Nervous_System",
+            "content": "The human nervous system can be divided into two interacting subsystems: the\u00a0peripheral nervous system (PNS)\u00a0and the\u00a0central nervous system (CNS). The CNS consists of the brain and spinal cord. The peripheral nervous system is an extensive network of nerves connecting the CNS to the muscles and sensory structures."
+        },
+        "26.2: Bacterial Diseases of the Nervous System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/26%3A_Nervous_System_Infections/26.02%3A_Bacterial_Diseases_of_the_Nervous_System",
+            "content": "Bacterial infections that affect the nervous system are serious and can be life-threatening. Fortunately, there are only a few bacterial species commonly associated with neurological infections."
+        },
+        "26.3: Acellular Pathogenic Diseases of the Nervous System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/26%3A_Nervous_System_Infections/26.03%3A_Acellular_Pathogenic_Diseases_of_the_Nervous_System",
+            "content": "A number of different viruses and subviral particles can cause diseases that affect the nervous system. Viral diseases tend to be more common than bacterial infections of the nervous system today. Fortunately, viral infections are generally milder than their bacterial counterparts and often spontaneously resolve. Some of the more important acellular pathogens of the nervous system are described in this section."
+        },
+        "26.4: Neuromycoses and Parasitic Diseases of the Nervous System": {
+            "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/26%3A_Nervous_System_Infections/26.04%3A_Neuromycoses_and_Parasitic_Diseases_of_the_Nervous_System",
+            "content": "Fungal infections of the nervous system, called\u00a0neuromycoses, are rare in healthy individuals. However, neuromycoses can be devastating in immunocompromised or elderly patients. Several eukaryotic parasites are also capable of infecting the nervous system of human hosts. Although relatively uncommon, these infections can also be life-threatening in immunocompromised individuals. In this section, we will first discuss neuromycoses, followed by parasitic infections of the nervous system."
+        }
+    }
+}

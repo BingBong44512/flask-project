@@ -86,21 +86,9 @@
         }
     },
     "4: Dynamics- Force and Newton's Laws of Motion": {
-        "4.0: Prelude to Dynamics- Newton\u2019s Laws of Motion": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/04%3A_Dynamics-_Force_and_Newton's_Laws_of_Motion/4.00%3A_Prelude_to_Dynamics-_Newtons_Laws_of_Motion",
-            "content": ""
-        },
-        "4.1: Development of Force Concept": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/04%3A_Dynamics-_Force_and_Newton's_Laws_of_Motion/4.01%3A_Development_of_Force_Concept",
-            "content": ""
-        },
         "4.2: Newton\u2019s First Law of Motion - Inertia": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/04%3A_Dynamics-_Force_and_Newton's_Laws_of_Motion/4.02%3A_Newtons_First_Law_of_Motion_-_Inertia",
             "content": "Experience suggests that an object at rest will remain at rest if left alone, and that an object in motion tends to slow down and stop unless some effort is made to keep it moving."
-        },
-        "4.3: Newton\u2019s Second Law of Motion- Concept of a System": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/04%3A_Dynamics-_Force_and_Newton's_Laws_of_Motion/4.03%3A_Newtons_Second_Law_of_Motion-_Concept_of_a_System",
-            "content": ""
         },
         "4.4: Newton\u2019s Third Law of Motion- Symmetry in Forces": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/04%3A_Dynamics-_Force_and_Newton's_Laws_of_Motion/4.04%3A_Newtons_Third_Law_of_Motion-_Symmetry_in_Forces",
@@ -117,10 +105,6 @@
         "4.7: Further Applications of Newton\u2019s Laws of Motion": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/04%3A_Dynamics-_Force_and_Newton's_Laws_of_Motion/4.07%3A_Further_Applications_of_Newtons_Laws_of_Motion",
             "content": "There are many interesting applications of Newton\u2019s laws of motion, a few more of which are presented in this section. These serve also to illustrate some further subtleties of physics and to help build problem-solving skills."
-        },
-        "4.8: Extended Topic- The Four Basic Forces\u2014An Introduction": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/04%3A_Dynamics-_Force_and_Newton's_Laws_of_Motion/4.08%3A_Extended_Topic-_The_Four_Basic_ForcesAn_Introduction",
-            "content": ""
         }
     },
     "5: Further Applications of Newton's Laws- Friction, Drag, and Elasticity": {
@@ -169,10 +153,6 @@
         "6.6: Satellites and Kepler\u2019s Laws- An Argument for Simplicity": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/06%3A_Uniform_Circular_Motion_and_Gravitation/6.06%3A_Satellites_and_Keplers_Laws-_An_Argument_for_Simplicity",
             "content": "there is a classical set of three laws, called Kepler\u2019s laws of planetary motion, that describe the orbits of all bodies satisfying the two previous conditions (not just planets in our solar system). These descriptive laws are named for the German astronomer Johannes Kepler, who devised them after careful study (over some 20 years) of a large amount of meticulously recorded observations of planetary motion done by Tycho Brahe."
-        },
-        "6.E: Uniform Circular Motion and Gravitation (Excercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/06%3A_Uniform_Circular_Motion_and_Gravitation/6.E%3A_Uniform_Circular_Motion_and_Gravitation_(Excercise)",
-            "content": ""
         }
     },
     "7: Work, Energy, and Energy Resources": {
@@ -215,10 +195,6 @@
         "7.9: World Energy Use": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/07%3A_Work_Energy_and_Energy_Resources/7.09%3A_World_Energy_Use",
             "content": "The relative use of different fuels to provide energy has changed over the years, but fuel use is currently dominated by oil, although natural gas and solar contributions are increasing. Although non-renewable sources dominate, some countries meet a sizeable percentage of their electricity needs from renewable resources. The United States obtains only about 10% of its energy from renewable sources, mostly hydroelectric power."
-        },
-        "7.E:  Work, Energy, and Energy Resources (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/07%3A_Work_Energy_and_Energy_Resources/7.E%3A__Work_Energy_and_Energy_Resources_(Exercise)",
-            "content": ""
         }
     },
     "8: Linear Momentum and Collisions": {
@@ -298,10 +274,6 @@
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/10%3A_Rotational_Motion_and_Angular_Momentum/10.02%3A_Kinematics_of_Rotational_Motion",
             "content": "Just by using our intuition, we can begin to see how rotational quantities like  \u03b8,\u03c9  and  \u03b1  are related to one another. For example, if a motorcycle wheel has a large angular acceleration for a fairly long time, it ends up spinning rapidly and rotates through many revolutions. In more technical terms, if the wheel\u2019s angular acceleration  \u03b1  is large for a long period of time  t   then the final angular velocity  \u03c9  and angle of rotation  \u03b8  are large."
         },
-        "10.3: Dynamics of Rotational Motion - Rotational Inertia": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/10%3A_Rotational_Motion_and_Angular_Momentum/10.03%3A_Dynamics_of_Rotational_Motion_-_Rotational_Inertia",
-            "content": ""
-        },
         "10.4: Rotational Kinetic Energy - Work and Energy Revisited": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/10%3A_Rotational_Motion_and_Angular_Momentum/10.04%3A_Rotational_Kinetic_Energy_-_Work_and_Energy_Revisited",
             "content": "In this module, we will learn about work and energy associated with rotational motion."
@@ -309,14 +281,6 @@
         "10.5: Angular Momentum and Its Conservation": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/10%3A_Rotational_Motion_and_Angular_Momentum/10.05%3A_Angular_Momentum_and_Its_Conservation",
             "content": "Angular momentum is completely analogous to linear momentum. It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles."
-        },
-        "10.6: Collisions of Extended Bodies in Two Dimensions": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/10%3A_Rotational_Motion_and_Angular_Momentum/10.06%3A_Collisions_of_Extended_Bodies_in_Two_Dimensions",
-            "content": ""
-        },
-        "10.7: Gyroscopic Effects- Vector Aspects of Angular Momentum": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/10%3A_Rotational_Motion_and_Angular_Momentum/10.07%3A_Gyroscopic_Effects-_Vector_Aspects_of_Angular_Momentum",
-            "content": ""
         }
     },
     "11: Fluid Statics": {
@@ -362,10 +326,6 @@
         }
     },
     "12: Fluid Dynamics and Its Biological and Medical Applications": {
-        "12.0: Prelude to Fluid Dynamics and Its Biological and Medical Applications": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/12%3A_Fluid_Dynamics_and_Its_Biological_and_Medical_Applications/12.00%3A_Prelude_to_Fluid_Dynamics_and_Its_Biological_and_Medical_Applications",
-            "content": ""
-        },
         "12.1: Flow Rate and Its Relation to Velocity": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/12%3A_Fluid_Dynamics_and_Its_Biological_and_Medical_Applications/12.01%3A_Flow_Rate_and_Its_Relation_to_Velocity",
             "content": "The rate of reaction, often called the \"reaction velocity\" is a measure of how fast a reaction occurs. As a reaction proceeds in the forward direction products are produced as reactants are consumed, and the rate is how fast this occurs.  As we shall see later in this chapter, the rate is often influenced by the concentration of reactants, and so it is common to describe this rate in terms of concentration."
@@ -389,10 +349,6 @@
         "12.6: Motion of an Object in a Viscous Fluid": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/12%3A_Fluid_Dynamics_and_Its_Biological_and_Medical_Applications/12.06%3A_Motion_of_an_Object_in_a_Viscous_Fluid",
             "content": "A moving object in a viscous fluid is equivalent to a stationary object in a flowing fluid stream. (For example, when you ride a bicycle at 10 m/s in still air, you feel the air in your face exactly as if you were stationary in a 10-m/s wind.) Flow of the stationary fluid around a moving object may be laminar, turbulent, or a combination of the two. Just as with flow in tubes, it is possible to predict when a moving object creates turbulence."
-        },
-        "12.7: Molecular Transport Phenomena- Diffusion, Osmosis, and Related Processes": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/12%3A_Fluid_Dynamics_and_Its_Biological_and_Medical_Applications/12.07%3A_Molecular_Transport_Phenomena-_Diffusion_Osmosis_and_Related_Processes",
-            "content": ""
         }
     },
     "13: Temperature, Kinetic Theory, and the Gas Laws": {
@@ -412,21 +368,9 @@
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/13%3A_Temperature_Kinetic_Theory_and_the_Gas_Laws/13.03%3A_The_Ideal_Gas_Law",
             "content": "In this section, we continue to explore the thermal behavior of gases. In particular, we examine the characteristics of atoms and molecules that compose gases. (Most gases, for example nitrogen,  N2  and oxygen,  O2  are composed of two or more atoms. We will primarily use the term \u201cmolecule\u201d in discussing a gas because the term can also be applied to monatomic gases, such as helium.)"
         },
-        "13.4: Kinetic Theory- Atomic and Molecular Explanation of Pressure and Temperature": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/13%3A_Temperature_Kinetic_Theory_and_the_Gas_Laws/13.04%3A_Kinetic_Theory-_Atomic_and_Molecular_Explanation_of_Pressure_and_Temperature",
-            "content": ""
-        },
         "13.5: Phase Changes": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/13%3A_Temperature_Kinetic_Theory_and_the_Gas_Laws/13.05%3A_Phase_Changes",
             "content": "Real gases are like ideal gases at high temperatures. At lower temperatures, however, the interactions between the molecules and their volumes cannot be ignored. The molecules are very close (condensation occurs) and there is a dramatic decrease in volume. The substance changes from a gas to a liquid. When a liquid is cooled to even lower temperatures, it becomes a solid. The volume never reaches zero because of the finite volume of the molecules."
-        },
-        "13.6: Humidity, Evaporation, and Boiling": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/13%3A_Temperature_Kinetic_Theory_and_the_Gas_Laws/13.06%3A_Humidity_Evaporation_and_Boiling",
-            "content": ""
-        },
-        "13.E: Work, Energy, and Energy Resources (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/13%3A_Temperature_Kinetic_Theory_and_the_Gas_Laws/13.E%3A_Work_Energy_and_Energy_Resources_(Exercise)",
-            "content": ""
         }
     },
     "14: Heat and Heat Transfer Methods": {
@@ -461,17 +405,9 @@
         "14.7: Radiation": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/14%3A_Heat_and_Heat_Transfer_Methods/14.07%3A_Radiation",
             "content": "Heat is transferred by radiation. That is, the hot body emits electromagnetic waves that are absorbed by our skin: no medium is required for electromagnetic waves to propagate. Different names are used for electromagnetic waves of different wavelengths: radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays."
-        },
-        "14.E: Heat and Heat Transfer Methods (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/14%3A_Heat_and_Heat_Transfer_Methods/14.E%3A_Heat_and_Heat_Transfer_Methods_(Exercise)",
-            "content": ""
         }
     },
     "15: Thermodynamics": {
-        "15.0: Prelude to Thermodynamics": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/15%3A_Thermodynamics/15.00%3A_Prelude_to_Thermodynamics",
-            "content": ""
-        },
         "15.1: The First Law of Thermodynamics": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/15%3A_Thermodynamics/15.01%3A_The_First_Law_of_Thermodynamics",
             "content": "The first law of thermodynamics is given as \u0394U=Q\u2212W\u0394U=Q\u2212W, where \u0394U\u0394U is the change in internal energy of a system, QQ is the net heat transfer (the sum of all heat transfer into and out of the system), and WW is the net work done (the sum of all work done on or by the system). Both QQ and WW are energy in transit; only \u0394U\u0394U represents an independent quantity capable of being stored. The internal energy UU of a system depends only on the state of the system "
@@ -492,24 +428,12 @@
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/15%3A_Thermodynamics/15.05%3A_Applications_of_Thermodynamics-_Heat_Pumps_and_Refrigerators",
             "content": "An artifact of the second law of thermodynamics is the ability to heat an interior space using a heat pump. Heat pumps compress cold ambient air and, in so doing, heat it to room temperature without violation of conservation principles. To calculate the heat pump\u2019s coefficient of performance, use the equation COPhp=QhWCOPhp=QhW. A refrigerator is a heat pump; it takes warm ambient air and expands it to chill it."
         },
-        "15.6: Entropy and the Second Law of Thermodynamics- Disorder and the Unavailability of Energy": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/15%3A_Thermodynamics/15.06%3A_Entropy_and_the_Second_Law_of_Thermodynamics-_Disorder_and_the_Unavailability_of_Energy",
-            "content": ""
-        },
         "15.7: Statistical Interpretation of Entropy and the Second Law of Thermodynamics- The Underlying Explanation": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/15%3A_Thermodynamics/15.07%3A_Statistical_Interpretation_of_Entropy_and_the_Second_Law_of_Thermodynamics-_The_Underlying_Explanation",
             "content": "Disorder is far more likely than order, which can be seen statistically. The entropy of a system in a given state (a macrostate) can be written as s=KLNw,s=KLNw, where k=1.38\u00d710\u221223\u00a0J/Kk=1.38\u00d710\u221223\u00a0J/K is Boltzmann\u2019s constant, and lnWlnW is the natural logarithm of the number of microstates WW corresponding to the given macrostate."
-        },
-        "15.E: Heat and Heat Transfer Methods (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/15%3A_Thermodynamics/15.E%3A_Heat_and_Heat_Transfer_Methods_(Exercise)",
-            "content": ""
         }
     },
     "16: Oscillatory Motion and Waves": {
-        "16.0: Prelude to Oscillatory Motion and Waves": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/16%3A_Oscillatory_Motion_and_Waves/16.00%3A_Prelude_to_Oscillatory_Motion_and_Waves",
-            "content": ""
-        },
         "16.1: Hooke\u2019s Law - Stress and Strain Revisited": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/16%3A_Oscillatory_Motion_and_Waves/16.01%3A_Hookes_Law_-_Stress_and_Strain_Revisited",
             "content": "An oscillation is a back and forth motion of an object between two points of deformation. An oscillation may create a wave, which is a disturbance that propagates from where it was created. The simplest type of oscillations and waves are related to systems that can be described by Hooke\u2019s law."
@@ -549,10 +473,6 @@
         "16.10: Superposition and Interference": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/16%3A_Oscillatory_Motion_and_Waves/16.10%3A_Superposition_and_Interference",
             "content": "Complex waves are more interesting, even beautiful, but they look formidable. Most waves appear complex because they result from several simple waves adding together. Luckily, the rules for adding waves are quite simple."
-        },
-        "16.11: Energy in Waves- Intensity": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/16%3A_Oscillatory_Motion_and_Waves/16.11%3A_Energy_in_Waves-_Intensity",
-            "content": ""
         }
     },
     "17: Physics of Hearing": {
@@ -662,10 +582,6 @@
         }
     },
     "20: Electric Current, Resistance, and Ohm's Law": {
-        "20.0: Prelude to Electric Current, Resistance, and Ohm's Law": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/20%3A_Electric_Current_Resistance_and_Ohm's_Law/20.00%3A_Prelude_to_Electric_Current_Resistance_and_Ohm's_Law",
-            "content": ""
-        },
         "20.1: Current": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/20%3A_Electric_Current_Resistance_and_Ohm's_Law/20.01%3A_Current",
             "content": "Electric current is defined to be the rate at which charge flows. A large current, such as that used to start a truck engine, moves a large amount of charge in a small time, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge over a long period of time."
@@ -693,10 +609,6 @@
         "20.7: Nerve Conduction\u2013Electrocardiograms": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/20%3A_Electric_Current_Resistance_and_Ohm's_Law/20.07%3A_Nerve_ConductionElectrocardiograms",
             "content": "Electric potentials in neurons and other cells are created by ionic concentration differences across semipermeable membranes. Stimuli change the permeability and create action potentials that propagate along neurons. Myelin sheaths speed this process and reduce the needed energy input. This process in the heart can be measured with an electrocardiogram (ECG)."
-        },
-        "20.E: Heat and Heat Transfer Methods (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/20%3A_Electric_Current_Resistance_and_Ohm's_Law/20.E%3A_Heat_and_Heat_Transfer_Methods_(Exercise)",
-            "content": ""
         }
     },
     "21: Circuits, Bioelectricity, and DC Instruments": {
@@ -727,10 +639,6 @@
         "21.6: DC Circuits Containing Resistors and Capacitors": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/21%3A_Circuits_Bioelectricity_and_DC_Instruments/21.06%3A_DC_Circuits_Containing_Resistors_and_Capacitors",
             "content": "When you use a flash camera, it takes a few seconds to charge the capacitor that powers the flash. The light flash discharges the capacitor in a tiny fraction of a second. Why does charging take longer than discharging? This question and a number of other phenomena that involve charging and discharging capacitors are discussed in this module."
-        },
-        "21.E: Circuits and DC Instruments (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/21%3A_Circuits_Bioelectricity_and_DC_Instruments/21.E%3A_Circuits_and_DC_Instruments_(Exercise)",
-            "content": ""
         }
     },
     "22: Magnetism": {
@@ -792,14 +700,6 @@
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.01%3A_RL_Circuits",
             "content": "When the voltage applied to an inductor is changed, the current also changes, but the change in current lags the change in voltage in an RL circuit. In Reactance, Inductive and Capacitive, we explore how an RL circuit behaves when a sinusoidal AC voltage is applied."
         },
-        "23.2: Reactance, Inductive and Capacitive": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.02%3A_Reactance_Inductive_and_Capacitive",
-            "content": ""
-        },
-        "23.3: RLC Series AC Circuits": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.03%3A_RLC_Series_AC_Circuits",
-            "content": ""
-        },
         "23.4: Induced Emf and Magnetic Flux": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.04%3A_Induced_Emf_and_Magnetic_Flux",
             "content": "Any change in magnetic flux  \u03a6  induces an emf\u2014the process is defined to be electromagnetic induction."
@@ -820,10 +720,6 @@
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.08%3A_Electric_Generators",
             "content": "Electric generators induce an emf by rotating a coil in a magnetic field, as briefly discussed in \"Induced Emf and Magnetic Flux.\" We will now explore generators in more detail. Consider the following example."
         },
-        "23.9: Back Emf": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.09%3A_Back_Emf",
-            "content": ""
-        },
         "23.10: Transformers": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.10%3A_Transformers",
             "content": "Transformers do what their name implies\u2014they transform voltages from one value to another. Transformers are also used at several points in the power distribution systema. . Power is sent long distances at high voltages, because less current is required for a given amount of power, and this means less line loss, as was discussed previously. But high voltages pose greater hazards, so that transformers are employed to produce lower voltage at the user\u2019s location."
@@ -831,14 +727,6 @@
         "23.11: Electrical Safety - Systems and Devices": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.11%3A_Electrical_Safety_-_Systems_and_Devices",
             "content": "Electricity has two hazards. A thermal hazard occurs when there is electrical overheating. A shock hazard occurs when electric current passes through a person. Both hazards have already been discussed. Here we will concentrate on systems and devices that prevent electrical hazards."
-        },
-        "23.12: Inductance": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.12%3A_Inductance",
-            "content": ""
-        },
-        "23.E: Electromagnetic Induction, AC Circuits, and Electrical Technologies (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/23%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies/23.E%3A_Electromagnetic_Induction_AC_Circuits_and_Electrical_Technologies_(Exercise)",
-            "content": ""
         }
     },
     "24: Electromagnetic Waves": {
@@ -925,21 +813,9 @@
         "26.6: Aberrations": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/26%3A_Vision_and_Optical_Instruments/26.06%3A_Aberrations",
             "content": "Real lenses behave somewhat differently from how they are modeled using the thin lens equations, producing aberrations. An aberration is a distortion in an image. There are a variety of aberrations due to a lens size, material, thickness, and position of the object."
-        },
-        "26.E: Vision and Optical Instruments (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/26%3A_Vision_and_Optical_Instruments/26.E%3A_Vision_and_Optical_Instruments_(Exercise)",
-            "content": ""
         }
     },
     "27: Wave Optics": {
-        "27.0: Introduction to Wave Optics": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/27%3A_Wave_Optics/27.00%3A_Introduction_to_Wave_Optics",
-            "content": ""
-        },
-        "27.1: The Wave Aspect of Light- Interference": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/27%3A_Wave_Optics/27.01%3A_The_Wave_Aspect_of_Light-_Interference",
-            "content": ""
-        },
         "27.2: Huygens's Principle - Diffraction": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/27%3A_Wave_Optics/27.02%3A_Huygens's_Principle_-_Diffraction",
             "content": "An accurate technique for determining how and where waves propagate is given by Huygens\u2019s principle: Every point on a wavefront is a source of wavelets that spread out in the forward direction at the same speed as the wave itself. The new wavefront is a line tangent to all of the wavelets.\u00a0Diffraction is the bending of a wave around the edges of an opening or other obstacle."
@@ -971,10 +847,6 @@
         "27.9: Microscopy Enhanced by the Wave Characteristics of Light": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/27%3A_Wave_Optics/27.09%3A_Microscopy_Enhanced_by_the_Wave_Characteristics_of_Light",
             "content": "Physics research underpins the advancement of developments in microscopy. As we gain knowledge of the wave nature of electromagnetic waves and methods to analyze and interpret signals, new microscopes that enable us to \u201csee\u201d more are being developed. It is the evolution and newer generation of microscopes that are described in this section."
-        },
-        "27.E: Vision and Optical Instruments (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/27%3A_Wave_Optics/27.E%3A_Vision_and_Optical_Instruments_(Exercise)",
-            "content": ""
         }
     },
     "28: Special Relativity": {
@@ -1005,17 +877,9 @@
         "28.6: Relativistic Energy": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/28%3A_Special_Relativity/28.06%3A_Relativistic_Energy",
             "content": "Conservation of energy is one of the most important laws in physics. Not only does energy have many important forms, but each form can be converted to any other. We know that classically the total amount of energy in a system remains constant. Relativistically, energy is still conserved, provided its definition is altered to include the possibility of mass changing to energy, as in the reactions that occur within a nuclear reactor."
-        },
-        "28.E: Special Relativity (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/28%3A_Special_Relativity/28.E%3A_Special_Relativity_(Exercise)",
-            "content": ""
         }
     },
     "29: Introduction to Quantum Physics": {
-        "29.0: Prelude to Quantum Physics": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/29%3A_Introduction_to_Quantum_Physics/29.00%3A_Prelude_to_Quantum_Physics",
-            "content": ""
-        },
         "29.1: Quantization of Energy": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/29%3A_Introduction_to_Quantum_Physics/29.01%3A_Quantization_of_Energy",
             "content": "Energy is quantized in some systems, meaning that the system can have only certain energies and not a continuum of energies, unlike the classical case. This would be like having only certain speeds at which a car can travel because its kinetic energy can have only certain values. We also find that some forms of energy transfer take place with discrete lumps of energy."
@@ -1023,14 +887,6 @@
         "29.2: The Photoelectric Effect": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/29%3A_Introduction_to_Quantum_Physics/29.02%3A_The_Photoelectric_Effect",
             "content": "When light strikes materials, it can eject electrons from them. This is called the photoelectric effect, meaning that light (photo) produces electricity. One common use of the photoelectric effect is in light meters, such as those that adjust the automatic iris on various types of cameras. In a similar way, another use is in solar cells, as you probably have in your calculator or have seen on a roof top or a roadside sign."
-        },
-        "29.3: Photon Energies and the Electromagnetic Spectrum": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/29%3A_Introduction_to_Quantum_Physics/29.03%3A_Photon_Energies_and_the_Electromagnetic_Spectrum",
-            "content": ""
-        },
-        "29.4: Photon Momentum": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/29%3A_Introduction_to_Quantum_Physics/29.04%3A_Photon_Momentum",
-            "content": ""
         },
         "29.5: The Particle-Wave Duality of Light": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/29%3A_Introduction_to_Quantum_Physics/29.05%3A_The_Particle-Wave_Duality_of_Light",
@@ -1047,10 +903,6 @@
         "29.8: The Particle-Wave Duality Reviewed": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/29%3A_Introduction_to_Quantum_Physics/29.08%3A_The_Particle-Wave_Duality_Reviewed",
             "content": "The particle-wave duality refers to the fact that all particles -- those with mass and those without mass -- have wave characteristics. This is a further connection between mass and energy."
-        },
-        "29.E: Special Relativity (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/29%3A_Introduction_to_Quantum_Physics/29.E%3A_Special_Relativity_(Exercise)",
-            "content": ""
         }
     },
     "30: Atomic Physics": {
@@ -1157,10 +1009,6 @@
         "32.6: Fission": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/32%3A_Medical_Applications_of_Nuclear_Physics/32.06%3A_Fission",
             "content": "Nuclear fission is a reaction in which a nucleus is split (or fissured). Controlled fission is a reality, whereas controlled fusion is a hope for the future. Hundreds of nuclear fission power plants around the world attest to the fact that controlled fission is practical and, at least in the short term, economical."
-        },
-        "32.7: Nuclear Weapons": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/32%3A_Medical_Applications_of_Nuclear_Physics/32.07%3A_Nuclear_Weapons",
-            "content": ""
         }
     },
     "33: Particle Physics": {
@@ -1191,10 +1039,6 @@
         "33.6: GUTs - The Unification of Forces": {
             "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/33%3A_Particle_Physics/33.06%3A_GUTs_-_The_Unification_of_Forces",
             "content": "The search for a correct theory linking the four fundamental forces, called the Grand Unified Theory (GUT), is explored in this section in the realm of particle physics. Frontiers of Physics expands the story in making a connection with cosmology, on the opposite end of the distance scale."
-        },
-        "33.E: Special Relativity (Exercise)": {
-            "link": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/33%3A_Particle_Physics/33.E%3A_Special_Relativity_(Exercise)",
-            "content": ""
         }
     },
     "34: Frontiers of Physics": {
