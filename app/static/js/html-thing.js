@@ -1,11 +1,20 @@
+
+
+//get data
+//process data
+//add it to this
+
+
+const inputText = "The {mitochondria, nucleus} is the powerhouse of the cell. {2+2, 4, 5} is equal to 4.";
+
+const correctAnswers = [
+	"mitochondria",
+	"4"
+];
+
+
 document.addEventListener('DOMContentLoaded', function() {
-	const inputText = "The {mitochondria, nucleus} is the powerhouse of the cell. {2+2, 4, 5} is equal to 4.";
-
-	const correctAnswers = [
-		"mitochondria",
-		"4"
-	];
-
+	
 	function parseTextWithDropdowns(text) {
 		let dropdownIndex = 0;
 
@@ -29,11 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
 });
-
-const correctAnswers = [
-	"mitochondria",
-	"4"
-];
 
 function checkAnswers() {
 	let allCorrect = true;
