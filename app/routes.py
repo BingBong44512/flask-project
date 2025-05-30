@@ -5,7 +5,7 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
 from app import app, login_manager, db, admin
-from .forms import LoginForm, RegisterForm
+from .forms import LoginForm, RegisterForm, ChangePassword
 from .models import User
 
 login_manager.init_app(app)
@@ -69,6 +69,15 @@ def register():
 		return redirect(url_for('user', username=username))
 
 	return render_template('register.html', form=form)
+
+@app.route('/change_password')
+@login_required
+def change_pass():
+	form = ChangePassword()
+	if form.validate_on_submit():
+		fda
+
+	return render_template('change_pass.html', form=form)
 
 @app.route('/logout')
 @login_required
