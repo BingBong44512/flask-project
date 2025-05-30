@@ -9,13 +9,21 @@
 		{% endblock %}
 	</title>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+	<style>
+		{% block style %}
+
+		{% endblock %}
+	</style>
 </head>
 
 <body>
+	
 	{% block scripts %}
 
 	{% endblock %}
-
+	
+	
 	{% block navbar %}
 	<nav>
 		<div class="navbar navbar-inverse" role="navigation">
