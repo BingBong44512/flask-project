@@ -1,0 +1,584 @@
+{
+    "1: Essential Ideas": {
+        "1.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/01%3A_Essential_Ideas/1.00%3A_Introduction",
+            "content": "Most everything you do and encounter during your day involves chemistry. Making coffee, cooking eggs, and toasting bread involve chemistry. The products you use\u2014like soap and shampoo, the fabrics you wear, the electronics that keep you connected to your world, the gasoline that propels your car\u2014all of these and more involve chemical substances and processes. Whether you are aware or not, chemistry is part of your everyday world."
+        },
+        "1.1: Chemistry in Context": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/01%3A_Essential_Ideas/1.01%3A_Chemistry_in_Context",
+            "content": "Chemistry deals with the composition, structure, and properties of matter, and the ways by which various forms of matter may be interconverted. Thus, it occupies a central place in the study and practice of science and technology. Chemists use the scientific method to perform experiments, pose hypotheses, and formulate laws and develop theories, so that they can better understand the behavior of the natural world. To do so, they operate in the macroscopic, microscopic, and symbolic domains."
+        },
+        "1.2: Phases and Classification of Matter": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/01%3A_Essential_Ideas/1.02%3A_Phases_and_Classification_of_Matter",
+            "content": "Matter is anything that occupies space and has mass. The basic building block of matter is the atom, the smallest unit of an element that can enter into combinations with atoms of the same or other elements. In many substances, atoms are combined into molecules. On earth, matter commonly exists in three states: solids, of fixed shape and volume; liquids, of variable shape but fixed volume; and gases, of variable shape and volume."
+        },
+        "1.3: Physical and Chemical Properties": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/01%3A_Essential_Ideas/1.03%3A_Physical_and_Chemical_Properties",
+            "content": "All substances have distinct physical and chemical properties, and may undergo physical or chemical changes. Physical properties, such as hardness and boiling point, and physical changes, such as melting or freezing, do not involve a change in the composition of matter. Chemical properties, such flammability and acidity, and chemical changes, such as rusting, involve production of matter that differs from that present beforehand."
+        },
+        "1.4: Measurements": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/01%3A_Essential_Ideas/1.04%3A_Measurements",
+            "content": "Measurements provide quantitative information that is critical in studying and practicing chemistry. Each measurement has an amount, a unit for comparison, and an uncertainty. Measurements can be represented in either decimal or scientific notation. Scientists primarily use the SI (International System) or metric systems. We use base SI units such as meters, seconds, and kilograms, as well as derived units, such as liters (for volume) and g/cm3 (for density)."
+        },
+        "1.5: Measurement Uncertainty, Accuracy, and Precision": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/01%3A_Essential_Ideas/1.05%3A_Measurement_Uncertainty_Accuracy_and_Precision",
+            "content": "Quantities can be exact or measured. Measured quantities have an associated uncertainty that is represented by the number of significant figures in the measurement. The uncertainty of a calculated value depends on the uncertainties in the values used in the calculation and is reflected in how the value is rounded. Measured values can be accurate (close to the true value) and/or precise (showing little variation when measured repeatedly)."
+        },
+        "1.6: Mathematical Treatment of Measurement Results": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/01%3A_Essential_Ideas/1.06%3A_Mathematical_Treatment_of_Measurement_Results",
+            "content": "Measurements are made using a variety of units. It is often useful or necessary to convert a measured quantity from one unit into another. These conversions are accomplished using unit conversion factors, which are derived by simple applications of a mathematical approach called the factor-label method or dimensional analysis. This strategy is also employed to calculate sought quantities using measured quantities and appropriate mathematical relations."
+        }
+    },
+    "2: Atoms, Molecules, and Ions": {
+        "2.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/02%3A_Atoms_Molecules_and_Ions/2.00%3A_Introduction",
+            "content": "This chapter will describe some of the fundamental chemical principles related to the composition of matter, including those central to the concept of molecular identity."
+        },
+        "2.1: Early Ideas in Atomic Theory": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/02%3A_Atoms_Molecules_and_Ions/2.01%3A_Early_Ideas_in_Atomic_Theory",
+            "content": "The ancient Greeks proposed that matter consists of extremely small particles called atoms. Dalton postulated that each element has a characteristic type of atom that differs in properties from atoms of all other elements, and that atoms of different elements can combine in fixed, small, whole-number ratios to form compounds. Samples of a particular compound all have the same elemental proportions by mass."
+        },
+        "2.2: Evolution of Atomic Theory": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/02%3A_Atoms_Molecules_and_Ions/2.02%3A_Evolution_of_Atomic_Theory",
+            "content": "Although no one has actually seen the inside of an atom, experiments have demonstrated much about atomic structure. Thomson\u2019s cathode ray tube showed that atoms contain small, negatively charged particles called electrons. Millikan discovered that there is a fundamental electric charge\u2014the charge of an electron. Rutherford\u2019s gold foil experiment showed that atoms have a small, dense, positively charged nucleus; the positively charged particles within the nucleus are called protons."
+        },
+        "2.3: Atomic Structure and Symbolism": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/02%3A_Atoms_Molecules_and_Ions/2.03%3A_Atomic_Structure_and_Symbolism",
+            "content": "An atom consists of a small, positively charged nucleus surrounded by electrons. The nucleus contains protons and neutrons; its diameter is about 100,000 times smaller than that of the atom. The mass of one atom is usually expressed in atomic mass units (amu), which is referred to as the atomic mass. An amu is defined as exactly 1/12 of the mass of a carbon-12 atom and is equal to 1.6605 \u00d7 10\u221224 g."
+        },
+        "2.4: Chemical Formulas": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/02%3A_Atoms_Molecules_and_Ions/2.04%3A_Chemical_Formulas",
+            "content": "A molecular formula uses chemical symbols and subscripts to indicate the exact numbers of different atoms in a molecule or compound. An empirical formula gives the simplest, whole-number ratio of atoms in a compound. A structural formula indicates the bonding arrangement of the atoms in the molecule. Ball-and-stick and space-filling models show the geometric arrangement of atoms in a molecule. Isomers are compounds with the same molecular formula but different arrangements of atoms."
+        },
+        "2.5: The Periodic Table": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/02%3A_Atoms_Molecules_and_Ions/2.05%3A_The_Periodic_Table",
+            "content": "The discovery of the periodic recurrence of similar properties among the elements led to the formulation of the periodic table, in which the elements are arranged in order of increasing atomic number in rows known as periods and columns known as groups. Elements in the same group of the periodic table have similar chemical properties. Elements can be classified as metals, metalloids, and nonmetals, or as a main-group elements, transition metals, and inner transition metals."
+        },
+        "2.6: Molecular and Ionic Compounds": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/02%3A_Atoms_Molecules_and_Ions/2.06%3A_Molecular_and_Ionic_Compounds",
+            "content": "Metals (particularly those in groups 1 and 2) tend to lose the number of electrons that would leave them with the same number of electrons as in the preceding noble gas in the periodic table. By this means, a positively charged ion is formed. Similarly, nonmetals (especially those in groups 16 and 17, and, to a lesser extent, those in Group 15) can gain the number of electrons needed to provide atoms with the same number of electrons as in the next noble gas in the periodic table."
+        },
+        "2.7: Chemical Nomenclature": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/02%3A_Atoms_Molecules_and_Ions/2.07%3A_Chemical_Nomenclature",
+            "content": "Chemists use nomenclature rules to clearly name compounds. Ionic and molecular compounds are named using somewhat-different methods. Binary ionic compounds typically consist of a metal and a nonmetal. The name of the metal is written first, followed by the name of the nonmetal with its ending changed to \u2013ide. For example, K2O is called potassium oxide. If the metal can form ions with different charges, a Roman numeral in parentheses follows the name of the metal to specify its charge."
+        }
+    },
+    "3: Composition of Substances and Solutions": {
+        "3.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/03%3A_Composition_of_Substances_and_Solutions/3.00%3A_Introduction",
+            "content": "Quantitative aspects of the composition of substances (such as the calcium-containing compound) and mixtures (such as the pool water) are the subject of this chapter."
+        },
+        "3.1: Formula Mass and the Mole Concept": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/03%3A_Composition_of_Substances_and_Solutions/3.01%3A_Formula_Mass_and_the_Mole_Concept",
+            "content": "The formula mass of a substance is the sum of the average atomic masses of each atom represented in the chemical formula and is expressed in atomic mass units. The formula mass of a covalent compound is also called the molecular mass. A convenient amount unit for expressing very large numbers of atoms or molecules is the mole. Experimental measurements have determined the number of entities composing 1 mole of substance to be \\(6.022 \\times\u00a010^{23}\\), a quantity called Avogadro\u2019s number."
+        },
+        "3.2: Determining Empirical and Molecular Formulas": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/03%3A_Composition_of_Substances_and_Solutions/3.02%3A_Determining_Empirical_and_Molecular_Formulas",
+            "content": "The chemical identity of a substance is defined by the types and relative numbers of atoms composing its fundamental entities (molecules in the case of covalent compounds, ions in the case of ionic compounds). A compound\u2019s percent composition provides the mass percentage of each element in the compound, and it is often experimentally determined and used to derive the compound\u2019s empirical formula."
+        },
+        "3.3: Molarity": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/03%3A_Composition_of_Substances_and_Solutions/3.03%3A_Molarity",
+            "content": "Solutions are homogeneous mixtures. Many solutions contain one component, called the solvent, in which other components, called solutes, are dissolved. An aqueous solution is one for which the solvent is water. The concentration of a solution is a measure of the relative amount of solute in a given amount of solution. Concentrations may be measured using various units, with one very useful unit being molarity, defined as the number of moles of solute per liter of solution."
+        },
+        "3.4: Other Units for Solution Concentrations": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/03%3A_Composition_of_Substances_and_Solutions/3.04%3A_Other_Units_for_Solution_Concentrations",
+            "content": "In addition to molarity, a number of other solution concentration units are used in various applications. Percentage concentrations based on the solution components\u2019 masses, volumes, or both are useful for expressing relatively high concentrations, whereas lower concentrations are conveniently expressed using ppm or ppb units. These units are popular in environmental, medical, and other fields where mole-based units such as molarity are not as commonly used."
+        }
+    },
+    "4: Stoichiometry of Chemical Reactions": {
+        "4.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/04%3A_Stoichiometry_of_Chemical_Reactions/4.00%3A_Introduction",
+            "content": "This chapter will describe how to symbolize chemical reactions using chemical equations, how to classify some common chemical reactions by identifying patterns of reactivity, and how to determine the quantitative relations between the amounts of substances involved in chemical reactions\u2014that is, the reaction stoichiometry."
+        },
+        "4.1: Writing and Balancing Chemical Equations": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/04%3A_Stoichiometry_of_Chemical_Reactions/4.01%3A_Writing_and_Balancing_Chemical_Equations",
+            "content": "Chemical equations are symbolic representations of chemical and physical changes. Formulas for the substances undergoing the change (reactants) and substances generated by the change (products) are separated by an arrow and preceded by integer coefficients indicating their relative numbers. Balanced equations are those whose coefficients result in equal numbers of atoms for each element in the reactants and products."
+        },
+        "4.2: Classifying Chemical Reactions": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/04%3A_Stoichiometry_of_Chemical_Reactions/4.02%3A_Classifying_Chemical_Reactions",
+            "content": "Chemical reactions are classified according to similar patterns of behavior. This section will help you to differentiate between the different types of reactions which we commonly see in CHE 101.\u00a0 You will also learn to write balanced equations for single and double replacement reactions."
+        },
+        "4.3: Reaction Stoichiometry": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/04%3A_Stoichiometry_of_Chemical_Reactions/4.03%3A_Reaction_Stoichiometry",
+            "content": "A balanced chemical equation may be used to describe a reaction\u2019s stoichiometry (the relationships between amounts of reactants and products). Coefficients from the equation are used to derive stoichiometric factors that subsequently may be used for computations relating reactant and product masses, molar amounts, and other quantitative properties."
+        },
+        "4.4: Reaction Yields": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/04%3A_Stoichiometry_of_Chemical_Reactions/4.04%3A_Reaction_Yields",
+            "content": "When reactions are carried out using less-than-stoichiometric quantities of reactants, the amount of product generated will be determined by the limiting reactant. The amount of product generated by a chemical reaction is its actual yield, which is often less than the amount of product predicted by the stoichiometry of the balanced chemical equation representing the reaction (theoretical yield). The extent to which a reaction generates the theoretical amount is expressed as its percent yield."
+        },
+        "4.5: Quantitative Chemical Analysis": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/04%3A_Stoichiometry_of_Chemical_Reactions/4.05%3A_Quantitative_Chemical_Analysis",
+            "content": "The stoichiometry of chemical reactions may serve as the basis for quantitative chemical analysis methods. Titrations involve measuring the volume of a titrant solution required to completely react with a sample solution. This volume is then used to calculate the concentration of analyte in the sample using the stoichiometry of the titration reaction. Gravimetric analysis involves separating analytes from the sample, determining its mass, and then calculating its concentration."
+        }
+    },
+    "5: Thermochemistry": {
+        "5.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/05%3A_Thermochemistry/5.00%3A_Introduction",
+            "content": "Useful forms of energy are also available from a variety of chemical reactions other than combustion. For example, the energy produced by the batteries in a cell phone, car, or flashlight results from chemical reactions. This chapter introduces many of the basic ideas necessary to explore the relationships between chemical changes and energy, with a focus on thermal energy."
+        },
+        "5.1: Energy Basics": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/05%3A_Thermochemistry/5.01%3A_Energy_Basics",
+            "content": "Energy is the capacity to do work (applying a force to move matter). Heat is energy that is transferred between objects at different temperatures; it flows from a high to a low temperature. Chemical and physical processes can absorb heat (endothermic) or release heat (exothermic). The SI unit of energy, heat, and work is the joule (J).  Specific heat and heat capacity are measures of the energy needed to change the temperature of a substance or object."
+        },
+        "5.2: Calorimetry": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/05%3A_Thermochemistry/5.02%3A_Calorimetry",
+            "content": "Calorimetry is used to measure the amount of thermal energy transferred in a chemical or physical process. This requires careful measurement of the temperature change that occurs during the process and the masses of the system and surroundings. These measured quantities are then used to compute the amount of heat produced or consumed in the process using known mathematical relations.  Calorimeters are designed to minimize energy exchange between the system and its surroundings."
+        },
+        "5.3: Enthalpy": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/05%3A_Thermochemistry/5.03%3A_Enthalpy",
+            "content": "If a chemical change is carried out at constant pressure and the only work done is caused by expansion or contraction, q for the change is called the enthalpy change with the symbol \u0394H. Examples of enthalpy changes include enthalpy of combustion, enthalpy of fusion, enthalpy of vaporization, and standard enthalpy of formation. \u00a0 If the enthalpies of formation are available for the reactants and products of a reaction, the enthalpy change can be calculated using Hess\u2019s law."
+        }
+    },
+    "6: Electronic Structure and Periodic Properties": {
+        "6.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.00%3A_Introduction",
+            "content": "In this chapter, we will discuss light and other forms of electromagnetic radiation and how they are related to the electronic structure of atoms. We will also see how this radiation can be used to identify elements, even from thousands of light years away."
+        },
+        "6.1: Electromagnetic Energy": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.01%3A_Electromagnetic_Energy",
+            "content": "Light and other forms of electromagnetic radiation move through a vacuum with a constant speed, c. This radiation shows wavelike behavior, which can be characterized by a frequency, \u03bd, and a wavelength, \u03bb, such that c = \u03bb\u03bd. Light is an example of a travelling wave. Other important wave phenomena include standing waves, periodic oscillations, and vibrations. Standing waves exhibit quantization, since their wavelengths are limited to discrete integer multiples of some characteristic lengths."
+        },
+        "6.2: The Bohr Model": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.02%3A_The_Bohr_Model",
+            "content": "Bohr incorporated Planck\u2019s and Einstein\u2019s quantization ideas into a model of the hydrogen atom that resolved the paradox of atom stability and discrete spectra. The Bohr model of the hydrogen atom explains the connection between the quantization of photons and the quantized emission from atoms. Bohr described the hydrogen atom in terms of an electron moving in a circular orbit about a nucleus. He postulated that the electron was restricted to certain orbits characterized by discrete energies."
+        },
+        "6.3: Development of Quantum Theory": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.03%3A_Development_of_Quantum_Theory",
+            "content": "Macroscopic objects act as particles. Microscopic objects (such as electrons) have properties of both a particle and a wave.\u00a0but their exact trajectories cannot be determined. The quantum mechanical model of atoms describes the 3D \u00a0position of the electron in a probabilistic manner according to a mathematical function called a wavefunction, often denoted as \u03c8. The squared magnitude of the wavefunction describes the distribution of the probability of finding the electron in a particular region in"
+        },
+        "6.4: Electronic Structure of Atoms (Electron Configurations)": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.04%3A_Electronic_Structure_of_Atoms_(Electron_Configurations)",
+            "content": "The relative energy of the subshells determine the order in which atomic orbitals are filled. Electron configurations and orbital diagrams can be determined by applying the Pauli exclusion principle (no two electrons can have the same set of four quantum numbers) and Hund\u2019s rule (whenever possible, electrons retain unpaired spins in degenerate orbitals).  Electrons in the outermost orbitals, called valence electrons, are responsible for most of the chemical behavior of elements."
+        },
+        "6.5: Periodic Variations in Element Properties": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.05%3A_Periodic_Variations_in_Element_Properties",
+            "content": "Electron configurations allow us to understand many periodic trends. Covalent radius increases as we move down a group because the n level (orbital size) increases. Covalent radius mostly decreases as we move left to right across a period because the effective nuclear charge experienced by the electrons increases, and the electrons are pulled in tighter to the nucleus. Anionic radii are larger than the parent atom, while cationic radii are smaller."
+        }
+    },
+    "7: Chemical Bonding and Molecular Geometry": {
+        "7.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/07%3A_Chemical_Bonding_and_Molecular_Geometry/7.00%3A_Introduction",
+            "content": "It has long been known that pure carbon occurs in different forms (allotropes) including graphite and diamonds. But it was not until 1985 that a new form of carbon was recognized: buckminsterfullerene, commonly known as a \u201cbuckyball.\u201d Experimental evidence revealed the formula, C60, and then scientists determined how 60 carbon atoms could form one symmetric, stable molecule. They were guided by bonding theory\u2014the topic of this chapter\u2014which explains how individual atoms connect to form more comp"
+        },
+        "7.1: Ionic Bonding": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/07%3A_Chemical_Bonding_and_Molecular_Geometry/7.01%3A_Ionic_Bonding",
+            "content": "Atoms gain or lose electrons to form ions with particularly stable electron configurations. The charges of cations formed by the representative metals may be determined readily because, with few exceptions, the electronic structures of these ions have either a noble gas configuration or a completely filled electron shell. The charges of anions formed by the nonmetals may also be readily determined because these ions form when nonmetal atoms gain enough electrons to fill their valence shells."
+        },
+        "7.2: Covalent Bonding": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/07%3A_Chemical_Bonding_and_Molecular_Geometry/7.02%3A_Covalent_Bonding",
+            "content": "Covalent bonds form when electrons are shared between atoms and are attracted by the nuclei of both atoms. In pure covalent bonds, the electrons are shared equally. In polar covalent bonds, the electrons are shared unequally, as one atom exerts a stronger force of attraction on the electrons than the other. The ability of an atom to attract a pair of electrons in a chemical bond is called its electronegativity."
+        },
+        "7.3: Lewis Symbols and Structures": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/07%3A_Chemical_Bonding_and_Molecular_Geometry/7.03%3A_Lewis_Symbols_and_Structures",
+            "content": "Valence electronic structures can be visualized by drawing Lewis symbols (for atoms and monatomic ions) and Lewis structures (for molecules and polyatomic ions). Lone pairs, unpaired electrons, and single, double, or triple bonds are used to indicate where the valence electrons are located around each atom in a Lewis structure. Most structures\u2014especially those containing second row elements\u2014obey the octet rule, in which every atom (except H) is surrounded by eight electrons."
+        },
+        "7.4: Formal Charges and Resonance": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/07%3A_Chemical_Bonding_and_Molecular_Geometry/7.04%3A_Formal_Charges_and_Resonance",
+            "content": "In a Lewis structure, formal charges can be assigned to each atom by treating each bond as if one-half of the electrons are assigned to each atom. These hypothetical formal charges are a guide to determining the most appropriate Lewis structure. A structure in which the formal charges are as close to zero as possible is preferred. Resonance occurs in cases where two or more Lewis structures with identical arrangements of atoms but different distributions of electrons can be written."
+        },
+        "7.5: Strengths of Ionic and Covalent Bonds": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/07%3A_Chemical_Bonding_and_Molecular_Geometry/7.05%3A_Strengths_of_Ionic_and_Covalent_Bonds",
+            "content": "The strength of a covalent bond is measured by its bond dissociation energy, that is, the amount of energy required to break that particular bond in a mole of molecules. Multiple bonds are stronger than single bonds between the same atoms. Reaction enthalpies can be estimated based on the energy input required to break bonds and the energy released when new bonds are formed. For ionic bonds, the lattice energy is the energy required to separate one mole of a compound into its gas phase ions."
+        },
+        "7.6: Molecular Structure and Polarity": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/07%3A_Chemical_Bonding_and_Molecular_Geometry/7.06%3A_Molecular_Structure_and_Polarity",
+            "content": "VSEPR theory predicts the three-dimensional arrangement of atoms in a molecule. It states that valence electrons will assume an electron-pair geometry that minimizes repulsions between areas of high electron density (bonds and/or lone pairs). Molecular structure, which refers only to the placement of atoms in a molecule and not the electrons, is equivalent to electron-pair geometry only when there are no lone electron pairs around the central atom."
+        }
+    },
+    "8: Advanced Theories of Covalent Bonding": {
+        "8.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/08%3A_Advanced_Theories_of_Covalent_Bonding/8.00%3A_Introduction",
+            "content": "Oxygen demonstrates very different magnetic behavior than nitrogen. We can pour liquid nitrogen through a magnetic field with no visible interactions, while liquid oxygen is attracted to the magnet and floats in the magnetic field. We need to understand the additional concepts of valence bond theory, orbital hybridization, and molecular orbital theory to understand these observations."
+        },
+        "8.1: Valence Bond Theory": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/08%3A_Advanced_Theories_of_Covalent_Bonding/8.01%3A_Valence_Bond_Theory",
+            "content": "Valence bond theory describes bonding as a consequence of the overlap of two separate atomic orbitals on different atoms that creates a region with one pair of electrons shared between the two atoms. When the orbitals overlap along an axis containing the nuclei, they form a \u03c3 bond. When they overlap in a fashion that creates a node along this axis, they form a \u03c0 bond."
+        },
+        "8.2: Hybrid Atomic Orbitals": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/08%3A_Advanced_Theories_of_Covalent_Bonding/8.02%3A_Hybrid_Atomic_Orbitals",
+            "content": "We can use hybrid orbitals, which are mathematical combinations of some or all of the valence atomic orbitals, to describe the electron density around covalently bonded atoms. These hybrid orbitals either form sigma (\u03c3) bonds directed toward other atoms of the molecule or contain lone pairs of electrons. We can determine the type of hybridization around a central atom from the geometry of the regions of electron density about it."
+        },
+        "8.3: Multiple Bonds": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/08%3A_Advanced_Theories_of_Covalent_Bonding/8.03%3A_Multiple_Bonds",
+            "content": "Multiple bonds consist of a \u03c3 bond located along the axis between two atoms and one or two \u03c0 bonds. The \u03c3 bonds are usually formed by the overlap of hybridized atomic orbitals, while the \u03c0 bonds are formed by the side-by-side overlap of unhybridized orbitals. Resonance occurs when there are multiple unhybridized orbitals with the appropriate alignment to overlap, so the placement of \u03c0 bonds can vary."
+        },
+        "8.4: Molecular Orbital Theory": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/08%3A_Advanced_Theories_of_Covalent_Bonding/8.04%3A_Molecular_Orbital_Theory",
+            "content": "Molecular orbital (MO) theory describes the behavior of electrons in a molecule in terms of combinations of the atomic wavefunctions. The resulting molecular orbitals may extend over all the atoms in the molecule. Bonding molecular orbitals are formed by in-phase combinations of atomic wavefunctions, and electrons in these orbitals stabilize a molecule. Antibonding molecular orbitals result from out-of-phase combinations and electrons in these orbitals make a molecule less stable."
+        }
+    },
+    "9: Gases": {
+        "9.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/09%3A_Gases/9.00%3A_Introduction",
+            "content": "Gases have played an important part in the development of chemistry. In the seventeenth and eighteenth centuries, many scientists investigated gas behavior, providing the first mathematical descriptions of the behavior of matter."
+        },
+        "9.1: Gas Pressure": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/09%3A_Gases/9.01%3A_Gas_Pressure",
+            "content": "Gases exert pressure, which is force per unit area. The pressure of a gas may be expressed in the SI unit of pascal or kilopascal, as well as in many other units including torr, atmosphere, and bar. Atmospheric pressure is measured using a barometer; other gas pressures can be measured using one of several types of manometers."
+        },
+        "9.2: Relating Pressure, Volume, Amount, and Temperature - The Ideal Gas Law": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/09%3A_Gases/9.02%3A_Relating_Pressure_Volume_Amount_and_Temperature_-_The_Ideal_Gas_Law",
+            "content": "The behavior of gases can be described by several laws based on experimental observations of their properties. including Amontons\u2019s law, Charles\u2019s law, Boyle\u2019s lawand Avogadro\u2019s law. These laws can be extracted directly from the ideal gas law."
+        },
+        "9.3: Stoichiometry of Gaseous Substances, Mixtures, and Reactions": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/09%3A_Gases/9.03%3A_Stoichiometry_of_Gaseous_Substances_Mixtures_and_Reactions",
+            "content": "The ideal gas law can be used to derive a number of convenient equations relating directly measured quantities to properties of interest for gaseous substances and mixtures. Appropriate rearrangement of the ideal gas equation may be made to permit the calculation of gas densities and molar masses. Dalton\u2019s law of partial pressures may be used to relate measured gas pressures for gaseous mixtures to their compositions."
+        },
+        "9.4: Effusion and Diffusion of Gases": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/09%3A_Gases/9.04%3A_Effusion_and_Diffusion_of_Gases",
+            "content": "Gaseous atoms and molecules move freely and randomly through space. Diffusion is the process whereby gaseous atoms and molecules are transferred from regions of relatively high concentration to regions of relatively low concentration. Effusion is a similar process with gaseous species passing from a container to vacuum through a small orifices. The rates of effusion of gases are inversely proportional to the square roots of their densities or to the square roots of their atoms/molecules\u2019 masses."
+        },
+        "9.5: The Kinetic-Molecular Theory": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/09%3A_Gases/9.05%3A_The_Kinetic-Molecular_Theory",
+            "content": "The kinetic molecular theory is a simple but very effective model that effectively explains ideal gas behavior. The theory assumes that gases consist of widely separated molecules of negligible volume that are in constant motion, colliding elastically with one another and the walls of their container with average velocities determined by their absolute temperatures. The individual molecules of a gas exhibit a range of velocities."
+        },
+        "9.6: Non-Ideal Gas Behavior": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/09%3A_Gases/9.06%3A_Non-Ideal_Gas_Behavior",
+            "content": "Gas molecules possess a finite volume and experience forces of attraction for one another. Consequently, gas behavior is not necessarily described well by the ideal gas law. Under conditions of low pressure and high temperature, these factors are negligible, the ideal gas equation is an accurate description of gas behavior, and the gas is said to exhibit ideal behavior. The van der Waals equation is a modified version of the ideal gas law that can be used to account for the non-ideal behavior."
+        }
+    },
+    "10: Liquids and Solids": {
+        "10.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/10%3A_Liquids_and_Solids/10.00%3A_Introduction",
+            "content": "In the liquid and solid states, these interactions are of considerable strength and play an important role in determining a number of physical properties that do depend on the chemical identity of the substance. In this chapter, the nature of these interactions and their effects on various physical properties of liquid and solid phases will be examined."
+        },
+        "10.1: Intermolecular Forces": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/10%3A_Liquids_and_Solids/10.01%3A_Intermolecular_Forces",
+            "content": "The physical properties of condensed matter (liquids and solids) can be explained in terms of the kinetic molecular theory. In a liquid, intermolecular attractive forces hold the molecules in contact, although they still have sufficient kinetic energy to move past each other. Intermolecular attractive forces, collectively referred to as van der Waals forces, are responsible for the behavior of liquids and solids and are electrostatic in nature."
+        },
+        "10.2: Properties of Liquids": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/10%3A_Liquids_and_Solids/10.02%3A_Properties_of_Liquids",
+            "content": "The intermolecular forces between molecules in the liquid state vary depending upon their chemical identities and result in corresponding variations in various physical properties. Cohesive forces between like molecules are responsible for a liquid\u2019s viscosity (resistance to flow) and surface tension. Adhesive forces between the molecules of a liquid and different molecules composing a surface in contact with the liquid are responsible for surface wetting and capillary rise."
+        },
+        "10.3: Phase Transitions": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/10%3A_Liquids_and_Solids/10.03%3A_Phase_Transitions",
+            "content": "Phase transitions are processes that convert matter from one physical state into another. There are six phase transitions between the three phases of matter. Melting, vaporization, and sublimation are all endothermic processes, requiring an input of heat to overcome intermolecular attractions. The reciprocal transitions of freezing, condensation, and deposition are all exothermic processes, involving heat as intermolecular attractive forces are established or strengthened."
+        },
+        "10.4: Phase Diagrams": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/10%3A_Liquids_and_Solids/10.04%3A_Phase_Diagrams",
+            "content": "The temperature and pressure conditions at which a substance exists in solid, liquid, and gaseous states are summarized in a phase diagram for that substance. Phase diagrams are combined plots of three pressure-temperature equilibrium curves: solid-liquid, liquid-gas, and solid-gas. These curves represent the relationships between phase-transition temperatures and pressures. The intersection of all three curves represents the substance\u2019s triple point at which all three phases coexist."
+        },
+        "10.5: The Solid State of Matter": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/10%3A_Liquids_and_Solids/10.05%3A_The_Solid_State_of_Matter",
+            "content": "Some substances form crystalline solids consisting of particles in a very organized structure; others form amorphous (noncrystalline) solids with an internal structure that is not ordered. The main types of crystalline solids are ionic solids, metallic solids, covalent network solids, and molecular solids. The properties of the different kinds of crystalline solids are due to the types of particles of which they consist, the arrangements of the particles, and the strengths of the attractions bet"
+        },
+        "10.6: Lattice Structures in Crystalline Solids": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/10%3A_Liquids_and_Solids/10.06%3A_Lattice_Structures_in_Crystalline_Solids",
+            "content": "The structures of crystalline metals and simple ionic compounds can be described in terms of packing of spheres. Metal atoms can pack in hexagonal closest-packed structures, cubic closest-packed structures, body-centered structures, and simple cubic structures. The anions in simple ionic structures commonly adopt one of these structures, and the cations occupy the spaces remaining between the anions."
+        }
+    },
+    "11: Solutions and Colloids": {
+        "11.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/11%3A_Solutions_and_Colloids/11.00%3A_Introduction",
+            "content": "Solutions are crucial to the processes that sustain life and to many other processes involving chemical reactions. In this chapter, we will consider the nature of solutions, and examine factors that determine whether a solution will form and what properties it may have. In addition, we will discuss colloids\u2014systems that resemble solutions but consist of dispersions of particles somewhat larger than ordinary molecules or ions."
+        },
+        "11.1: The Dissolution Process": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/11%3A_Solutions_and_Colloids/11.01%3A_The_Dissolution_Process",
+            "content": "A solution forms when two or more substances combine physically to yield a mixture that is homogeneous at the molecular level. The solvent is the most concentrated component and determines the physical state of the solution. The solutes are the other components typically present at concentrations less than that of the solvent. Solutions may form endothermically or exothermically, depending upon the relative magnitudes of solute and solvent intermolecular attractive forces."
+        },
+        "11.2: Electrolytes": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/11%3A_Solutions_and_Colloids/11.02%3A_Electrolytes",
+            "content": "Substances that dissolve in water to yield ions are called electrolytes. Electrolytes may be covalent compounds that chemically react with water to produce ions (for example, acids and bases), or they may be ionic compounds that dissociate to yield their constituent cations and anions, when dissolved. Dissolution of an ionic compound is facilitated by ion-dipole attractions between the ions of the compound and the polar water molecules."
+        },
+        "11.3: Solubility": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/11%3A_Solutions_and_Colloids/11.03%3A_Solubility",
+            "content": "The extent to which one substance will dissolve in another is determined by several factors, including the types and relative strengths of intermolecular attractive forces that may exist between the substances\u2019 atoms, ions, or molecules. This tendency to dissolve is quantified as substance\u2019s solubility, its maximum concentration in a solution at equilibrium under specified conditions. A saturated solution contains solute at a concentration equal to its solubility."
+        },
+        "11.4: Colligative Properties": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/11%3A_Solutions_and_Colloids/11.04%3A_Colligative_Properties",
+            "content": "Properties of a solution that depend only on the concentration of solute particles are called colligative properties. They include changes in the vapor pressure, boiling point, and freezing point of the solvent in the solution. The magnitudes of these properties depend only on the total concentration of solute particles in solution, not on the type of particles. The total concentration of solute particles in a solution also determines its osmotic pressure."
+        },
+        "11.5: Colloids": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/11%3A_Solutions_and_Colloids/11.05%3A_Colloids",
+            "content": "Colloids are mixtures in which one or more substances are dispersed as relatively large solid particles or liquid droplets throughout a solid, liquid, or gaseous medium. The particles of a colloid remain dispersed and do not settle due to gravity, and they are often electrically charged. Colloids are widespread in nature and are involved in many technological applications."
+        }
+    },
+    "12: Kinetics": {
+        "12.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/12%3A_Kinetics/12.00%3A_Introduction",
+            "content": "The study of chemical kinetics concerns the rate at which a reaction yields products and the molecular-scale means by which a reaction occurs. In this chapter, we will examine the factors that influence the rates of chemical reactions, the mechanisms by which reactions proceed, and the quantitative techniques used to determine and describe the rate at which reactions occur."
+        },
+        "12.1: Chemical Reaction Rates": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/12%3A_Kinetics/12.01%3A_Chemical_Reaction_Rates",
+            "content": "The rate of a reaction can be expressed either in terms of the decrease in the amount of a reactant or the increase in the amount of a product per unit time. Relations between different rate expressions for a given reaction are derived directly from the stoichiometric coefficients of the equation representing the reaction."
+        },
+        "12.2: Factors Affecting Reaction Rates": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/12%3A_Kinetics/12.02%3A_Factors_Affecting_Reaction_Rates",
+            "content": "The rate of a chemical reaction is affected by several parameters. Reactions involving two phases proceed more rapidly when there is greater surface area contact. If temperature or reactant concentration is increased, the rate of a given reaction generally increases as well. A catalyst can increase the rate of a reaction by providing an alternative pathway that causes the activation energy of the reaction to decrease."
+        },
+        "12.3: Rate Laws": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/12%3A_Kinetics/12.03%3A_Rate_Laws",
+            "content": "Rate laws provide a mathematical description of how changes in the amount of a substance affect the rate of a chemical reaction. Rate laws are determined experimentally and cannot be predicted by reaction stoichiometry. The order of reaction describes how much a change in the amount of each substance affects the overall rate, and the overall order of a reaction is the sum of the orders for each substance present in the reaction."
+        },
+        "12.4: Integrated Rate Laws": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/12%3A_Kinetics/12.04%3A_Integrated_Rate_Laws",
+            "content": "Differential rate laws can be determined by the method of initial rates or other methods. We measure values for the initial rates of a reaction at different concentrations of the reactants. From these measurements, we determine the order of the reaction in each reactant. Integrated rate laws are determined by integration of the corresponding differential rate laws. Rate constants for those rate laws are determined from measurements of concentration at various times during a reaction."
+        },
+        "12.5: Collision Theory": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/12%3A_Kinetics/12.05%3A_Collision_Theory",
+            "content": "Chemical reactions require collisions between reactant species. These reactant collisions must be of proper orientation and sufficient energy in order to result in product formation. Collision theory provides a simple but effective explanation for the effect of many experimental parameters on reaction rates. The Arrhenius equation describes the relation between a reaction\u2019s rate constant and its activation energy, temperature, and dependence on collision orientation."
+        },
+        "12.6: Reaction Mechanisms": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/12%3A_Kinetics/12.06%3A_Reaction_Mechanisms",
+            "content": "The sequence of individual steps, or elementary reactions, by which reactants are converted into products during the course of a reaction is called the reaction mechanism. The overall rate of a reaction is determined by the rate of the slowest step, called the rate-determining step. Unimolecular elementary reactions have first-order rate laws, while bimolecular elementary reactions have second-order rate laws."
+        },
+        "12.7: Catalysis": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/12%3A_Kinetics/12.07%3A_Catalysis",
+            "content": "Catalysts affect the rate of a chemical reaction by altering its mechanism to provide a lower activation energy. Catalysts can be homogenous (in the same phase as the reactants) or heterogeneous (a different phase than the reactants)."
+        }
+    },
+    "13: Fundamental Equilibrium Concepts": {
+        "13.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/13%3A_Fundamental_Equilibrium_Concepts/13.00%3A_Introduction",
+            "content": "Reactions can occur in both directions simultaneously (reactants to products and products to reactants) and eventually reach a state of balance. Reactions can occur in both directions simultaneously (reactants to products and products to reactants) and eventually reach a state of balance."
+        },
+        "13.1: Chemical Equilibria": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/13%3A_Fundamental_Equilibrium_Concepts/13.01%3A_Chemical_Equilibria",
+            "content": "A reaction is at equilibrium when the amounts of reactants or products no longer change. Chemical equilibrium is a dynamic process, meaning the rate of formation of products by the forward reaction is equal to the rate at which the products re-form reactants by the reverse reaction."
+        },
+        "13.2: Equilibrium Constants": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/13%3A_Fundamental_Equilibrium_Concepts/13.02%3A_Equilibrium_Constants",
+            "content": "For any reaction that is at equilibrium, the reaction quotient Q is equal to the equilibrium constant K for the reaction. If a reactant or product is a pure solid, a pure liquid, or the solvent in a dilute solution, the concentration of this component does not appear in the expression for the equilibrium constant. At equilibrium, the values of the concentrations of the reactants and products are constant and the reaction quotient will always equal K."
+        },
+        "13.3: Shifting Equilibria - Le Chatelier\u2019s Principle": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/13%3A_Fundamental_Equilibrium_Concepts/13.03%3A_Shifting_Equilibria_-_Le_Chateliers_Principle",
+            "content": "Systems at equilibrium can be disturbed by changes to temperature, concentration, and, in some cases, volume and pressure; volume and pressure changes will disturb equilibrium if the number of moles of gas is different on the reactant and product sides of the reaction. The system's response to these disturbances is described by Le Ch\u00e2telier's principle: The system will respond in a way that counteracts the disturbance. Not all changes to the system result in a disturbance of the equilibrium."
+        },
+        "13.4: Equilibrium Calculations": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/13%3A_Fundamental_Equilibrium_Concepts/13.04%3A_Equilibrium_Calculations",
+            "content": "The ratios of the rate of change in concentrations of a reaction are equal to the ratios of the coefficients in the balanced chemical equation. The sign of the coefficient of X is positive when the concentration increases and negative when it decreases. We learned to approach three basic types of equilibrium problems. When given the concentrations of the reactants and products at equilibrium, we can solve for the equilibrium constant."
+        }
+    },
+    "14: Acid-Base Equilibria": {
+        "14.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.00%3A_Introduction",
+            "content": ""
+        },
+        "14.1: Br\u00f8nsted-Lowry Acids and Bases": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.01%3A_Brnsted-Lowry_Acids_and_Bases",
+            "content": "Compounds that donate a proton (a hydrogen ion) to another compound is called a Br\u00f8nsted-Lowry acid. The compound that accepts the proton is called a Br\u00f8nsted-Lowry base. The species remaining after a Br\u00f8nsted-Lowry acid has lost a proton is the conjugate base of the acid. The species formed when a Br\u00f8nsted-Lowry base gains a proton is the conjugate acid of the base. Amphiprotic species can act as both proton donors and proton acceptors. Water is the most important amphiprotic species."
+        },
+        "14.2: pH and pOH": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.02%3A_pH_and_pOH",
+            "content": "The concentration of hydronium ion in a solution of an acid in water is greater than 1.0\u00d710\u207b\u2077M at 25 \u00b0C. The concentration of hydroxide ion in a solution of a base in water is greater than 1.0\u00d710\u207b\u2077M M at 25 \u00b0C. The concentration of H\u2083O\u207a in a solution can be expressed as the pH of the solution; pH=\u2212log H\u2083O\u207a. The concentration of OH\u207b can be expressed as the pOH of the solution: pOH=\u2212log[OH\u207b]."
+        },
+        "14.3: Relative Strengths of Acids and Bases": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.03%3A_Relative_Strengths_of_Acids_and_Bases",
+            "content": "The strengths of Br\u00f8nsted-Lowry acids and bases in aqueous solutions can be determined by their acid or base ionization constants. Stronger acids form weaker conjugate bases, and weaker acids form stronger conjugate bases. Thus strong acids are completely ionized in aqueous solution because their conjugate bases are weaker bases than water. Weak acids are only partially ionized because their conjugate bases are compete successfully with water for possession of protons."
+        },
+        "14.4: Hydrolysis of Salt Solutions": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.04%3A_Hydrolysis_of_Salt_Solutions",
+            "content": "The characteristic properties of aqueous solutions of Br\u00f8nsted-Lowry acids are due to the presence of hydronium ions; those of aqueous solutions of Br\u00f8nsted-Lowry bases are due to the presence of hydroxide ions. The neutralization that occurs when aqueous solutions of acids and bases are combined results from the reaction of the hydronium and hydroxide ions to form water. Some salts formed in neutralization reactions may make the product solutions slightly acidic or slightly basic."
+        },
+        "14.5: Polyprotic Acids": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.05%3A_Polyprotic_Acids",
+            "content": "An acid that contains more than one ionizable proton is a polyprotic acid. The protons of these acids ionize in steps. The differences in the acid ionization constants for the successive ionizations of the protons in a polyprotic acid usually vary by roughly five orders of magnitude. As long as the difference between the successive values of Ka of the acid is greater than about a factor of 20, it is appropriate to break down the calculations of the concentrations sequentially."
+        },
+        "14.6: Buffers": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.06%3A_Buffers",
+            "content": "A solution containing a mixture of an acid and its conjugate base, or of a base and its conjugate acid, is called a buffer solution. Unlike in the case of an acid, base, or salt solution, the hydronium ion concentration of a buffer solution does not change greatly when a small amount of acid or base is added to the buffer solution. The base (or acid) in the buffer reacts with the added acid (or base)."
+        },
+        "14.7: Acid-Base Titrations": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.07%3A_Acid-Base_Titrations",
+            "content": "A titration curve is a graph that relates the change in pH of an acidic or basic solution to the volume of added titrant. The characteristics of the titration curve are dependent on the specific solutions being titrated. The pH of the solution at the equivalence point may be greater than, equal to, or less than 7.00. The choice of an indicator for a given titration depends on the expected pH at the equivalence point of the titration, and the range of the color change of the indicator."
+        }
+    },
+    "15: Equilibria of Other Reaction Classes": {
+        "15.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/15%3A_Equilibria_of_Other_Reaction_Classes/15.00%3A_Introduction",
+            "content": ""
+        },
+        "15.1: Precipitation and Dissolution": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/15%3A_Equilibria_of_Other_Reaction_Classes/15.01%3A_Precipitation_and_Dissolution",
+            "content": "The equilibrium constant for an equilibrium involving the precipitation or dissolution of a slightly soluble ionic solid is called the solubility product, Ksp, of the solid. The solubility product of a slightly soluble electrolyte can be calculated from its solubility; conversely, its solubility can be calculated from its Ksp, provided the only significant reaction that occurs when the solid dissolves is the formation of its ions."
+        },
+        "15.2: Lewis Acids and Bases": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/15%3A_Equilibria_of_Other_Reaction_Classes/15.02%3A_Lewis_Acids_and_Bases",
+            "content": "A Lewis acid is a species that can accept an electron pair, whereas a Lewis base has an electron pair available for donation to a Lewis acid. Complex ions are examples of Lewis acid-base adducts. In a complex ion, we have a central atom, often consisting of a transition metal cation, which acts as a Lewis acid, and several neutral molecules or ions surrounding them called ligands that act as Lewis bases. Complex ions form by sharing electron pairs to form coordinate covalent bonds."
+        },
+        "15.3: Coupled Equilibria": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/15%3A_Equilibria_of_Other_Reaction_Classes/15.03%3A_Coupled_Equilibria",
+            "content": "Several systems we encounter consist of multiple equilibria, systems where two or more equilibria processes are occurring simultaneously. Some common examples include acid rain, fluoridation, and dissolution of carbon dioxide in sea water. When looking at these systems, we need to consider each equilibrium separately and then combine the individual equilibrium constants into one solubility product or reaction quotient expression using the tools from the first equilibrium chapter."
+        }
+    },
+    "16: Thermodynamics": {
+        "16.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/16%3A_Thermodynamics/16.00%3A_Introduction",
+            "content": "Previous chapters in this text have described various applications of thermochemistry, an important aspect of thermodynamics concerned with the heat flow accompanying chemical reactions and phase transitions. This chapter will introduce additional thermodynamic concepts, including those that enable the prediction of any chemical or physical changes under a given set of conditions."
+        },
+        "16.1: Spontaneity": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/16%3A_Thermodynamics/16.01%3A_Spontaneity",
+            "content": "Chemical and physical processes have a natural tendency to occur in one direction under certain conditions. A spontaneous process occurs without the need for a continual input of energy from some external source, while a nonspontaneous process requires such. Systems undergoing a spontaneous process may or may not experience a gain or loss of energy, but they will experience a change in the way matter and/or energy is distributed within the system."
+        },
+        "16.2: Entropy": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/16%3A_Thermodynamics/16.02%3A_Entropy",
+            "content": "Entropy (S) is a state function that can be related to the number of microstates for a system (the number of ways the system can be arranged) and to the ratio of reversible heat to Kelvin temperature. It may be interpreted as a measure of the dispersal or distribution of matter and/or energy in a system, and it is often described as representing the \u201cdisorder\u201d of the system. For a given substance, Ssolid<Sliquid<SgasSsolid<Sliquid<SgasS_{solid} < S_{liquid} < S_{gas} in a given physical state at"
+        },
+        "16.3: The Second and Third Laws of Thermodynamics": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/16%3A_Thermodynamics/16.03%3A_The_Second_and_Third_Laws_of_Thermodynamics",
+            "content": "The second law of thermodynamics states spontaneous processes increases the entropy of the universe. If a process would decrease the entropy of the universe, then the process is nonspontaneous, and if no change occurs, the system is at equilibrium. The third law of thermodynamics establishes the zero for entropy at 0 J/Kelvin for a perfect, pure crystalline solid at 0 K with only one possible microstate."
+        },
+        "16.4: Free Energy": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/16%3A_Thermodynamics/16.04%3A_Free_Energy",
+            "content": "Gibbs free energy (G) is a state function defined with regard to system quantities only and may be used to predict the spontaneity of a process. A negative value for \u0394G indicates that the reaction will proceed in the forward direction to reach equilibrium; a positive \u0394G indicates that the reaction will proceed in the reverse direction to reach equilibrium; and a \u0394G of zero indicates that the system is at equilibrium. A number of approaches to the computation of free energy changes are possible."
+        }
+    },
+    "17: Electrochemistry": {
+        "17.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/17%3A_Electrochemistry/17.00%3A_Introduction",
+            "content": ""
+        },
+        "17.1: Review of Redox Chemistry": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/17%3A_Electrochemistry/17.01%3A_Review_of_Redox_Chemistry",
+            "content": "An electric current consists of moving charge. The charge may be in the form of electrons or ions. Current flows through an unbroken or closed circular path called a circuit. The current flows through a conducting medium as a result of a difference in electrical potential between two points in a circuit. Electrical potential has the units of energy per charge. In SI units, charge is measured in coulombs (C), current in amperes, and electrical potential in volts."
+        },
+        "17.2: Galvanic Cells": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/17%3A_Electrochemistry/17.02%3A_Galvanic_Cells",
+            "content": "Electrochemical cells typically consist of two half-cells. The half-cells separate the oxidation half-reaction from the reduction half-reaction and make it possible for current to flow through an external wire. One half-cell contains the anode. Oxidation occurs at the anode. The anode is connected to the cathode in the other half-cell. Reduction occurs at the cathode. Adding a salt bridge completes the circuit allowing current to flow."
+        },
+        "17.3: Electrode and Cell Potentials": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/17%3A_Electrochemistry/17.03%3A_Electrode_and_Cell_Potentials",
+            "content": "Assigning the potential of the standard hydrogen electrode (SHE) as zero volts allows the determination of standard reduction potentials, E\u00b0, for half-reactions in electrochemical cells. As the name implies, standard reduction potentials use standard states (1 bar or 1 atm for gases; 1 M for solutes, often at 298.15 K) and are written as reductions (where electrons appear on the left side of the equation)."
+        },
+        "17.4: Potential, Free Energy, and Equilibrium": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/17%3A_Electrochemistry/17.04%3A_Potential_Free_Energy_and_Equilibrium",
+            "content": "Electrical work is the negative of the product of the total charge (Q) and the cell potential (Ecell). The total charge can be calculated as the number of moles of electrons (n) times the Faraday constant (F = 96,485 C/mol e\u2212). Electrical work is the maximum work that the system can produce and so is equal to the change in free energy. Thus, anything that can be done with or to a free energy change can also be done to or with a cell potential."
+        },
+        "17.5: Batteries and Fuel Cells": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/17%3A_Electrochemistry/17.05%3A_Batteries_and_Fuel_Cells",
+            "content": "Batteries are galvanic cells, or a series of cells, that produce an electric current. When cells are combined into batteries, the potential of the battery is an integer multiple of the potential of a single cell. There are two basic types of batteries: primary and secondary. Primary batteries are \u201csingle use\u201d and cannot be recharged. Dry cells and (most) alkaline batteries are examples of primary batteries. The second type is rechargeable and is called a secondary battery."
+        },
+        "17.6: Corrosion": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/17%3A_Electrochemistry/17.06%3A_Corrosion",
+            "content": "Corrosion is the degradation of a metal caused by an electrochemical process. Large sums of money are spent each year repairing the effects of, or preventing, corrosion. Some metals, such as aluminum and copper, produce a protective layer when they corrode in air. The thin layer that forms on the surface of the metal prevents oxygen from coming into contact with more of the metal atoms and thus \u201cprotects\u201d the remaining metal from further corrosion. Iron corrodes (forms rust) when exposed to wate"
+        },
+        "17.7: Electrolysis": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/17%3A_Electrochemistry/17.07%3A_Electrolysis",
+            "content": "Using electricity to force a nonspontaneous process to occur is electrolysis. Electrolytic cells are electrochemical cells with negative cell potentials (meaning a positive Gibbs free energy), and so are nonspontaneous. Electrolysis can occur in electrolytic cells by introducing a power supply, which supplies the energy to force the electrons to flow in the nonspontaneous direction. Electrolysis is done in solutions, which contain enough ions so current can flow."
+        }
+    },
+    "18: Representative Metals, Metalloids, and Nonmetals": {
+        "18.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.00%3A_Introduction",
+            "content": "The development of the periodic table in the mid-1800s came from observations that there was a periodic relationship between the properties of the elements. Chemists, who have an understanding of the variations of these properties, have been able to use this knowledge to solve a wide variety of technical challenges."
+        },
+        "18.1: Periodicity": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.01%3A_Periodicity",
+            "content": "This section focuses on the periodicity of the representative elements, where the electrons are entering the s and p orbitals. The representative elements occur in groups 1, 2, and 12\u201318. These elements are representative metals, metalloids, and nonmetals. The alkali metals (group 1) are very reactive, readily form ions with a charge of 1+ to form ionic compounds that are usually soluble in water, and react vigorously with water to form hydrogen gas and a basic solution of the metal hydroxide."
+        },
+        "18.2: Occurrence and Preparation of the Representative Metals": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.02%3A_Occurrence_and_Preparation_of_the_Representative_Metals",
+            "content": "Because of their chemical reactivity, it is necessary to produce the representative metals in their pure forms by reduction from naturally occurring compounds. Electrolysis is important in the production of sodium, potassium, and aluminum. Chemical reduction is the primary method for the isolation of magnesium, zinc, and tin. Similar procedures are important for the other representative metals."
+        },
+        "18.3: Structure and General Properties of the Metalloids": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.03%3A_Structure_and_General_Properties_of_the_Metalloids",
+            "content": "The elements boron, silicon, germanium, arsenic, antimony, and tellurium separate the metals from the nonmetals in the periodic table. These elements, called metalloids or sometimes semimetals, exhibit properties characteristic of both metals and nonmetals. The structures of these elements are similar in many ways to those of nonmetals, but the elements are electrical semiconductors."
+        },
+        "18.4: Structure and General Properties of the Nonmetals": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.04%3A_Structure_and_General_Properties_of_the_Nonmetals",
+            "content": "Nonmetals have structures that are very different from those of the metals, primarily because they have greater electronegativity and electrons that are more tightly bound to individual atoms. Most nonmetal oxides are acid anhydrides, meaning that they react with water to form acidic solutions. Molecular structures are common for most of the nonmetals, and several have multiple allotropes with varying physical properties."
+        },
+        "18.5: Occurrence, Preparation, and Compounds of Hydrogen": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.05%3A_Occurrence_Preparation_and_Compounds_of_Hydrogen",
+            "content": "Hydrogen is the most abundant element in the universe and its chemistry is truly unique. Although it has some chemical reactivity that is similar to that of the alkali metals, hydrogen has many of the same chemical properties of a nonmetal with a relatively low electronegativity. It forms ionic hydrides with active metals, covalent compounds with -1 oxidation state with less electronegative elements, and covalent compounds with +1 oxidation state with more electronegative nonmetals."
+        },
+        "18.6: Occurrence, Preparation, and Properties of Carbonates": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.06%3A_Occurrence_Preparation_and_Properties_of_Carbonates",
+            "content": "The usual method for the preparation of the carbonates of the alkali and alkaline earth metals is by reaction of an oxide or hydroxide with carbon dioxide. Other carbonates form by precipitation. Metal carbonates or hydrogen carbonates such as limestone (CaCO3), the antacid Tums (CaCO3), and baking soda (NaHCO3) are common examples. Carbonates and hydrogen carbonates decompose in the presence of acids and most decompose on heating."
+        },
+        "18.7: Occurrence, Preparation, and Properties of Nitrogen": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.07%3A_Occurrence_Preparation_and_Properties_of_Nitrogen",
+            "content": "Nitrogen exhibits oxidation states ranging from 3\u2212 to 5+. Because of the stability of the N\u2261N triple bond, it requires a great deal of energy to make compounds from molecular nitrogen. Active metals such as the alkali metals and alkaline earth metals can reduce nitrogen to form metal nitrides. Nitrogen oxides and nitrogen hydrides are also important substances."
+        },
+        "18.8: Occurrence, Preparation, and Properties of Phosphorus": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.08%3A_Occurrence_Preparation_and_Properties_of_Phosphorus",
+            "content": "Phosphorus (group 15) commonly exhibits oxidation states of 3\u2212 with active metals and of 3+ and 5+ with more electronegative nonmetals. The halogens and oxygen will oxidize phosphorus. The oxides are phosphorus(V) oxide, P4O10, and phosphorus(III) oxide, P4O6. The two common methods for preparing orthophosphoric acid, H3PO4, are either the reaction of a phosphate with sulfuric acid or the reaction of water with phosphorus(V) oxide. Orthophosphoric acid is triprotic that forms 3 types of salts."
+        },
+        "18.9: Occurrence, Preparation, and Compounds of Oxygen": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.09%3A_Occurrence_Preparation_and_Compounds_of_Oxygen",
+            "content": "Oxygen is one of the most reactive elements. This reactivity, coupled with its abundance, makes the chemistry of oxygen very rich and well understood.\u00a0 Compounds of the representative metals with oxygen exist in three categories (1) oxides, (2) peroxides and superoxides, and (3) hydroxides. Heating the corresponding hydroxides, nitrates, or carbonates is the most common method for producing oxides. Heating the metal or metal oxide in oxygen may lead to the formation of peroxides and superoxides."
+        },
+        "18.10: Occurrence, Preparation, and Properties of Sulfur": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.10%3A_Occurrence_Preparation_and_Properties_of_Sulfur",
+            "content": "Sulfur (group 16) reacts with almost all metals and readily forms the sulfide ion, S2\u2212, in which it has as oxidation state of 2\u2212. Sulfur reacts with most nonmetals."
+        },
+        "18.11: Occurrence, Preparation, and Properties of Halogens": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.11%3A_Occurrence_Preparation_and_Properties_of_Halogens",
+            "content": "The halogens form halides with less electronegative elements. Halides of the metals vary from ionic to covalent; halides of nonmetals are covalent. Interhalogens form by the combination of two or more different halogens. All of the representative metals react directly with elemental halogens or with solutions of the hydrohalic acids (HF, HCl, HBr, and HI) to produce representative metal halides."
+        },
+        "18.12: Occurrence, Preparation, and Properties of the Noble Gases": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/18%3A_Representative_Metals_Metalloids_and_Nonmetals/18.12%3A_Occurrence_Preparation_and_Properties_of_the_Noble_Gases",
+            "content": "The most significant property of the noble gases (group 18) is their inactivity. They occur in low concentrations in the atmosphere. They find uses as inert atmospheres, neon signs, and as coolants. The three heaviest noble gases react with fluorine to form fluorides. The xenon fluorides are the best characterized as the starting materials for a few other noble gas compounds."
+        }
+    },
+    "19: Transition Metals and Coordination Chemistry": {
+        "19.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/19%3A_Transition_Metals_and_Coordination_Chemistry/19.00%3A_Introduction",
+            "content": ""
+        },
+        "19.1: Occurrence, Preparation, and Properties of Transition Metals and Their Compounds": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/19%3A_Transition_Metals_and_Coordination_Chemistry/19.01%3A_Occurrence_Preparation_and_Properties_of_Transition_Metals_and_Their_Compounds",
+            "content": "The transition metals are elements with partially filled d orbitals, located in the d-block of the periodic table. The reactivity of the transition elements varies widely from very active metals such as scandium and iron to almost inert elements, such as the platinum metals. The type of chemistry used in the isolation of the elements from their ores depends upon the concentration of the element in its ore and the difficulty of reducing ions of the elements to the metals."
+        },
+        "19.2: Coordination Chemistry of Transition Metals": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/19%3A_Transition_Metals_and_Coordination_Chemistry/19.02%3A_Coordination_Chemistry_of_Transition_Metals",
+            "content": "The transition elements and main group elements can form coordination compounds, or complexes, in which a central metal atom or ion is bonded to one or more ligands by coordinate covalent bonds. Ligands with more than one donor atom are called polydentate ligands and form chelates. The common geometries found in complexes are tetrahedral and square planar (both with a coordination number of four) and octahedral (with a coordination number of six)."
+        },
+        "19.3: Spectroscopic and Magnetic Properties of Coordination Compounds": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/19%3A_Transition_Metals_and_Coordination_Chemistry/19.03%3A_Spectroscopic_and_Magnetic_Properties_of_Coordination_Compounds",
+            "content": "Crystal field theory, which assumes that metal\u2013ligand interactions are only electrostatic in nature, explains many important properties of transition-metal complexes, including their colors, magnetism, structures, stability, and reactivity."
+        }
+    },
+    "20: Organic Chemistry": {
+        "20.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/20%3A_Organic_Chemistry/20.00%3A_Introduction",
+            "content": "Early chemists regarded substances isolated from organisms as a different type of matter that could not be synthesized artificially, and these substances were thus known as organic compounds. The widespread belief called vitalism held that organic compounds were formed by a vital force present only in living organisms. Thr defining trait of organic molecules is the presence of carbon as the principal element, bonded to hydrogen and other carbon atoms."
+        },
+        "20.1: Hydrocarbons": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/20%3A_Organic_Chemistry/20.01%3A_Hydrocarbons",
+            "content": "Strong, stable bonds between carbon atoms produce complex molecules containing chains, branches, and rings. Hydrocarbons are organic compounds composed of only carbon and hydrogen. The alkanes are saturated hydrocarbons\u2014that is, hydrocarbons that contain only single bonds. Alkenes contain one or more carbon-carbon double bonds. Alkynes contain one or more carbon-carbon triple bonds. Aromatic hydrocarbons contain ring of delocalized \u03c0 electrons."
+        },
+        "20.2: Alcohols and Ethers": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/20%3A_Organic_Chemistry/20.02%3A_Alcohols_and_Ethers",
+            "content": "Many organic compounds that are not hydrocarbons can be thought of as derivatives of hydrocarbons. A hydrocarbon derivative can be formed by replacing one or more hydrogen atoms of a hydrocarbon by a functional group, which contains at least one atom of an element other than carbon or hydrogen. The properties of hydrocarbon derivatives are determined largely by the functional group. The \u2013OH group is the functional group of an alcohol. The \u2013R\u2013O\u2013R\u2013 group is the functional group of an ether."
+        },
+        "20.3: Aldehydes, Ketones, Carboxylic Acids, and Esters": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/20%3A_Organic_Chemistry/20.03%3A_Aldehydes_Ketones_Carboxylic_Acids_and_Esters",
+            "content": "The carbonyl group, a carbon-oxygen double bond, is the key structure in these classes of organic molecules: Aldehydes contain at least one hydrogen atom attached to the carbonyl carbon atom, ketones contain two carbon groups attached to the carbonyl carbon atom, carboxylic acids contain a hydroxyl group attached to the carbonyl carbon atom, and esters contain an oxygen atom attached to another carbon group connected to the carbonyl carbon atom."
+        },
+        "20.4: Amines and Amides": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/20%3A_Organic_Chemistry/20.04%3A_Amines_and_Amides",
+            "content": "The addition of nitrogen into an organic framework leads to two families of molecules. Compounds containing a nitrogen atom bonded in a hydrocarbon framework are classified as amines. Compounds that have a nitrogen atom bonded to one side of a carbonyl group are classified as amides. Amines are a basic functional group. Amines and carboxylic acids can combine in a condensation reaction to form amides."
+        }
+    },
+    "21: Nuclear Chemistry": {
+        "21.0: Introduction": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/21%3A_Nuclear_Chemistry/21.00%3A_Introduction",
+            "content": "This chapter will introduce the topic of nuclear chemistry, which began with the discovery of radioactivity in 1896 by French physicist Antoine Becquerel and has become increasingly important during the twentieth and twenty-first centuries, providing the basis for various technologies related to energy, medicine, geology, and many other areas."
+        },
+        "21.1: Nuclear Structure and Stability": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/21%3A_Nuclear_Chemistry/21.01%3A_Nuclear_Structure_and_Stability",
+            "content": "An atomic nucleus consists of protons and neutrons, collectively called nucleons. Although protons repel each other, the nucleus is held tightly together by a short-range, but very strong, force called the strong nuclear force. A nucleus has less mass than the total mass of its constituent nucleons. This \u201cmissing\u201d mass is the mass defect, which has been converted into the binding energy that holds the nucleus together according to Einstein\u2019s mass-energy equivalence equation, E = mc2."
+        },
+        "21.2: Nuclear Equations": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/21%3A_Nuclear_Chemistry/21.02%3A_Nuclear_Equations",
+            "content": "Nuclei can undergo reactions that change their number of protons, number of neutrons, or energy state. Many different particles can be involved in nuclear reactions. The most common are protons, neutrons, positrons (which are positively charged electrons), alpha (\u03b1) particles (which are high-energy helium nuclei), beta (\u03b2) particles (which are high-energy electrons), and gamma (\u03b3) rays (which compose high-energy electromagnetic radiation)."
+        },
+        "21.3: Radioactive Decay": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/21%3A_Nuclear_Chemistry/21.03%3A_Radioactive_Decay",
+            "content": "Unstable nuclei undergo spontaneous radioactive decay. The most common types of radioactivity are \u03b1 decay, \u03b2 decay, \u03b3 emission, positron emission, and electron capture. Nuclear reactions also often involve \u03b3 rays, and some nuclei decay by electron capture. Each of these modes of decay leads to the formation of a new stable nuclei sometimes via multiple decays before ending in a stable isotope. All nuclear decay processes follow first-order kinetics and each radioisotope has its own half-life."
+        },
+        "21.4: Transmutation and Nuclear Energy": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/21%3A_Nuclear_Chemistry/21.04%3A_Transmutation_and_Nuclear_Energy",
+            "content": "It is possible to produce new atoms by bombarding other atoms with nuclei or high-speed particles. The products of these transmutation reactions can be stable or radioactive. A number of artificial elements, including technetium, astatine, and the transuranium elements, have been produced in this way.  Nuclear power as well as nuclear weapon detonations can be generated through fission (reactions in which a heavy nucleus is split into two or more lighter nuclei and several neutrons)."
+        },
+        "21.5: Uses of Radioisotopes": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/21%3A_Nuclear_Chemistry/21.05%3A_Uses_of_Radioisotopes",
+            "content": "Compounds known as radioactive tracers can be used to follow reactions, track the distribution of a substance, diagnose and treat medical conditions, and much more. Other radioactive substances are helpful for controlling pests, visualizing structures, providing fire warnings, and for many other applications. Hundreds of millions of nuclear medicine tests and procedures, using a wide variety of radioisotopes with relatively short half-lives, are performed every year in the US."
+        },
+        "21.6: Biological Effects of Radiation": {
+            "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/21%3A_Nuclear_Chemistry/21.06%3A_Biological_Effects_of_Radiation",
+            "content": "We are constantly exposed to radiation from naturally occurring and human-produced sources. This radiation can affect living organisms. Ionizing radiation is particularly harmful because it can ionize molecules or break chemical bonds, which damages the molecules & causes malfunctions in cell processes. Types of radiation differ in their ability to penetrate material and damage tissue, with alpha particles the least penetrating, but potentially most damaging, and gamma rays the most penetrating."
+        }
+    }
+}
