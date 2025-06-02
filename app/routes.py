@@ -7,6 +7,7 @@ from flask_login import login_user, logout_user, current_user, UserMixin, login_
 from app import app, login_manager, db
 from .forms import LoginForm, RegisterForm
 from .models import User
+from common import cache
 
 login_manager.init_app(app)
 login_manager.login_view = 'login'
@@ -85,6 +86,10 @@ def user(username):
 		return redirect(url_for('index'))
 	return render_template('user.html', username=username)
 
+# this is where we code
 @app.route('/text')
 def text():
+
+	with open('a', 'r') as a, open('b', 'r') as b:
+
 	return render_template('texty.html')

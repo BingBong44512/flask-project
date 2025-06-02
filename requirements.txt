@@ -11,3 +11,4 @@ python-dotenv
 email-validator
 beautifulsoup4
 selenium
+Flask-Caching
