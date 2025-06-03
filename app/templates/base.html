@@ -49,9 +49,18 @@
 							{%else %}
 								<a href="/logout">Logout</a>
 							{% endif %}
+
+						</div>
+						<div>
+							{% if not current_user.is_authenticated %}
+								<a href="/register">Register</a>
+							{% else %}
+								<a href="/user/{{current_user.username}}">User</a>
+							{% endif %}
+
 						</div>
 
-						<a href="/register">Register</a>
+						
 					</div>
 					
 				</div>

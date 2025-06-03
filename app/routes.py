@@ -32,7 +32,7 @@ def login():
 		remember = form.remember_me.data
 
 		user = User.query.filter_by(username=username).first()
-		if username == user.username and user.check_password(password):
+		if user and username == user.username and user.check_password(password):
 			login_user(user, remember=remember)
 			flash('Logged in successfully.')
 			next = request.args.get('next')
@@ -78,6 +78,8 @@ def register():
 def logout():
 	logout_user()
 	return redirect(url_for('index'))
+
+
 
 @app.route('/user/<username>')
 @login_required
