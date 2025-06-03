@@ -7,7 +7,7 @@ from flask_login import login_user, logout_user, current_user, UserMixin, login_
 from app import app, login_manager, db
 from .forms import LoginForm, RegisterForm
 from .models import User
-from common import cache
+from .common import cache
 
 login_manager.init_app(app)
 login_manager.login_view = 'login'
@@ -30,7 +30,8 @@ def login():
 		remember = form.remember_me.data
 
 		user = User.query.filter_by(username=username).first()
-		if username == user.username and user.check_password(password):
+
+		if type(user) is not type(None) and username == user.username and user.check_password(password):
 			login_user(user, remember=remember)
 			flash('Logged in successfully.')
 			next = request.args.get('next')
@@ -75,6 +76,7 @@ def register():
 @login_required
 def logout():
 	logout_user()
+	print(cache.get("subject list"))
 	return redirect(url_for('index'))
 
 @app.route('/user/<username>')
@@ -87,9 +89,9 @@ def user(username):
 	return render_template('user.html', username=username)
 
 # this is where we code
-@app.route('/text')
-def text():
+# @app.route('/text')
+# def text():
 
-	with open('a', 'r') as a, open('b', 'r') as b:
+# 	with open('a', 'r') as a, open('b', 'r') as b:
 
-	return render_template('texty.html')
+# 	return render_template('texty.html')
