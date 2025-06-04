@@ -19,7 +19,10 @@ def load_user(user_id):
 
 @app.route('/')
 def index():
-	return render_template('index.html')
+	username = ""
+	if current_user.is_authenticated:
+		username = current_user.username
+	return render_template('index.html', username = username)
 
 @app.route('/login', methods=["POST","GET"])
 def login():
@@ -30,7 +33,7 @@ def login():
 		remember = form.remember_me.data
 
 		user = User.query.filter_by(username=username).first()
-		if username == user.username and user.check_password(password):
+		if user and username == user.username and user.check_password(password):
 			login_user(user, remember=remember)
 			flash('Logged in successfully.')
 			next = request.args.get('next')
@@ -85,6 +88,8 @@ def change_pass():
 def logout():
 	logout_user()
 	return redirect(url_for('index'))
+
+
 
 @app.route('/user/<username>')
 @login_required
