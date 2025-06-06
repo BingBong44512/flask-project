@@ -46,7 +46,7 @@
 							{% if not current_user.is_authenticated %}
 								<a href="/register">Register</a>
 							{%else %}
-								<a href="/user/{{current_user}}">Practice</a>
+								<a href="/user/{{current_user.username}}">Practice</a>
 							{% endif %}
 						</div>
 					</div>

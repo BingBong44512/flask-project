@@ -30,13 +30,14 @@ def login():
 		remember = form.remember_me.data
 
 		user = User.query.filter_by(username=username).first()
-		if username == user.username and user.check_password(password):
+		if username is not None and username == user.username and user.check_password(password):
 			login_user(user, remember=remember)
 			flash('Logged in successfully.')
 			next = request.args.get('next')
 		else:
-			flash('Invalid username or password (temporary)')
+			
 			return render_template('login.html', form=form)
+			flash('Invalid username or password (temporary)')
 			
 		#if not url_has_allowed_host_and_scheme(next, request.host):
 		#	return flask.abort(400)
