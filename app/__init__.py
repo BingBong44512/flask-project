@@ -65,7 +65,7 @@ def update():
 		vocab = json.load(uvocab)
 		words = text.split(" ")
 		for word in words:
-			if 
+			word = word.remove()
 
 
 
