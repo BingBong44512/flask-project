@@ -3,7 +3,7 @@ from config import Config
 from app.common import cache
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
-from random import choice
+from random import choice,randint
 import json 
 from string import punctuation
 
@@ -51,10 +51,8 @@ def update():
 			lessonNum[0]+=1
 			lessonNum[1]=0
 			subjects[cache.get("todaySubject")]=lessonNum
-			print("e")
 
 		cache.set("subjectList",subjects)
-		print(str(lessonNum))
 
 		chapterDict = content[[*content.keys()][lessonNum[0]]]
 		currentText = chapterDict[[*chapterDict.keys()][lessonNum[1]]]
@@ -68,16 +66,14 @@ def update():
 		words = text1.split(" ")
 		alreadyReplace = []
 		for word in words:
-			# if word in vocab.keys():
-			xword = "{"+word+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+"}"
-			# print(xword)
-			correctAnswers.append(word)
-			text.replace(word,xword)
+			if (word in vocab.keys() or (len(word)>7 and randint(0,3)==0)) and word not in alreadyReplace:
+				alreadyReplace.append(word)
+				xword = "{"+word+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+"}"
+				correctAnswers.append(word)
+				text = text.replace(word,xword)
 
-	print(text)
 	cache.set("inputText",text)
 	cache.set("correctAnswers",correctAnswers)
-	print(cache.get("inputText")+"\n"+str(cache.get("correctAnswers")))
 
 
 

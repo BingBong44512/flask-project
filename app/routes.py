@@ -91,5 +91,6 @@ def user(username):
 
 @app.route('/text')
 def text():
-
-	return render_template('texty.html')
+	
+	return render_template('texty.html',inputText = cache.get("inputText"),correctAnswers = cache.get("correctAnswers"),lessonName = cache.get("lessonName")
+		,link = cache.get("link"))
