@@ -9,7 +9,6 @@ from random import choice,randint
 import json 
 from string import punctuation
 
-db = SQLAlchemy(app)
 login_manager = LoginManager()
 admin = Admin(template_mode='bootstrap3')
 
@@ -19,13 +18,17 @@ app.config.from_object(Config)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///placeholder.db'	
 
+db = SQLAlchemy(app)
 db.init_app(app)
+
 login_manager.init_app(app)
-admin.init_app(app)
 
 from .models import User
 
 admin.add_view(ModelView(User, db.session))
+admin.init_app(app)
+
+
 
 from app import routes
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///placeholder.db'
@@ -39,9 +42,6 @@ cache.set("correctAnswers",[])
 cache.set("lessonName","")
 cache.set("link","")
 
-db = SQLAlchemy(app)
-
-db.init_app(app)
 
 from app import routes
 
