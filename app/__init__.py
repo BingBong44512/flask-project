@@ -31,7 +31,6 @@ admin.init_app(app)
 
 
 from app import routes
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///placeholder.db'
 cache.init_app(app=app, config={"CACHE_TYPE": "SimpleCache"})
 cache.set("subjectList", {"astro":[0,-1],"bio":[0,-1],"chem":[0,-1],"physics":[0,-1]})
 cache.set("todaySubject","astro")
