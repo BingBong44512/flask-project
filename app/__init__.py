@@ -5,7 +5,7 @@ from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 from random import choice
 import json 
-import os
+from string import punctuation
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -38,8 +38,7 @@ def update():
 
 
 	correctAnswers = []
-	inputText = ""
-
+	cache.set("subjectList",subjects)
 	subject = cache.get("todaySubject")
 	lessonNum = cache.get("subjectList")[subject]
 	text = ""
@@ -52,8 +51,10 @@ def update():
 			lessonNum[0]+=1
 			lessonNum[1]=0
 			subjects[cache.get("todaySubject")]=lessonNum
-			cache.set("subjectList",subjects)
+			print("e")
 
+		cache.set("subjectList",subjects)
+		print(str(lessonNum))
 
 		chapterDict = content[[*content.keys()][lessonNum[0]]]
 		currentText = chapterDict[[*chapterDict.keys()][lessonNum[1]]]
@@ -63,14 +64,25 @@ def update():
 
 	with open('app/static/dicts/'+subject+"dict.json", 'r') as uvocab:
 		vocab = json.load(uvocab)
-		words = text.split(" ")
+		text1 = text.translate(str.maketrans('', '', punctuation))
+		words = text1.split(" ")
+		alreadyReplace = []
 		for word in words:
-			word = word.remove()
+			# if word in vocab.keys():
+			xword = "{"+word+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+"}"
+			# print(xword)
+			correctAnswers.append(word)
+			text.replace(word,xword)
+
+	print(text)
+	cache.set("inputText",text)
+	cache.set("correctAnswers",correctAnswers)
+	print(cache.get("inputText")+"\n"+str(cache.get("correctAnswers")))
 
 
 
 def init_scheduler():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(func=update, trigger="interval", seconds=5)
+    scheduler.add_job(func=update, trigger="interval", seconds=10)
     scheduler.start()
     atexit.register(lambda: scheduler.shutdown())
