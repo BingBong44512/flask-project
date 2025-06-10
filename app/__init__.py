@@ -19,7 +19,6 @@ app.config.from_object(Config)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///placeholder.db'	
 
 db = SQLAlchemy(app)
-db.init_app(app)
 
 login_manager.init_app(app)
 
