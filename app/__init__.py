@@ -93,6 +93,7 @@ def update():
 
 def init_scheduler():
     scheduler = BackgroundScheduler()
+    update()
     scheduler.add_job(func=update, trigger="interval", seconds=10)
     scheduler.start()
     atexit.register(lambda: scheduler.shutdown())
