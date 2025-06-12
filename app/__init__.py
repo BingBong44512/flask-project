@@ -6,8 +6,7 @@ from app.common import cache
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 from random import choice,randint
-import json 
-from string import punctuation
+import json
 
 login_manager = LoginManager()
 admin = Admin(template_mode='bootstrap3')
@@ -79,15 +78,13 @@ def update():
 
 	with open('app/static/dicts/'+subject+"dict.json", 'r') as uvocab:
 		vocab = json.load(uvocab)
-		text1 = text.translate(str.maketrans('', '', punctuation))
+		text1 = text.translate(str.maketrans('', '', """:,.?!"';()"""))
 		words = text1.split(" ")
-		alreadyReplace = []
 		for word in words:
-			if (word in vocab.keys() or (len(word)>7 and randint(0,3)==0)) and word not in alreadyReplace:
-				alreadyReplace.append(word)
+			if (word in vocab.keys() or (len(word)>7 and randint(0,3)==0)) and word not in correctAnswers:
 				xword = "{"+word+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+"}"
 				correctAnswers.append(word)
-				text = text.replace(word,xword)
+				text = text.replace(word,xword,1)
 
 	cache.set("inputText",text)
 	cache.set("correctAnswers",correctAnswers)
@@ -96,6 +93,7 @@ def update():
 
 def init_scheduler():
     scheduler = BackgroundScheduler()
+    update()
     scheduler.add_job(func=update, trigger="interval", seconds=10)
     scheduler.start()
     atexit.register(lambda: scheduler.shutdown())

@@ -26,3 +26,6 @@ class ChangePassword(FlaskForm):
 	])
 
 	submit = SubmitField('Change Password')
+
+class TextForm(FlaskForm):
+	submit = SubmitField('Submit')

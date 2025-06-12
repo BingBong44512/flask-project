@@ -1,6 +1,13 @@
 {% extends 'base.html' %}
 
 {% block scripts %}
+<script>
+	const inputText = "{{inputText}}"
+
+	const correctAnswers = eval("{{correctAnswers}}".replaceAll("&#39;",'"'))
+
+</script>
+
 <script src="{{url_for('static',filename='js/html-thing.js')}}">
 	
 </script>
@@ -9,4 +16,5 @@
 {% block content %}
 	<div id="output"></div>
 	<button onclick="checkAnswers()">Check Answers</button>
+	{{ form.submit(class_="btn btn-primary") }}
 {% endblock %}

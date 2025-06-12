@@ -5,7 +5,7 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
 from app import app, login_manager, db, admin
-from .forms import LoginForm, RegisterForm, ChangePassword
+from .forms import LoginForm, RegisterForm, ChangePassword, TextForm
 from .models import User
 from .common import cache
 import json
@@ -80,7 +80,8 @@ def register():
 def change_pass():
 	form = ChangePassword()
 	if form.validate_on_submit():
-		fda
+		current_user.set_password(form.new_password.data)
+		return redirect(url_for('profile'))
 
 	return render_template('change_pass.html', form=form)
 
@@ -103,6 +104,10 @@ def user(username):
 
 @app.route('/text')
 def text():
-	
+	form = TextForm()
+
+	if form.validate_on_submit():
+		return redirect(url_for('index'))
+
 	return render_template('texty.html',inputText = cache.get("inputText"),correctAnswers = cache.get("correctAnswers"),lessonName = cache.get("lessonName")
-		,link = cache.get("link"))
+		,link = cache.get("link"), form = form)
