@@ -5,8 +5,10 @@ from config import Config
 from app.common import cache
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 from random import choice,randint
 import json
+from flask_mail import Mail
 
 login_manager = LoginManager()
 admin = Admin(template_mode='bootstrap3')
@@ -14,12 +16,14 @@ admin = Admin(template_mode='bootstrap3')
 
 app = Flask(__name__)
 app.config.from_object(Config)
-
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///placeholder.db'	
-
 db = SQLAlchemy(app)
 
 login_manager.init_app(app)
+
+mail = Mail(app)
+
+migrate = Migrate(app, db)
 
 from .models import User
 

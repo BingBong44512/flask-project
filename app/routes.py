@@ -4,11 +4,13 @@ from flask_wtf import Form
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
-from app import app, login_manager, db, admin
+from flask_mail import Message
+from app import app, login_manager, db, admin, mail
 from .forms import LoginForm, RegisterForm, ChangePassword, TextForm
 from .models import User
 from .common import cache
 import json
+import secrets
 
 login_manager.init_app(app)
 login_manager.login_view = 'login'
@@ -35,6 +37,11 @@ def login():
 
 		user = User.query.filter_by(username=username).first()
 		if user and username == user.username and user.check_password(password):
+
+			if not user.email_verified:
+				flash('Please verify your email address before logging in.')
+				return render_template('login.html', form=form)
+
 			login_user(user, remember=remember)
 			flash('Logged in successfully.')
 			next = request.args.get('next')
@@ -66,21 +73,64 @@ def register():
 			return render_template('register.html', form=form)
 
 		new_user = User(username=username, email=email, password=password)
+
+		verification_token = secrets.token_urlsafe(32)
+		new_user.email_verification_token = verification_token
+		new_user.email_verified = False
+
 		db.session.add(new_user)
 		db.session.commit()
 
-		login_user(new_user)
-		flash('Registration successful!')
-		return redirect(url_for('user', username=username))
+		msg = Message('Verify Your Email Address', recipients=[new_user.email])
+		verify_url = url_for('verify_email', token=verification_token, _external=True)
+		msg.body = f"""
+
+		Hello {new_user.username},
+
+Thank you for registering on our website!
+Please click on the following link to verify your email address:
+
+{verify_url}
+
+If you did not register for this account, please ignore this email.
+
+Sincerely,
+The Website Team
+"""
+		try:
+			mail.send(msg)
+			flash('Registration successful! Please check your email to verify your account.')
+			return redirect(url_for('login'))
+		except Exception as e:
+			db.session.rollback()
+			print(f"Error sending email: {e}")
+			flash(f'Registration failed: Could not send verification email. Please try again. Error: {e}')
+			return render_template('register.html', form=form)
 
 	return render_template('register.html', form=form)
 
-@app.route('/change_password')
+@app.route('/verify_email/<token>')
+def verify_email(token):
+	user = User.query.filter_by(email_verification_token=token).first()
+
+	if user:
+		user.email_verified = True
+		user.email_verification_token = None # Clear the token after verification
+		db.session.commit()
+		flash('Your email has been successfully verified! You are now logged in.')
+		login_user(user)
+		return redirect(url_for('profile'))
+	else:
+		flash('Invalid or expired verification link.')
+		return redirect(url_for('index'))
+
+@app.route('/change_password', methods=['GET', 'POST'])
 @login_required
 def change_pass():
 	form = ChangePassword()
 	if form.validate_on_submit():
 		current_user.set_password(form.new_password.data)
+		db.session.commit()
 		return redirect(url_for('profile'))
 
 	return render_template('change_pass.html', form=form)

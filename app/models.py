@@ -12,6 +12,8 @@ class User(UserMixin, db.Model):
 	email = db.Column(db.String(120), unique=True, nullable=False)
 	#later we will need to add email authentication!!!
 	password_hash = db.Column(db.String(128), nullable=False)
+	email_verified = db.Column(db.Boolean, default=False)
+	email_verification_token = db.Column(db.String(128), unique=True, nullable=True)
 
 	def __init__(self, username, email, password):
 
