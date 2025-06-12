@@ -39,6 +39,7 @@ def login():
 			flash('Logged in successfully.')
 			next = request.args.get('next')
 		else:
+			
 			flash('Invalid username or password (temporary)')
 			return render_template('login.html', form=form)
 			
@@ -75,23 +76,11 @@ def register():
 
 	return render_template('register.html', form=form)
 
-@app.route('/change_password')
-@login_required
-def change_pass():
-	form = ChangePassword()
-	if form.validate_on_submit():
-		current_user.set_password(form.new_password.data)
-		return redirect(url_for('profile'))
-
-	return render_template('change_pass.html', form=form)
-
 @app.route('/logout')
 @login_required
 def logout():
 	logout_user()
 	return redirect(url_for('index'))
-
-
 
 @app.route('/user/<username>')
 @login_required

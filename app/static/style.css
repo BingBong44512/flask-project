@@ -58,7 +58,7 @@ body {
 .container {
 	/*margin: 2rem auto; */
 	padding: 0.5rem;
-	background-color: white;
+	background-color: #0b686a;
 	border-radius: 8px;
 	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
 }
