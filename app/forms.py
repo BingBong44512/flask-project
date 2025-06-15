@@ -9,23 +9,10 @@ class LoginForm(FlaskForm):
 	submit = SubmitField('Sign In')
 
 class RegisterForm(FlaskForm):
-	username = StringField('Username', validators=[DataRequired(), Length(min=3, max=80)])
-	email = StringField('Email', validators=[DataRequired(), Email(), Length(max=120)])
-	password = PasswordField('Password', validators=[DataRequired(), Length(min=8)])
-	confirm_password = PasswordField('Confirm Password', validators=[
-		DataRequired(), EqualTo('password', message='Passwords must match.')
-	])
-	submit = SubmitField('Register')
-
-class ChangePassword(FlaskForm):
-	current_password = PasswordField('Password', validators=[DataRequired()])
-
-	new_password = PasswordField('New Password', validators=[DataRequired()])
-	confirm_password = PasswordField('Confirm Password', validators=[
-		DataRequired(), EqualTo('password', message='Passwords must match.')
-	])
-
-	submit = SubmitField('Change Password')
-
-class TextForm(FlaskForm):
-	submit = SubmitField('Submit')
+    username = StringField('Username', validators=[DataRequired(), Length(min=3, max=80)])
+    email = StringField('Email', validators=[DataRequired(), Email(), Length(max=120)])
+    password = PasswordField('Password', validators=[DataRequired(), Length(min=6)])
+    confirm_password = PasswordField('Confirm Password', validators=[
+        DataRequired(), EqualTo('password', message='Passwords must match.')
+    ])
+    submit = SubmitField('Register')

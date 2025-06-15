@@ -4,11 +4,10 @@ from flask_wtf import Form
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
-from app import app, login_manager, db, admin
-from .forms import LoginForm, RegisterForm, ChangePassword, TextForm
+from app import app, login_manager, db
+from .forms import LoginForm, RegisterForm
 from .models import User
 from .common import cache
-import json
 
 login_manager.init_app(app)
 login_manager.login_view = 'login'
@@ -20,10 +19,7 @@ def load_user(user_id):
 
 @app.route('/')
 def index():
-	username = ""
-	if current_user.is_authenticated:
-		username = current_user.username
-	return render_template('index.html', username = username)
+	return render_template('index.html')
 
 @app.route('/login', methods=["POST","GET"])
 def login():
@@ -34,13 +30,14 @@ def login():
 		remember = form.remember_me.data
 
 		user = User.query.filter_by(username=username).first()
-		if user and username == user.username and user.check_password(password):
+		if username is not None and username == user.username and user.check_password(password):
 			login_user(user, remember=remember)
 			flash('Logged in successfully.')
 			next = request.args.get('next')
 		else:
-			flash('Invalid username or password (temporary)')
+			
 			return render_template('login.html', form=form)
+			flash('Invalid username or password (temporary)')
 			
 		#if not url_has_allowed_host_and_scheme(next, request.host):
 		#	return flask.abort(400)
@@ -75,23 +72,11 @@ def register():
 
 	return render_template('register.html', form=form)
 
-@app.route('/change_password')
-@login_required
-def change_pass():
-	form = ChangePassword()
-	if form.validate_on_submit():
-		current_user.set_password(form.new_password.data)
-		return redirect(url_for('profile'))
-
-	return render_template('change_pass.html', form=form)
-
 @app.route('/logout')
 @login_required
 def logout():
 	logout_user()
 	return redirect(url_for('index'))
-
-
 
 @app.route('/user/<username>')
 @login_required
@@ -102,12 +87,10 @@ def user(username):
 		return redirect(url_for('index'))
 	return render_template('user.html', username=username)
 
-@app.route('/text')
-def text():
-	form = TextForm()
+# this is where we code
+# @app.route('/text')
+# def text():
 
-	if form.validate_on_submit():
-		return redirect(url_for('index'))
+# 	with open('a', 'r') as a, open('b', 'r') as b:
 
-	return render_template('texty.html',inputText = cache.get("inputText"),correctAnswers = cache.get("correctAnswers"),lessonName = cache.get("lessonName")
-		,link = cache.get("link"), form = form)
+# 	return render_template('texty.html')
