@@ -5,13 +5,6 @@
 //add it to this
 
 
-const inputText = "The {mitochondria, nucleus} is the powerhouse of the cell. {2+2, 4, 5} is equal to 4.";
-
-const correctAnswers = [
-	"mitochondria",
-	"4"
-];
-
 
 document.addEventListener('DOMContentLoaded', function() {
 	
@@ -21,10 +14,18 @@ document.addEventListener('DOMContentLoaded', function() {
 		return text.replace(/\{(.*?)\}/g, (match, contents) => {
 			const options = contents.split(',').map(opt => opt.trim());
 			const selectId = `dropdown-${dropdownIndex++}`;
-			let selectHTML = `<select id="${selectId}">`;
+			let selectHTML = ``;
 			for (let option of options) {
+				if (Math.random()*2<1)
+				{
 				selectHTML += `<option>${option}</option>`;
+				}
+				else 
+				{
+					selectHTML = `<option>${option}</option>`+selectHTML;
+				}
 			}
+			selectHTML = `<select id="${selectId}">`+selectHTML;
 			selectHTML += '</select>';
 			return selectHTML;
 		});

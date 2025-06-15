@@ -1,8 +1,8 @@
 body {
 	margin: 0;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	background-color: #bffcff;
-	color: #333;
+	background-color: #f8f9fa;
+	color: #000;
 }
 
 /* Navbar Header */
@@ -58,7 +58,7 @@ body {
 .container {
 	/*margin: 2rem auto; */
 	padding: 0.5rem;
-	background-color: #0b686a;
+	background-color: white;
 	border-radius: 8px;
 	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
 }
