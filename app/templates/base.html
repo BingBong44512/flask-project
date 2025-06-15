@@ -29,7 +29,7 @@
 					</button> -->
 
 					<div class="navbar-title">
-						Welcome to PLACEHOLDER
+						Welcome to THINKFUL
 					</div>
 
 					<div class="navbar-links">
@@ -43,10 +43,15 @@
 							{% endif %}
 						</div>
 
-						<a href="/register">Register</a>
-
 						<a href="{{url_for('text')}}">Daily</a>
 						
+						<div class="register or practice">
+							{% if not current_user.is_authenticated %}
+								<a href="/register">Register</a>
+							{%else %}
+								<a href="/user/{{current_user.username}}">User</a>
+							{% endif %}
+						</div>
 					</div>
 					
 				</div>

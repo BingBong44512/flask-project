@@ -39,6 +39,7 @@ def login():
 			flash('Logged in successfully.')
 			next = request.args.get('next')
 		else:
+			
 			flash('Invalid username or password (temporary)')
 			return render_template('login.html', form=form)
 			
