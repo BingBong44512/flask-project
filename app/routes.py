@@ -4,7 +4,7 @@ from flask_wtf import Form
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
-from flask_mail import Message
+from flask_mailman import EmailMessage
 from app import app, login_manager, db, admin, mail
 from .forms import LoginForm, RegisterForm, ChangePassword, TextForm
 from .models import User
@@ -51,7 +51,7 @@ def login():
 			
 		#if not url_has_allowed_host_and_scheme(next, request.host):
 		#	return flask.abort(400)
-		return redirect(next or url_for('user', username=username))
+		return redirect(next or url_for('profile'))
 	return render_template('login.html', form=form)
 
 @app.route('/register', methods=['GET', 'POST'])
@@ -66,10 +66,14 @@ def register():
 		password = form.password.data
 
 		existing_user = User.query.filter(
-			(User.username == username)).first()
+			(User.username == username) | (User.email == email)
+			).first()
 
 		if existing_user:
-			flash("Username or email already registered.")
+			if existing_user.username == username:
+				flash("Username already registered.")
+			elif existing_user.email == email:
+				flash("Email already registered.")
 			return render_template('register.html', form=form)
 
 		new_user = User(username=username, email=email, password=password)
@@ -81,24 +85,26 @@ def register():
 		db.session.add(new_user)
 		db.session.commit()
 
-		msg = Message('Verify Your Email Address', recipients=[new_user.email])
-		verify_url = url_for('verify_email', token=verification_token, _external=True)
-		msg.body = f"""
+		msg = EmailMessage(
+			subject='Verify Your Email Address for Thinkful',
+			body=f"""
+				Hello {new_user.username},
 
-		Hello {new_user.username},
+				Thank you for registering on our website!
+				Please click on the following link to verify your email address:
 
-Thank you for registering on our website!
-Please click on the following link to verify your email address:
+				{url_for('verify_email', token=verification_token, _external=True)}
 
-{verify_url}
+				If you did not register for this account, please ignore this email.
 
-If you did not register for this account, please ignore this email.
+				Sincerely,
+				The Website Team
+				""",
+					to=[new_user.email]
+		)
 
-Sincerely,
-The Website Team
-"""
 		try:
-			mail.send(msg)
+			msg.send()
 			flash('Registration successful! Please check your email to verify your account.')
 			return redirect(url_for('login'))
 		except Exception as e:
@@ -151,6 +157,11 @@ def user(username):
 		flash('User not found')
 		return redirect(url_for('index'))
 	return render_template('user.html', username=username)
+	\
+@app.route('/profile')
+@login_required
+def profile():
+	return render_template('profile.html')
 
 @app.route('/text')
 def text():

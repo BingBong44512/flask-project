@@ -8,7 +8,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from random import choice,randint
 import json
-from flask_mail import Mail
+from flask_mailman import Mail
 
 login_manager = LoginManager()
 admin = Admin(template_mode='bootstrap3')
@@ -96,8 +96,11 @@ def update():
 
 
 def init_scheduler():
-    scheduler = BackgroundScheduler()
-    update()
-    scheduler.add_job(func=update, trigger="interval", seconds=10)
-    scheduler.start()
-    atexit.register(lambda: scheduler.shutdown())
+	scheduler = BackgroundScheduler()
+	try:
+		update()
+	except Exception as e:
+		print(f"Initial update failed: {e}")
+	scheduler.add_job(func=update, trigger="interval", seconds=10)
+	scheduler.start()
+	atexit.register(lambda: scheduler.shutdown())
