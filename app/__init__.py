@@ -9,6 +9,8 @@ from flask_migrate import Migrate
 from random import choice,randint
 import json
 from flask_mailman import Mail
+import re
+from random import sample, shuffle
 
 login_manager = LoginManager()
 admin = Admin(template_mode='bootstrap3')
@@ -84,11 +86,24 @@ def update():
 		vocab = json.load(uvocab)
 		text1 = text.translate(str.maketrans('', '', """:,.?!"';()"""))
 		words = text1.split(" ")
-		for word in words:
-			if (word in vocab.keys() or (len(word)>7 and randint(0,3)==0)) and word not in correctAnswers:
-				xword = "{"+word+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+"}"
-				correctAnswers.append(word)
-				text = text.replace(word,xword,1)
+
+	def replace_once_whole_word(text, word, placeholder):
+		pattern = r'\b' + re.escape(word) + r'\b'
+		return re.sub(pattern, placeholder, text, count=1)
+
+	for word in words:
+		if (word in vocab or (len(word) > 7 and randint(0,3) == 0)) and word not in correctAnswers:
+			# 1. pick 3 distractors
+			distractors = sample([w for w in vocab if w != word], 3)
+			# 2. build & shuffle options
+			options = [word] + distractors
+			shuffle(options)
+			# 3. turn into your {…} placeholder
+			xword = "{" + ", ".join(options) + "}"
+
+			correctAnswers.append(word)
+			# 4. replace *only* the first exact match
+			text = replace_once_whole_word(text, word, xword)
 
 	cache.set("inputText",text)
 	cache.set("correctAnswers",correctAnswers)

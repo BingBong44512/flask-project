@@ -165,7 +165,7 @@ def user(username):
 def profile():
 	return render_template('profile.html')
 
-@app.route('/text')
+@app.route('/text', methods = ['GET', 'POST'])
 def text():
 	form = TextForm()
 

@@ -1,61 +1,64 @@
 
-
 //get data
 //process data
 //add it to this
 
 
 
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+	const j = Math.floor(Math.random() * (i + 1));
+	[array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+function parseTextWithDropdowns(text) {
+  let dropdownIndex = 0;
+  return text.replace(/\{(.*?)\}/g, (match, contents) => {
+    // grab the raw options out of the curly‐braces
+    const options = contents.split(',').map(o => o.trim());
+    shuffle(options);
+
+    // build the <select>
+    const select = document.createElement('select');
+    select.id = `dropdown-${dropdownIndex}`;
+
+    // 🔑 Pull the correct answer by index, not by assuming it's first in `contents`
+    select.dataset.answer = correctAnswers[dropdownIndex];
+
+    // populate the shuffled options
+    options.forEach(opt => {
+      const optEl = document.createElement('option');
+      optEl.value       = opt;
+      optEl.textContent = opt;
+      select.appendChild(optEl);
+    });
+
+    dropdownIndex++;
+    return select.outerHTML;
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
-	
-	function parseTextWithDropdowns(text) {
-		let dropdownIndex = 0;
-
-		return text.replace(/\{(.*?)\}/g, (match, contents) => {
-			const options = contents.split(',').map(opt => opt.trim());
-			const selectId = `dropdown-${dropdownIndex++}`;
-			let selectHTML = ``;
-			for (let option of options) {
-				if (Math.random()*2<1)
-				{
-				selectHTML += `<option>${option}</option>`;
-				}
-				else 
-				{
-					selectHTML = `<option>${option}</option>`+selectHTML;
-				}
-			}
-			selectHTML = `<select id="${selectId}">`+selectHTML;
-			selectHTML += '</select>';
-			return selectHTML;
-		});
-	}
-
 	const outputDiv = document.getElementById("output");
 	if (outputDiv) {
 		outputDiv.innerHTML = parseTextWithDropdowns(inputText);
 	} else {
 		console.error("Error: Div with ID 'output' not found!");
 	}
-
 });
 
 function checkAnswers() {
-	let allCorrect = true;
-	for (let i = 0; i < correctAnswers.length; i++) {
-		const dropdown = document.getElementById(`dropdown-${i}`);
-		if (!dropdown) {
-			console.warn(`Dropdown with ID 'dropdown-${i}' not found for checking.`);
-			allCorrect = false; // Or handle this error differently
-			continue;
-		}
-		const selected = dropdown.value.trim();
-		if (selected !== correctAnswers[i]) {
-			dropdown.style.border = "2px solid red";
-			allCorrect = false;
-		} else {
-			dropdown.style.border = "2px solid green";
-		}
-	}
-	alert(allCorrect ? "✅ All correct!" : "❌ Some answers are incorrect.");
+  let allCorrect = true;
+  document.querySelectorAll('select').forEach((select, i) => {
+    // compare against the answer we stashed on each <select>
+    if (select.value.trim() !== select.dataset.answer) {
+      select.style.border = "2px solid red";
+      allCorrect = false;
+    } else {
+      select.style.border = "2px solid green";
+    }
+  });
+  alert(allCorrect ? "✅ All correct!" : "❌ Some answers are incorrect.");
 }
