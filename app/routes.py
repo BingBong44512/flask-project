@@ -29,6 +29,8 @@ def index():
 
 @app.route('/login', methods=["POST","GET"])
 def login():
+	if current_user.is_authenticated:
+		return redirect(url_for('index'))
 	form = LoginForm()
 	if form.validate_on_submit():
 		username = form.username.data
@@ -157,7 +159,7 @@ def user(username):
 		flash('User not found')
 		return redirect(url_for('index'))
 	return render_template('user.html', username=username)
-	\
+
 @app.route('/profile')
 @login_required
 def profile():
@@ -172,3 +174,8 @@ def text():
 
 	return render_template('texty.html',inputText = cache.get("inputText"),correctAnswers = cache.get("correctAnswers"),lessonName = cache.get("lessonName")
 		,link = cache.get("link"), form = form)
+
+@app.route('/become_admin')
+@login_required
+def become_admin():
+	return redirect(url_for('index'))
