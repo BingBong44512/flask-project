@@ -43,15 +43,12 @@
 							{% endif %}
 						</div>
 
-						<a href="{{url_for('text')}}">Daily</a>
+						<a href="/register">Register</a>
+
+						{% if current_user.is_authenticated %}
+							<a href="{{url_for('text')}}">Daily</a>
+						{% endif %}
 						
-						<div class="register or practice">
-							{% if not current_user.is_authenticated %}
-								<a href="/register">Register</a>
-							{%else %}
-								<a href="/profile">Profile</a>
-							{% endif %}
-						</div>
 					</div>
 					
 				</div>

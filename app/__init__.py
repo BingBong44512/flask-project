@@ -3,10 +3,15 @@ from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
 from config import Config
 from app.common import cache
-from flask_login import LoginManager
+from flask_login import LoginManager, current_user
 from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 from random import choice,randint
+from flask_principal import Principal, Identity, AnonymousIdentity, identity_changed, identity_loaded, UserNeed, RoleNeed, Permission
 import json
+from flask_mailman import Mail
+import re
+from random import sample, shuffle
 
 #creates the app and assigns teh database, admin helper, and login manager to it
 login_manager = LoginManager()
@@ -15,16 +20,46 @@ admin = Admin(template_mode='bootstrap3')
 
 app = Flask(__name__)
 app.config.from_object(Config)
-
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///placeholder.db'	
-
 db = SQLAlchemy(app)
 
 login_manager.init_app(app)
 
+mail = Mail(app)
+
+principals = Principal(app)
+
+# define a global “admin” permission
+admin_permission = Permission(RoleNeed('admin'))
+
+@identity_loaded.connect_via(app)
+def on_identity_loaded(sender, identity):
+	# attach the User object to the identity
+	identity.user = current_user
+
+	# every logged in user gets a UserNeed
+	if not current_user.is_anonymous:
+		identity.provides.add(UserNeed(current_user.id))
+
+	# and if they have is_admin, give them the “admin” RoleNeed
+	if getattr(current_user, 'is_admin', False):
+		identity.provides.add(RoleNeed('admin'))
+
+from flask_admin.contrib.sqla import ModelView
+from flask import redirect, request
+
+class AdminOnlyModelView(ModelView):
+    def is_accessible(self):
+        return admin_permission.can()
+    def inaccessible_callback(self, name, **kwargs):
+        # redirect to login page if not allowed
+        return redirect(url_for('login', next=request.url))
+
+migrate = Migrate(app, db)
+
 from .models import User
 
-admin.add_view(ModelView(User, db.session))
+admin.add_view(AdminOnlyModelView(User, db.session))
 admin.init_app(app)
 
 
@@ -84,11 +119,24 @@ def update():
 		vocab = json.load(uvocab)
 		text1 = text.translate(str.maketrans('', '', """:,.?!"';()"""))
 		words = text1.split(" ")
-		for word in words:
-			if (word in vocab.keys() or (len(word)>7 and randint(0,3)==0)) and word not in correctAnswers:
-				xword = "{"+word+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+", "+choice([*vocab.keys()])+"}"
-				correctAnswers.append(word)
-				text = text.replace(word,xword,1)
+
+	def replace_once_whole_word(text, word, placeholder):
+		pattern = r'\b' + re.escape(word) + r'\b'
+		return re.sub(pattern, placeholder, text, count=1)
+
+	for word in words:
+		if (word in vocab or (len(word) > 7 and randint(0,3) == 0)) and word not in correctAnswers:
+			# 1. pick 3 distractors
+			distractors = sample([w for w in vocab if w != word], 3)
+			# 2. build & shuffle options
+			options = [word] + distractors
+			shuffle(options)
+			# 3. turn into your {…} placeholder
+			xword = "{" + ", ".join(options) + "}"
+
+			correctAnswers.append(word)
+			# 4. replace *only* the first exact match
+			text = replace_once_whole_word(text, word, xword)
 
 	cache.set("inputText",text)
 	cache.set("correctAnswers",correctAnswers)
@@ -96,8 +144,11 @@ def update():
 
 # sets up a scheduler to run every specified time
 def init_scheduler():
-    scheduler = BackgroundScheduler()
-    update()
-    scheduler.add_job(func=update, trigger="interval", seconds=30)
-    scheduler.start()
-    atexit.register(lambda: scheduler.shutdown())
+	scheduler = BackgroundScheduler()
+	try:
+		update()
+	except Exception as e:
+		print(f"Initial update failed: {e}")
+	scheduler.add_job(func=update, trigger="interval", seconds=10)
+	scheduler.start()
+	atexit.register(lambda: scheduler.shutdown())
