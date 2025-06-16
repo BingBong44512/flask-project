@@ -7,7 +7,7 @@ from flask_login import login_user, logout_user, current_user, UserMixin, login_
 from flask_mailman import EmailMessage
 from app import app, login_manager, db, admin, mail
 from .forms import LoginForm, RegisterForm, ChangePassword, TextForm, AdminCodeForm
-from flask_principal import identity_changed, Identity
+from flask_principal import identity_changed, Identity, AnonymousIdentity
 from .models import User
 from .common import cache
 import json
@@ -159,14 +159,6 @@ def logout():
 	return redirect(url_for('index'))
 
 # opens te profile page if needed
-@app.route("/profile")
-@login_required
-def user(username):
-	user = User.query.filter_by(username=username).first()
-	if not user:
-		flash('User not found')
-		return redirect(url_for('index'))
-	return render_template('user.html', username=username)
 
 @app.route('/profile')
 @login_required
