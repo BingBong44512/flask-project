@@ -6,6 +6,8 @@ flask-wtf
 flask-login
 flask-security
 flask-admin
+flask-principal
+flask-mailman
 wtforms
 python-dotenv
 email-validator

@@ -20,10 +20,7 @@ def load_user(user_id):
 
 @app.route('/')
 def index():
-	username = ""
-	if current_user.is_authenticated:
-		username = current_user.username
-	return render_template('index.html', username = username)
+	return render_template('index.html')
 
 @app.route('/login', methods=["POST","GET"])
 def login():
@@ -45,7 +42,7 @@ def login():
 			
 		#if not url_has_allowed_host_and_scheme(next, request.host):
 		#	return flask.abort(400)
-		return redirect(next or url_for('user', username=username))
+		return redirect(next or url_for('profile'))
 	return render_template('login.html', form=form)
 
 @app.route('/register', methods=['GET', 'POST'])
@@ -93,15 +90,13 @@ def logout():
 	return redirect(url_for('index'))
 
 
-
-@app.route('/user/<username>')
+@app.route("/profile")
 @login_required
-def user(username):
-	user = User.query.filter_by(username=username).first()
-	if not user:
-		flash('User not found')
-		return redirect(url_for('index'))
-	return render_template('user.html', username=username)
+def profile():
+	if current_user.is_authenticated:
+		return render_template("profile.html")
+	else:
+		return redirect(url_for("index"))
 
 @app.route('/text')
 def text():
