@@ -69,17 +69,19 @@ def register():
 
 		login_user(new_user)
 		flash('Registration successful!')
-		return redirect(url_for('user', username=username))
+		return redirect(url_for('profile'))
 
 	return render_template('register.html', form=form)
 
-@app.route('/change_password')
+@app.route('/change_password', methods=['GET', 'POST'])
 @login_required
 def change_pass():
 	form = ChangePassword()
-	if form.validate_on_submit():
-		current_user.set_password(form.new_password.data)
-		return redirect(url_for('profile'))
+	if request.method == "POST" and form.validate_on_submit():
+		if current_user.check_password(form.current_password.data):
+			current_user.set_password(form.new_password.data)
+			db.session.commit()
+			return redirect(url_for('profile'))
 
 	return render_template('change_pass.html', form=form)
 
@@ -102,8 +104,8 @@ def profile():
 def text():
 	form = TextForm()
 
-	if form.validate_on_submit():
-		return redirect(url_for('index'))
+	# if form.validate_on_submit():
+	# 	return redirect(url_for('index'))
 
 	return render_template('texty.html',inputText = cache.get("inputText"),correctAnswers = cache.get("correctAnswers"),lessonName = cache.get("lessonName")
 		,link = cache.get("link"), form = form)
