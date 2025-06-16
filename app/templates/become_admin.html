@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Enter Admin Code</h2>
+  <form method="post">
+    {{ form.hidden_tag() }}
+    <div>
+      {{ form.admin_code.label }}<br>
+      {{ form.admin_code(size=32) }}
+    </div>
+    <div>
+      {{ form.submit() }}
+    </div>
+  </form>
+{% endblock %}

@@ -3,10 +3,11 @@ from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
 from config import Config
 from app.common import cache
-from flask_login import LoginManager
+from flask_login import LoginManager, current_user
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from random import choice,randint
+from flask_principal import Principal, Identity, AnonymousIdentity, identity_changed, identity_loaded, UserNeed, RoleNeed, Permission
 import json
 from flask_mailman import Mail
 import re
@@ -25,11 +26,39 @@ login_manager.init_app(app)
 
 mail = Mail(app)
 
+principals = Principal(app)
+
+# define a global “admin” permission
+admin_permission = Permission(RoleNeed('admin'))
+
+@identity_loaded.connect_via(app)
+def on_identity_loaded(sender, identity):
+	# attach the User object to the identity
+	identity.user = current_user
+
+	# every logged in user gets a UserNeed
+	if not current_user.is_anonymous:
+		identity.provides.add(UserNeed(current_user.id))
+
+	# and if they have is_admin, give them the “admin” RoleNeed
+	if getattr(current_user, 'is_admin', False):
+		identity.provides.add(RoleNeed('admin'))
+
+from flask_admin.contrib.sqla import ModelView
+from flask import redirect, request
+
+class AdminOnlyModelView(ModelView):
+    def is_accessible(self):
+        return admin_permission.can()
+    def inaccessible_callback(self, name, **kwargs):
+        # redirect to login page if not allowed
+        return redirect(url_for('login', next=request.url))
+
 migrate = Migrate(app, db)
 
 from .models import User
 
-admin.add_view(ModelView(User, db.session))
+admin.add_view(AdminOnlyModelView(User, db.session))
 admin.init_app(app)
 
 

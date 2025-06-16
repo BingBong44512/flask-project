@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template, redirect,url_for, session, flash
+from flask import Flask, request, jsonify, render_template, redirect,url_for, session, flash, current_app
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import Form
 from wtforms import StringField, SubmitField
@@ -6,7 +6,8 @@ from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
 from flask_mailman import EmailMessage
 from app import app, login_manager, db, admin, mail
-from .forms import LoginForm, RegisterForm, ChangePassword, TextForm
+from .forms import LoginForm, RegisterForm, ChangePassword, TextForm, AdminCodeForm
+from flask_principal import identity_changed, Identity
 from .models import User
 from .common import cache
 import json
@@ -45,6 +46,11 @@ def login():
 				return render_template('login.html', form=form)
 
 			login_user(user, remember=remember)
+			identity_changed.send(
+			current_app._get_current_object(),
+			identity=Identity(user.id)
+			)
+
 			flash('Logged in successfully.')
 			next = request.args.get('next')
 		else:
@@ -147,6 +153,10 @@ def change_pass():
 @login_required
 def logout():
 	logout_user()
+	identity_changed.send(
+		current_app._get_current_object(),
+		identity=AnonymousIdentity()
+	)
 	return redirect(url_for('index'))
 
 
@@ -175,7 +185,25 @@ def text():
 	return render_template('texty.html',inputText = cache.get("inputText"),correctAnswers = cache.get("correctAnswers"),lessonName = cache.get("lessonName")
 		,link = cache.get("link"), form = form)
 
-@app.route('/become_admin')
+@app.route('/become_admin', methods=['GET', 'POST'])
 @login_required
 def become_admin():
-	return redirect(url_for('index'))
+	form = AdminCodeForm()
+	if form.validate_on_submit():
+		# check against the secret in your Config
+		if form.admin_code.data == current_app.config['ADMIN_SECRET']:
+			current_user.is_admin = True
+			db.session.commit()
+
+			# notify Flask-Principal of new role
+			identity_changed.send(
+				current_app._get_current_object(),
+				identity=Identity(current_user.id)
+			)
+
+			flash('🎉 You are now an admin! Redirecting…')
+			return redirect(url_for('admin.index'))
+		else:
+			flash('❌ Invalid admin code.', 'error')
+
+	return render_template('become_admin.html', form=form)

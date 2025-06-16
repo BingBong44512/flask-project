@@ -18,3 +18,5 @@ class Config:
 	MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or 'your-email-password'
 	MAIL_DEFAULT_SENDER = os.environ.get('MAIL_DEFAULT_SENDER') or 'ycc2238@gmail.com'
 	SERVER_NAME = os.environ.get('SERVER_NAME') or 'localhost:8080'
+
+	ADMIN_SECRET = os.environ.get('ADMIN_SECRET')
