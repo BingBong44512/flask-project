@@ -2,8 +2,9 @@
 
 {% block scripts %}
 <script>
+	// uses jinja to input the necessary const for the js
 	const inputText = "{{inputText}}"
-
+	// the stuff here is needed because ' is converted to ascii for some reason
 	const correctAnswers = eval("{{correctAnswers}}".replaceAll("&#39;",'"'))
 
 </script>
@@ -14,6 +15,9 @@
 {% endblock %}
 
 {% block content %}
+	<h1>The Game:</h1>
+	<h2>From Lesson {{lessonName}}</h2>
+	<a href = "{{link}}"><h4>Full Lesson here</h4></a>
 	<div id="output"></div>
 	<button onclick="checkAnswers()">Check Answers</button>
 	<!-- {{ form.submit(class_="btn btn-primary") }} -->

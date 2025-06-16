@@ -5,23 +5,23 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
 from app import app, login_manager, db, admin
-from .forms import LoginForm, RegisterForm, ChangePassword, TextForm
+from .forms import LoginForm, RegisterForm, ChangePassword
 from .models import User
 from .common import cache
 import json
-
+# sets up the login manager to work with the app
 login_manager.init_app(app)
 login_manager.login_view = 'login'
 login_manager.login_message = "Please log in to access this page."
-
+# loads in the user
 @login_manager.user_loader
 def load_user(user_id):
 	return User.query.get(int(user_id))
-
+# home page
 @app.route('/')
 def index():
 	return render_template('index.html')
-
+# uses teh login in form to check if some has logged in
 @app.route('/login', methods=["POST","GET"])
 def login():
 	form = LoginForm()
@@ -44,7 +44,7 @@ def login():
 		#	return flask.abort(400)
 		return redirect(next or url_for('profile'))
 	return render_template('login.html', form=form)
-
+# uses the register form to see if they can be registered, and to do so
 @app.route('/register', methods=['GET', 'POST'])
 def register():
 	if current_user.is_authenticated:
@@ -72,7 +72,7 @@ def register():
 		return redirect(url_for('profile'))
 
 	return render_template('register.html', form=form)
-
+# calls the change password function on the database model, using the form to check it
 @app.route('/change_password', methods=['GET', 'POST'])
 @login_required
 def change_pass():
@@ -84,14 +84,14 @@ def change_pass():
 			return redirect(url_for('profile'))
 
 	return render_template('change_pass.html', form=form)
-
+# logsout the user via the flask login
 @app.route('/logout')
 @login_required
 def logout():
 	logout_user()
 	return redirect(url_for('index'))
 
-
+# opens te profile page if needed
 @app.route("/profile")
 @login_required
 def profile():
@@ -99,13 +99,12 @@ def profile():
 		return render_template("profile.html")
 	else:
 		return redirect(url_for("index"))
-
+# takes necessary information from cache and puts it into the render template for jinja
 @app.route('/text')
 def text():
-	form = TextForm()
 
 	# if form.validate_on_submit():
 	# 	return redirect(url_for('index'))
 
 	return render_template('texty.html',inputText = cache.get("inputText"),correctAnswers = cache.get("correctAnswers"),lessonName = cache.get("lessonName")
-		,link = cache.get("link"), form = form)
+		,link = cache.get("link"))

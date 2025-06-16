@@ -1,4 +1,4 @@
-Thinkful
+THINKFUL
 
 Everyday a new textbook sentence is released. Either you try your hardest to recall your high-school education, or learn the lesson with the provided link and see how much went over your head.
 

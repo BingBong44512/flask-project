@@ -25,7 +25,7 @@ body {
 	display: flex;
 	margin-left: 2rem;
 }
-
+/*keeps teh links seperate*/
 .navbar-links a {
 	display: flex;
   	color: white;
@@ -43,7 +43,7 @@ body {
 	font-size: 1rem;
 	font-weight: lighter;
 }
-
+/*to make the links and hovering on links different colors*/
 .navbar-header a {
 	color: #f1f5f9;
 	text-decoration: none;

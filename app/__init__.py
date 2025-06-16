@@ -8,6 +8,7 @@ from flask_sqlalchemy import SQLAlchemy
 from random import choice,randint
 import json
 
+#creates the app and assigns teh database, admin helper, and login manager to it
 login_manager = LoginManager()
 admin = Admin(template_mode='bootstrap3')
 
@@ -29,6 +30,8 @@ admin.init_app(app)
 
 
 from app import routes
+
+# creates the intial settings of a cache to be used by thte pgoram
 cache.init_app(app=app, config={"CACHE_TYPE": "SimpleCache"})
 cache.set("subjectList", {"astro":[0,-1],"bio":[0,-1],"chem":[0,-1],"physics":[0,-1]})
 cache.set("todaySubject","astro")
@@ -46,6 +49,7 @@ import atexit
 
 from apscheduler.schedulers.background import BackgroundScheduler
 
+# updates the cache with the content and dictionaries and creates and saves the daily game
 def update():
 	subjects = cache.get("subjectList")
 	cache.set("todaySubject",choice([*subjects.keys()]))
@@ -90,7 +94,7 @@ def update():
 	cache.set("correctAnswers",correctAnswers)
 
 
-
+# sets up a scheduler to run every specified time
 def init_scheduler():
     scheduler = BackgroundScheduler()
     update()

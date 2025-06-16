@@ -1,7 +1,11 @@
 {% extends 'base.html' %}
 
 {% block scripts %}
-<script>const inputText = "The {mitochondria, nucleus} is the powerhouse of the cell."; const correctAnswers = ["mitochondria"]</script>
+<script>
+	// sets const for the javascript to use
+const inputText = "The {mitochondria, nucleus} is the powerhouse of the cell.";
+const correctAnswers = ["mitochondria"]
+</script>
 
 <script src="{{url_for('static',filename='js/html-thing.js')}}">
 	
@@ -23,8 +27,9 @@ h4 {
 h5 {
 	text-align: left;
 }*/
+/*sets the size for each of the elements below*/
 div.head {
-	width: 1000px;
+	width: 1 rem;
 	margin: auto;
 	font-weight: bold;
 	font-size: xx-large;
@@ -32,7 +37,7 @@ div.head {
 	font-family: Arial, Helvetica, sans-serif;
 }
 div.bod{
-	width: 1500px;
+	width: 1 rem;
 	margin: auto;
 	/*font-weight: bold;*/
 	font-size: x-large;
@@ -41,7 +46,7 @@ div.bod{
 
 }
 div.ex{
-	width: 1500px;
+	width: 1 rem;
 	margin: auto;
 	font-weight: bold;
 	font-size: x-large;
@@ -50,7 +55,7 @@ div.ex{
 
 }
 div.smallex{
-	width: 1500px;
+	width: 1 rem;
 	margin: auto;
 	/*font-weight: bold;*/
 	font-size: x-large;
@@ -78,12 +83,12 @@ div.smallex button {
 	<br><br><br><br>
 	<div class = "bod"> Thinkful provides the user with a daily fill in the blank exercise sourced directly from LibreTexts textbooks. <br><br>
 	Every day cycles between a mini-lesson in astronomy, biology, chemistry, and physics. You will be provided with a paragraph with several blanks to insert key terms in. You can select your answers via a dropdown menu for each blank, and you can check your answers to see how many you got correct. <br><br>After checking, every right and wrong answer blank will feature a pop-up explaining why you were right or wrong. A link to the textbook lesson from which your exercise for the day was generated will appear below the exercise if you want to read about and better understand that day's lesson. <br><br>
-	The more days you learn with Thinkful©, the more advanced topics you will discover.<br><br><br><br> </div>
+	The more days you learn with Thinkful, the more advanced topics you will discover.<br><br><br><br> </div>
 	<div class="ex"> Here is a sample exercise: <br></div>
 
 </div>
 
 <div id="output" class="smallex"></div>
-	<button style="margin-left:150px; font-size:20px;" onclick="checkAnswers()">Check Answers</button>
+	<button style="margin-left:100px; font-size:20px;" onclick="checkAnswers()">Check Answers</button>
 
 {% endblock %}

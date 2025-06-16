@@ -1,8 +1,10 @@
+
+// loads in the questions based on const defined with jinja
 document.addEventListener('DOMContentLoaded', function() {
 	
 	function parseTextWithDropdowns(text) {
 		let dropdownIndex = 0;
-
+		// gets the possible answers and puts it in a dropdown
 		return text.replace(/\{(.*?)\}/g, (match, contents) => {
 			const options = contents.split(',').map(opt => opt.trim());
 			const selectId = `dropdown-${dropdownIndex++}`;
@@ -22,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			return selectHTML;
 		});
 	}
-
+	// pushes the question to the output div
 	const outputDiv = document.getElementById("output");
 	if (outputDiv) {
 		outputDiv.innerHTML = parseTextWithDropdowns(inputText);
@@ -31,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
 });
-
+// loops through answers and checks it with correct answer const to correct it
 function checkAnswers() {
 	let allCorrect = true;
 	for (let i = 0; i < correctAnswers.length; i++) {

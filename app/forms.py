@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, BooleanField, SubmitField
 from wtforms.validators import DataRequired, Email, EqualTo, Length
-
+# creates different forms to be used
 class LoginForm(FlaskForm):
 	username = StringField('Username', validators=[DataRequired()])
 	password = PasswordField('Password', validators=[DataRequired()])
@@ -26,6 +26,3 @@ class ChangePassword(FlaskForm):
 	])
 
 	submit = SubmitField('Change Password')
-
-class TextForm(FlaskForm):
-	submit = SubmitField('Submit')

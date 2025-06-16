@@ -3,6 +3,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_sqlalchemy import SQLAlchemy
 from app import db
 
+# creates the database model for the user, with various functions for it
 class User(UserMixin, db.Model):
 
 	__tablename__ = 'users'

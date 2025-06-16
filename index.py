@@ -1,5 +1,5 @@
 from app import app, init_scheduler
-
+# runs the app and the scheduler
 if __name__ == '__main__':
 	with app.app_context():
 		init_scheduler()
