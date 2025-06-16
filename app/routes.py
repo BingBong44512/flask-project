@@ -20,10 +20,7 @@ def load_user(user_id):
 
 @app.route('/')
 def index():
-	username = ""
-	if current_user.is_authenticated:
-		username = current_user.username
-	return render_template('index.html', username = username)
+	return render_template('index.html')
 
 @app.route('/login', methods=["POST","GET"])
 def login():
@@ -39,12 +36,13 @@ def login():
 			flash('Logged in successfully.')
 			next = request.args.get('next')
 		else:
+			
 			flash('Invalid username or password (temporary)')
 			return render_template('login.html', form=form)
 			
 		#if not url_has_allowed_host_and_scheme(next, request.host):
 		#	return flask.abort(400)
-		return redirect(next or url_for('user', username=username))
+		return redirect(next or url_for('profile'))
 	return render_template('login.html', form=form)
 
 @app.route('/register', methods=['GET', 'POST'])
@@ -71,17 +69,19 @@ def register():
 
 		login_user(new_user)
 		flash('Registration successful!')
-		return redirect(url_for('user', username=username))
+		return redirect(url_for('profile'))
 
 	return render_template('register.html', form=form)
 
-@app.route('/change_password')
+@app.route('/change_password', methods=['GET', 'POST'])
 @login_required
 def change_pass():
 	form = ChangePassword()
-	if form.validate_on_submit():
-		current_user.set_password(form.new_password.data)
-		return redirect(url_for('profile'))
+	if request.method == "POST" and form.validate_on_submit():
+		if current_user.check_password(form.current_password.data):
+			current_user.set_password(form.new_password.data)
+			db.session.commit()
+			return redirect(url_for('profile'))
 
 	return render_template('change_pass.html', form=form)
 
@@ -92,22 +92,20 @@ def logout():
 	return redirect(url_for('index'))
 
 
-
-@app.route('/user/<username>')
+@app.route("/profile")
 @login_required
-def user(username):
-	user = User.query.filter_by(username=username).first()
-	if not user:
-		flash('User not found')
-		return redirect(url_for('index'))
-	return render_template('user.html', username=username)
+def profile():
+	if current_user.is_authenticated:
+		return render_template("profile.html")
+	else:
+		return redirect(url_for("index"))
 
 @app.route('/text')
 def text():
 	form = TextForm()
 
-	if form.validate_on_submit():
-		return redirect(url_for('index'))
+	# if form.validate_on_submit():
+	# 	return redirect(url_for('index'))
 
 	return render_template('texty.html',inputText = cache.get("inputText"),correctAnswers = cache.get("correctAnswers"),lessonName = cache.get("lessonName")
 		,link = cache.get("link"), form = form)

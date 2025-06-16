@@ -1,78 +1,89 @@
 {% extends 'base.html' %}
 
-{% block style %}
-	#div1, #div2 {
-		float: left;
-		width: 100px;
-		height: 35px;
-		margin: 10px;
-		padding: 10px;
-		border: 1px solid black;
-		position: relative;
-	top: 40px;
-	left: 40px;
-	}
-	#div2{
-	top: 40px;
-	left: 100px;
-	}
-{% endblock %}
-
-
-
 {% block scripts %}
-	{% if not current_user.is_authenticated %}
+<script>const inputText = "The {mitochondria, nucleus} is the powerhouse of the cell."; const correctAnswers = ["mitochondria"]</script>
 
-		<script>
-			function dragstartHandler(ev) {
-				ev.dataTransfer.setData("text", ev.target.id);
-			}
-
-			function dragoverHandler(ev) {
-				ev.preventDefault();
-			}
-
-			function dropHandler(ev) {
-				ev.preventDefault();
-				const data = ev.dataTransfer.getData("text");
-				ev.target.appendChild(document.getElementById(data));
-			}
-
-		</script>
-
-	{% endif %}
+<script src="{{url_for('static',filename='js/html-thing.js')}}">
 	
+</script>
 {% endblock %}
-
-
 
 {% block content %}
 
-<img src=static/box.jpg alt="logo" align="left"  width="333" height="333">
-<div class="logs">
+<head>
+<style>
+/*h1 {
+	text-align: center;
+}
 
-{% if not current_user.is_authenticated %}
+h4 {
+	text-align: center;
+}
 
-<h1>Drag and Drop API</h1>
+h5 {
+	text-align: left;
+}*/
+div.head {
+	width: 1000px;
+	margin: auto;
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.bod{
+	width: 1500px;
+	margin: auto;
+	/*font-weight: bold;*/
+	font-size: x-large;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 
-<p>Drag the image back and forth between the two div elements.</p>
+}
+div.ex{
+	width: 1500px;
+	margin: auto;
+	font-weight: bold;
+	font-size: x-large;
+	/*text-align: center;*/
+	font-family: Arial, Helvetica, sans-serif;
 
+}
+div.smallex{
+	width: 1500px;
+	margin: auto;
+	/*font-weight: bold;*/
+	font-size: x-large;
+	/*text-align: center;*/
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 50px
+}
+div.smallex button {
+	display: block;
+	margin: 50px; 
+	/*margin: auto;*/
+	/*font-weight: bold;*/
+	font-size: x-large;
+	/*text-align: center;*/
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 0;
+}
+</style>
 
+</head>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-<div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" width="100" height="300" style="position: absolute; top: 500px; left: 300px; border-width: 5px; border-style: solid; border-color: blue;">
-<img id="img1" src=static\box.jpg draggable="true" ondragstart="dragstartHandler(event)" width="100" height="100" style="top: 300px; left: 150px;"></div>
-<div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" width="100" height="300" style="position: absolute; top: 500px; left: 450px; border-width: 5px; border-style: solid; border-color: blue;">
-<div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" width="100" height="300" style="position: absolute; top: 500px; left: 450px; border-width: 5px; border-style: solid; border-color: blue;">
-<div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" width="100" height="300" style="position: absolute; top: 500px; left: 450px; border-width: 5px; border-style: solid; border-color: blue;">
-<div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)" width="100" height="300" style="position: absolute; top: 500px; left: 450px; border-width: 5px; border-style: solid; border-color: blue;">
+<div id="jiejfiejf">
+	<br><br>
+	<div class = "head"> The fill in the blank-style review website that will teach you everything you need to know about the biggest science subjects! </div>
+	<br><br><br><br>
+	<div class = "bod"> Thinkful provides the user with a daily fill in the blank exercise sourced directly from LibreTexts textbooks. <br><br>
+	Every day cycles between a mini-lesson in astronomy, biology, chemistry, and physics. You will be provided with a paragraph with several blanks to insert key terms in. You can select your answers via a dropdown menu for each blank, and you can check your answers to see how many you got correct. <br><br>After checking, every right and wrong answer blank will feature a pop-up explaining why you were right or wrong. A link to the textbook lesson from which your exercise for the day was generated will appear below the exercise if you want to read about and better understand that day's lesson. <br><br>
+	The more days you learn with Thinkful©, the more advanced topics you will discover.<br><br><br><br> </div>
+	<div class="ex"> Here is a sample exercise: <br></div>
 
-
-
-		
-	
 </div>
 
-{% endif %}
+<div id="output" class="smallex"></div>
+	<button style="margin-left:150px; font-size:20px;" onclick="checkAnswers()">Check Answers</button>
 
 {% endblock %}

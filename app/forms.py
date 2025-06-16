@@ -22,7 +22,7 @@ class ChangePassword(FlaskForm):
 
 	new_password = PasswordField('New Password', validators=[DataRequired()])
 	confirm_password = PasswordField('Confirm Password', validators=[
-		DataRequired(), EqualTo('password', message='Passwords must match.')
+		DataRequired(), EqualTo('new_password', message='Passwords must match.')
 	])
 
 	submit = SubmitField('Change Password')

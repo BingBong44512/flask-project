@@ -1,11 +1,3 @@
-
-
-//get data
-//process data
-//add it to this
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
 	
 	function parseTextWithDropdowns(text) {
