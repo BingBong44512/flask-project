@@ -1,17 +1,14 @@
 {% extends 'base.html' %}
 
 {% block scripts %}
-<script>
-	// uses jinja to input the necessary const for the js
-	const inputText = "{{inputText}}"
-	// the stuff here is needed because ' is converted to ascii for some reason
-	const correctAnswers = eval("{{correctAnswers}}".replaceAll("&#39;",'"'))
 
-</script>
+	<script>
+		// inputText is now a real JS string, properly escaped
+		const inputText      = {{ inputText      | tojson | safe }};
+		// correctAnswers is now a real JS array, no eval needed
+		const correctAnswers = {{ correctAnswers | tojson | safe }};
+	</script>
 
-<script src="{{url_for('static',filename='js/html-thing.js')}}">
-	
-</script>
 {% endblock %}
 
 {% block content %}
@@ -19,6 +16,10 @@
 	<h2>From Lesson {{lessonName}}</h2>
 	<a href = "{{link}}"><h4>Full Lesson here</h4></a>
 	<div id="output"></div>
+
+	<script src="{{url_for('static',filename='js/html-thing.js')}}">
+		
+	</script>
 	<button onclick="checkAnswers()">Check Answers</button>
-	<!-- {{ form.submit(class_="btn btn-primary") }} -->
+	{{ form.submit(class_="btn btn-primary") }}
 {% endblock %}

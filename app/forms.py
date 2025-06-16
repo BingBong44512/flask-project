@@ -26,3 +26,10 @@ class ChangePassword(FlaskForm):
 	])
 
 	submit = SubmitField('Change Password')
+
+class TextForm(FlaskForm):
+	submit = SubmitField('Submit')
+
+class AdminCodeForm(FlaskForm):
+	admin_code = PasswordField('Admin Code', validators=[DataRequired()])
+	submit     = SubmitField('Submit')

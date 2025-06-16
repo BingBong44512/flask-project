@@ -26,7 +26,9 @@
         {% else %}
             <a href="/logout">Logout</a>
         {% endif %}
-        <a href="{{ url_for('text') }}">Daily</a>
+        {% if current_user.is_authenticated %}
+            <a href="{{ url_for('text') }}">Daily</a>
+        {% endif %}
         {% if not current_user.is_authenticated %}
             <a href="/register">Register</a>
         {% else %}

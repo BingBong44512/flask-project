@@ -1,15 +1,18 @@
-from flask import Flask, request, jsonify, render_template, redirect,url_for, session, flash
+from flask import Flask, request, jsonify, render_template, redirect,url_for, session, flash, current_app
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import Form
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 from flask_login import login_user, logout_user, current_user, UserMixin, login_required
-from app import app, login_manager, db, admin
-from .forms import LoginForm, RegisterForm, ChangePassword
+from flask_mailman import EmailMessage
+from app import app, login_manager, db, admin, mail
+from .forms import LoginForm, RegisterForm, ChangePassword, TextForm, AdminCodeForm
+from flask_principal import identity_changed, Identity
 from .models import User
 from .common import cache
 import json
-# sets up the login manager to work with the app
+import secrets
+
 login_manager.init_app(app)
 login_manager.login_view = 'login'
 login_manager.login_message = "Please log in to access this page."
@@ -24,6 +27,8 @@ def index():
 # uses teh login in form to check if some has logged in
 @app.route('/login', methods=["POST","GET"])
 def login():
+	if current_user.is_authenticated:
+		return redirect(url_for('index'))
 	form = LoginForm()
 	if form.validate_on_submit():
 		username = form.username.data
@@ -32,7 +37,17 @@ def login():
 
 		user = User.query.filter_by(username=username).first()
 		if user and username == user.username and user.check_password(password):
+
+			if not user.email_verified:
+				flash('Please verify your email address before logging in.')
+				return render_template('login.html', form=form)
+
 			login_user(user, remember=remember)
+			identity_changed.send(
+			current_app._get_current_object(),
+			identity=Identity(user.id)
+			)
+
 			flash('Logged in successfully.')
 			next = request.args.get('next')
 		else:
@@ -57,22 +72,70 @@ def register():
 		password = form.password.data
 
 		existing_user = User.query.filter(
-			(User.username == username)).first()
+			(User.username == username) | (User.email == email)
+			).first()
 
 		if existing_user:
-			flash("Username or email already registered.")
+			if existing_user.username == username:
+				flash("Username already registered.")
+			elif existing_user.email == email:
+				flash("Email already registered.")
 			return render_template('register.html', form=form)
 
 		new_user = User(username=username, email=email, password=password)
+
+		verification_token = secrets.token_urlsafe(32)
+		new_user.email_verification_token = verification_token
+		new_user.email_verified = False
+
 		db.session.add(new_user)
 		db.session.commit()
 
-		login_user(new_user)
-		flash('Registration successful!')
-		return redirect(url_for('profile'))
+		msg = EmailMessage(
+			subject='Verify Your Email Address for Thinkful',
+			body=f"""
+				Hello {new_user.username},
+
+				Thank you for registering on our website!
+				Please click on the following link to verify your email address:
+
+				{url_for('verify_email', token=verification_token, _external=True)}
+
+				If you did not register for this account, please ignore this email.
+
+				Sincerely,
+				The Website Team
+				""",
+					to=[new_user.email]
+		)
+
+		try:
+			msg.send()
+			flash('Registration successful! Please check your email to verify your account.')
+			return redirect(url_for('login'))
+		except Exception as e:
+			db.session.rollback()
+			print(f"Error sending email: {e}")
+			flash(f'Registration failed: Could not send verification email. Please try again. Error: {e}')
+			return render_template('register.html', form=form)
 
 	return render_template('register.html', form=form)
-# calls the change password function on the database model, using the form to check it
+
+@app.route('/verify_email/<token>')
+def verify_email(token):
+	user = User.query.filter_by(email_verification_token=token).first()
+
+	if user:
+		user.email_verified = True
+		user.email_verification_token = None # Clear the token after verification
+		db.session.commit()
+		flash('Your email has been successfully verified! You are now logged in.')
+		login_user(user)
+		return redirect(url_for('profile'))
+	else:
+		flash('Invalid or expired verification link.')
+		return redirect(url_for('index'))
+
 @app.route('/change_password', methods=['GET', 'POST'])
 @login_required
 def change_pass():
@@ -89,22 +152,56 @@ def change_pass():
 @login_required
 def logout():
 	logout_user()
+	identity_changed.send(
+		current_app._get_current_object(),
+		identity=AnonymousIdentity()
+	)
 	return redirect(url_for('index'))
 
 # opens te profile page if needed
 @app.route("/profile")
 @login_required
-def profile():
-	if current_user.is_authenticated:
-		return render_template("profile.html")
-	else:
-		return redirect(url_for("index"))
-# takes necessary information from cache and puts it into the render template for jinja
-@app.route('/text')
-def text():
+def user(username):
+	user = User.query.filter_by(username=username).first()
+	if not user:
+		flash('User not found')
+		return redirect(url_for('index'))
+	return render_template('user.html', username=username)
 
-	# if form.validate_on_submit():
-	# 	return redirect(url_for('index'))
+@app.route('/profile')
+@login_required
+def profile():
+	return render_template('profile.html')
+
+@app.route('/text', methods = ['GET', 'POST'])
+def text():
+	form = TextForm()
+
+	if form.validate_on_submit():
+		return redirect(url_for('index'))
 
 	return render_template('texty.html',inputText = cache.get("inputText"),correctAnswers = cache.get("correctAnswers"),lessonName = cache.get("lessonName")
-		,link = cache.get("link"))
+		,link = cache.get("link"), form = form)
+
+@app.route('/become_admin', methods=['GET', 'POST'])
+@login_required
+def become_admin():
+	form = AdminCodeForm()
+	if form.validate_on_submit():
+		# check against the secret in your Config
+		if form.admin_code.data == current_app.config['ADMIN_SECRET']:
+			current_user.is_admin = True
+			db.session.commit()
+
+			# notify Flask-Principal of new role
+			identity_changed.send(
+				current_app._get_current_object(),
+				identity=Identity(current_user.id)
+			)
+
+			flash('🎉 You are now an admin! Redirecting…')
+			return redirect(url_for('admin.index'))
+		else:
+			flash('❌ Invalid admin code.', 'error')
+
+	return render_template('become_admin.html', form=form)
