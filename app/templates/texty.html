@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block scripts %}
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<script>
 		// inputText is now a real JS string, properly escaped
 		const inputText      = {{ inputText      | tojson | safe }};
@@ -9,6 +9,9 @@
 		const correctAnswers = {{ correctAnswers | tojson | safe }};
 	</script>
 
+	<script src="{{url_for('static',filename='js/html-thing.js')}}">
+		
+	</script>
 {% endblock %}
 
 {% block content %}
@@ -16,10 +19,11 @@
 	<h2>From Lesson {{lessonName}}</h2>
 	<a href = "{{link}}"><h4>Full Lesson here</h4></a>
 	<div id="output"></div>
-
-	<script src="{{url_for('static',filename='js/html-thing.js')}}">
-		
-	</script>
-	<button onclick="checkAnswers()">Check Answers</button>
-	{{ form.submit(class_="btn btn-primary") }}
+	{% if not current_user.is_authenticated %}
+	    <button onclick="checkAnswersFake()">Check Answers</button>
+	{% else %}
+	    <button onclick="checkAnswersReal()">Check Answers</button>
+	{% endif %}
+	
+	
 {% endblock %}

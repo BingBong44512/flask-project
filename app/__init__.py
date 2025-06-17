@@ -76,7 +76,7 @@ cache.set("correctAnswers",[])
 
 cache.set("lessonName","")
 cache.set("link","")
-
+cache.set("whoHasPoints", [])
 
 from app import routes
 
@@ -89,6 +89,7 @@ def update():
 	subjects = cache.get("subjectList")
 	cache.set("todaySubject",choice([*subjects.keys()]))
 	subjects[cache.get("todaySubject")][1]+=1
+	cache.set("whoHasPoints",[])
 
 
 
@@ -149,6 +150,6 @@ def init_scheduler():
 		update()
 	except Exception as e:
 		print(f"Initial update failed: {e}")
-	scheduler.add_job(func=update, trigger="interval", seconds=10)
+	scheduler.add_job(func=update, trigger="interval", seconds=20)
 	scheduler.start()
 	atexit.register(lambda: scheduler.shutdown())

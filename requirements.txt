@@ -15,3 +15,4 @@ beautifulsoup4
 selenium
 Flask-Caching
 APScheduler
+Flask-Migrate
