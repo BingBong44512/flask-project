@@ -43,10 +43,7 @@ def login():
 				return render_template('login.html', form=form)
 
 			login_user(user, remember=remember)
-			identity_changed.send(
-			current_app._get_current_object(),
-			identity=Identity(user.id)
-			)
+			
 
 			flash('Logged in successfully.')
 			next = request.args.get('next')
