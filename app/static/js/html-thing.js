@@ -51,5 +51,33 @@ function checkAnswers() {
 			dropdown.style.border = "2px solid green";
 		}
 	}
+	return allCorrect;
+
+}
+
+function checkAnswersReal() {
+	allCorrect = checkAnswers()
+	if (allCorrect)
+	{
+		alert("✅ All correct!");
+		try
+		{
+			$.post("/points", {"test":"test"})
+		}
+		catch
+		{
+			console.log("Missing jquery")
+		}
+	}
+	else
+	{
+		alert("❌ Some answers are incorrect.");
+	}
+
+}
+
+function checkAnswersFake()
+{
+	allCorrect = checkAnswers()
 	alert(allCorrect ? "✅ All correct!" : "❌ Some answers are incorrect.");
 }

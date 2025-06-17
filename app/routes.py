@@ -194,3 +194,19 @@ def become_admin():
 			flash('❌ Invalid admin code.', 'error')
 
 	return render_template('become_admin.html', form=form)
+
+
+@app.route("/points", methods = ["GET","POST"])
+def points():
+	if request.method == "POST" and current_user.is_authenticated:
+		if current_user.username not in cache.get("whoHasPoints"):
+			whoHasPoints = cache.get("whoHasPoints")
+			whoHasPoints.append(current_user.username)
+			cache.set("whoHasPoints",whoHasPoints)
+			current_user.points+=1
+			db.session.commit()
+			print(current_user.points)
+			return "Success"
+		return "Got Today's points"
+
+	return "Failure"
