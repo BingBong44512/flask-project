@@ -20,9 +20,9 @@
 	<a href = "{{link}}"><h4>Full Lesson here</h4></a>
 	<div id="output"></div>
 	{% if not current_user.is_authenticated %}
-	    <button onclick="checkAnswersFake()">Check Answers</button>
+	    <button class="cta-btn" onclick="checkAnswersFake()">Check Answers</button>
 	{% else %}
-	    <button onclick="checkAnswersReal()">Check Answers</button>
+	    <button class="cta-btn" onclick="checkAnswersReal()">Check Answers</button>
 	{% endif %}
 	
 	
