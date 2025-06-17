@@ -210,3 +210,8 @@ def points():
 		return "Got Today's points"
 
 	return "Failure"
+
+@app.route("/leaderboard", methods= ["GET","POST"])
+def leaderboard():
+	leaderBoard = User.query.order_by(User.points).all()[::-1]
+	return render_template("leaderboard.html", leaderBoard = leaderBoard, len = range(min(len(leaderBoard),50)))
