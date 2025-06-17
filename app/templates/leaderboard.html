@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+<ol>
+  {% for i in len %}
+<li>
+  {{leaderBoard[i].username}}:{{leaderBoard[i].points}}
+</li>
+  {% endfor %}
+  
+
+</ol>
+
+{% endblock %}
